@@ -83,6 +83,15 @@ Run experiments from the project root.
 
 Example:
 
+To rebuild the public ALCE task files from raw ALCE data (optional, the processed files are already included):
+
+```bash
+git clone https://github.com/princeton-nlp/ALCE external/ALCE
+cd external/ALCE && bash download_data.sh && cd ../..
+python experiments/experiment7_build_alce_qampari_public.py
+python experiments/experiment8_build_alce_asqa_public.py
+```
+
 ```bash
 python experiments/experiment3_report_identity_stress.py
 ```

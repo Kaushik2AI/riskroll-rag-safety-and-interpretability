@@ -28,3 +28,6 @@ hf_cache/
 *.egg-info/
 build/
 dist/
+
+# Raw ALCE benchmark clone (download separately, ~430 MB)
+legacy_riskroll/external/

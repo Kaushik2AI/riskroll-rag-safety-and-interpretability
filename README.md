@@ -683,6 +683,21 @@ python causal_analysis/prefix_counterfactuals/run_prefix_counterfactual.py \
 
 All legacy experiments are run from inside `legacy_riskroll/`. Outputs are written to `legacy_riskroll/results/` (raw JSON, CSV tables, Markdown reports).
 
+### Rebuilding the public ALCE task files (optional)
+
+The processed task files are already included (`legacy_riskroll/data/public/alce_qampari/` and `legacy_riskroll/results/raw/experiment8_alce_asqa_public_tasks.json`). To rebuild them from the raw ALCE release:
+
+```bash
+cd legacy_riskroll
+git clone https://github.com/princeton-nlp/ALCE external/ALCE
+cd external/ALCE && bash download_data.sh && cd ../..
+
+python experiments/experiment7_build_alce_qampari_public.py   # 100 QAMPARI tasks
+python experiments/experiment8_build_alce_asqa_public.py      # ASQA tasks
+```
+
+`external/` is git-ignored (~430 MB of raw ALCE data).
+
 ### CPU-only experiments (no model needed)
 
 These regenerate the controlled stress tests, verifier sweeps, and public ALCE diagnostics exactly:
@@ -732,6 +747,14 @@ Scripts in `legacy_riskroll/scripts/` rebuild figures and tables from the saved 
 cd legacy_riskroll
 python scripts/make_combined_public_llm_assets.py
 python scripts/make_paper_tables.py
+```
+
+Error analysis (Retrieve-More vs RiskRoll, per task) and the related-work matrix:
+
+```bash
+python scripts/analyze_experiment7d_errors.py        # -> paper_assets/analysis/ (QAMPARI)
+python scripts/analyze_experiment8d_asqa_errors.py   # -> paper_assets/analysis/ (ASQA)
+python scripts/make_literature_matrix.py             # -> paper_assets/literature/
 ```
 
 ---
