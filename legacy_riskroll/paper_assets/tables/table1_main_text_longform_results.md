@@ -1,0 +1,7 @@
+| Method | Claim Acc. | Evidence Acc. | Grounded Rate | Wrong Evidence | Unsafe Depth | Clean Task Rate | Rollbacks |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Standard RAG | 0.067 | 0.000 | 0.000 | 5.000 | 4.000 | 0.000 | 0.000 |
+| Retrieve-more RAG | 0.067 | 0.000 | 0.000 | 5.000 | 4.000 | 0.000 | 0.000 |
+| Post-hoc correction | 0.067 | 0.000 | 0.000 | 5.000 | 4.000 | 0.000 | 0.000 |
+| CRAG-style correction | 0.067 | 0.000 | 0.000 | 5.000 | 4.000 | 0.000 | 0.000 |
+| RiskRoll | 1.000 | 1.000 | 1.000 | 0.000 | 0.000 | 1.000 | 5.000 |

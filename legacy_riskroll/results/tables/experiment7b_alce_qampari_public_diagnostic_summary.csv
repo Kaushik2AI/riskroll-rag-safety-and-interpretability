@@ -1,0 +1,5 @@
+method,num_tasks,num_claims,grounded_claim_rate,clean_task_rate,mean_first_bad_step,mean_unsafe_prefix_depth,mean_downstream_contaminated_claims,mean_rollback_count,mean_abstention_count,method_display
+standard_top1,100,500,0.188,0.04,1.14,3.66,3.66,0,0,Standard RAG top-1 commit
+retrieve_more_top5,100,500,0.398,0.11,1.44,3.01,3.01,0,0,Retrieve-more RAG top-5 context
+retrieve_more_top20,100,500,0.674,0.34,1.21,2.09,2.09,0,0,Retrieve-more RAG top-20 context
+riskroll_top20,100,500,0.674,0.34,1.21,0,0,49.56,1.63,RiskRoll top-20 verify-before-commit

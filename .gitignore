@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model caches / weights
+hf_cache/
+.cache/
+*.safetensors
+*.bin
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# Temporary outputs
+*.pid
+
+# Secrets / env
+.env
+*.env
+
+# Packaging
+*.egg-info/
+build/
+dist/

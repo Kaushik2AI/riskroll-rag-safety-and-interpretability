@@ -1,0 +1,6 @@
+Method,Precision,Recall,F1,Strict Grounded,Support Rate,Clean Task,Unsupported Commits,Unsafe Depth,Abstentions,Rollbacks,Repairs
+Standard RAG top-1,0.340,0.167,0.207,0.167,0.733,0.033,0.167,0.000,3.367,0.000,0.000
+Retrieve-more RAG top-20,0.454,0.313,0.351,0.293,0.925,0.067,0.367,0.400,1.633,0.000,0.000
+Post-hoc correction top-20,0.432,0.220,0.269,0.213,0.907,0.033,0.200,0.100,2.567,0.000,2.000
+CRAG-style correction top-20,0.462,0.300,0.342,0.293,0.900,0.100,0.233,0.167,2.033,0.000,0.000
+RiskRoll verify-before-commit top-20,0.426,0.353,0.374,0.353,1.000,0.100,0.000,0.000,0.933,0.367,2.600

@@ -1,0 +1,5 @@
+method,method_display,num_tasks,answer_precision,answer_recall,answer_f1,support_rate,strict_grounded_rate,clean_task_rate,mean_unsupported_commits,mean_abstention_count,mean_unsafe_prefix_depth,mean_downstream_contaminated_claims,mean_rollback_count,mean_repair_count
+retrieve_more_top20,Retrieve-more top-20,100,0.3845,0.262,0.2970793650793651,0.873,0.244,0.04,0.3,1.74,0.27,0.27,0.0,0.0
+verify_abstain_top20,Verify + abstain top-20,100,0.34400000000000003,0.23600000000000002,0.26086507936507936,0.77,0.23600000000000002,0.04,0.0,2.33,0.0,0.0,0.55,0.0
+verify_single_retry_1_20,Verify + single retry 1-20,100,0.3368333333333333,0.23600000000000002,0.2600079365079365,0.85,0.23600000000000002,0.04,0.0,2.0,0.0,0.0,0.77,1.97
+riskroll_top20,RiskRoll full 1-5-10-20,100,0.32616666666666666,0.268,0.2835873015873016,0.99,0.268,0.05,0.0,1.11,0.0,0.0,0.68,2.57

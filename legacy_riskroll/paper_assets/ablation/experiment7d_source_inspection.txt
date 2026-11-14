@@ -1,0 +1,42 @@
+0440: def make_riskroll_item_prompt(question, committed_items, docs):
+0474:         "rollback_count": 0,
+0475:         "repair_count": 0,
+0490:         "rollback_count": 0,
+0491:         "repair_count": 0,
+0508:         "rollback_count": 0,
+0509:         "repair_count": 0,
+0532:         "rollback_count": 0,
+0533:         "repair_count": sum(1 for a, b in zip(initial_items, revised_items) if norm_text(a) != norm_text(b)),
+0537: def run_riskroll(tokenizer, model, task, temperature):
+0539:     RiskRoll actual LLM version:
+0542:     2. Verify each candidate against the same evidence window.
+0544:     4. Reject unsupported candidates as rollback events.
+0545:     5. If fewer than 5 supported items are found, abstain for remaining slots.
+0555:     rollback_count = 0
+0556:     repair_count = 0
+0583:             "top_k": k,
+0607:                 rollback_count += 1
+0615:                     repair_count += 1
+0617:                 rollback_count += 1
+0628:         "rollback_count": rollback_count,
+0629:         "repair_count": repair_count,
+0630:         "riskroll_internal_abstentions": abstention_count,
+0638:     "riskroll_top20": ("RiskRoll verify-before-commit top-20", run_riskroll),
+0650:         display = rows[0]["method_display"]
+0654:             "method_display": display,
+0666:             "mean_rollback_count": safe_mean([r["rollback_count"] for r in rows]),
+0667:             "mean_repair_count": safe_mean([r["repair_count"] for r in rows]),
+0707:         "riskroll_top20",
+0735:                 "method_display": display,
+0752:                 "rollback_count": result.get("rollback_count", 0),
+0753:                 "repair_count": result.get("repair_count", 0),
+0760:                 "method_display": display,
+0766:                     "rollback_count": result.get("rollback_count", 0),
+0767:                     "repair_count": result.get("repair_count", 0),
+0777:                 f"abstain={eval_result['abstention_count']}"
+0802:         report.append(f"### {s['method_display']}")
+0813:         report.append(f"- mean_rollback_count: {s['mean_rollback_count']:.3f}")
+0814:         report.append(f"- mean_repair_count: {s['mean_repair_count']:.3f}")
+0824:             f"{s['method_display']:<42} | "
+0829:             f"rollbacks={s['mean_rollback_count']:.3f} | "
+0830:             f"abstain={s['mean_abstention_count']:.3f}"

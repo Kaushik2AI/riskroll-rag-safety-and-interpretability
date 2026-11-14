@@ -1,0 +1,26 @@
+task_id,method,method_display,question,num_claims,claim_accuracy,strict_grounded_rate,support_rate,non_unknown_predictions,abstention_count,unsupported_commits,first_bad_step,unsafe_prefix_depth,downstream_contaminated_claims,clean_task,rollback_count,repair_count,items
+alce_asqa_0000,standard_top1,Standard RAG top-1,Who is the original artist of sound of silence?,3,0.3333333333333333,0.3333333333333333,1.0,1,2,0,0,0,0,1,0,0,Simon & Garfunkel || UNKNOWN || UNKNOWN
+alce_asqa_0000,retrieve_more_top20,Retrieve-more RAG top-20,Who is the original artist of sound of silence?,3,0.6666666666666666,0.6666666666666666,1.0,2,1,0,0,0,0,1,0,0,Simon & Garfunkel || Simon & Garfunkel || UNKNOWN
+alce_asqa_0000,posthoc_top20,Post-hoc correction top-20,Who is the original artist of sound of silence?,3,0.3333333333333333,0.3333333333333333,1.0,1,2,0,0,0,0,1,0,0,Simon & Garfunkel || UNKNOWN || UNKNOWN
+alce_asqa_0000,crag_style_top20,CRAG-style correction top-20,Who is the original artist of sound of silence?,3,0.6666666666666666,0.6666666666666666,1.0,2,1,0,0,0,0,1,0,0,Simon & Garfunkel || Simon & Garfunkel || UNKNOWN
+alce_asqa_0000,riskroll_top20,RiskRoll verify-before-commit top-20,Who is the original artist of sound of silence?,3,0.6666666666666666,0.6666666666666666,1.0,2,1,0,0,0,0,1,4,0,Simon & Garfunkel || Simon & Garfunkel || UNKNOWN
+alce_asqa_0001,standard_top1,Standard RAG top-1,When was the first apple i phone made?,4,0.25,0.25,1.0,1,3,0,0,0,0,1,0,0,"June 29, 2007 || UNKNOWN || UNKNOWN || UNKNOWN"
+alce_asqa_0001,retrieve_more_top20,Retrieve-more RAG top-20,When was the first apple i phone made?,4,0.25,0.25,1.0,1,3,0,0,0,0,1,0,0,"June 29, 2007 || UNKNOWN || UNKNOWN || UNKNOWN"
+alce_asqa_0001,posthoc_top20,Post-hoc correction top-20,When was the first apple i phone made?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,1,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0001,crag_style_top20,CRAG-style correction top-20,When was the first apple i phone made?,4,0.25,0.25,1.0,1,3,0,0,0,0,1,0,0,"June 29, 2007 || UNKNOWN || UNKNOWN || UNKNOWN"
+alce_asqa_0001,riskroll_top20,RiskRoll verify-before-commit top-20,When was the first apple i phone made?,4,0.25,0.25,1.0,2,2,0,0,0,0,1,8,0,"June 29, 2007 || UNKNOWN || January 9, 2007 || UNKNOWN"
+alce_asqa_0002,standard_top1,Standard RAG top-1,Who played the weasley brothers in harry potter?,5,0.0,0.0,1.0,1,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || James and Oliver Phelps || UNKNOWN || UNKNOWN
+alce_asqa_0002,retrieve_more_top20,Retrieve-more RAG top-20,Who played the weasley brothers in harry potter?,5,0.4,0.4,1.0,5,0,0,0,0,0,1,0,0,Domhnall Gleeson || Chris Rankin || James and Oliver Phelps || Rupert Grint || James Phelps
+alce_asqa_0002,posthoc_top20,Post-hoc correction top-20,Who played the weasley brothers in harry potter?,5,0.0,0.0,0.0,0,5,0,0,0,0,1,0,1,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0002,crag_style_top20,CRAG-style correction top-20,Who played the weasley brothers in harry potter?,5,0.6,0.6,1.0,4,1,0,0,0,0,1,0,0,UNKNOWN || Chris Rankin || James and Oliver Phelps || Rupert Grint || James and Oliver Phelps
+alce_asqa_0002,riskroll_top20,RiskRoll verify-before-commit top-20,Who played the weasley brothers in harry potter?,5,0.4,0.4,1.0,4,1,0,0,0,0,1,6,2,UNKNOWN || Chris Rankin || James || James || James
+alce_asqa_0003,standard_top1,Standard RAG top-1,How many state parks are there in virginia?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0003,retrieve_more_top20,Retrieve-more RAG top-20,How many state parks are there in virginia?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0003,posthoc_top20,Post-hoc correction top-20,How many state parks are there in virginia?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0003,crag_style_top20,CRAG-style correction top-20,How many state parks are there in virginia?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0003,riskroll_top20,RiskRoll verify-before-commit top-20,How many state parks are there in virginia?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,12,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0004,standard_top1,Standard RAG top-1,Who performed at the champions league final 2018?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0004,retrieve_more_top20,Retrieve-more RAG top-20,Who performed at the champions league final 2018?,4,0.5,0.5,1.0,3,1,0,0,0,0,1,0,0,Real Madrid and Liverpool || UNKNOWN || Dua Lipa and Sean Paul || Dua Lipa and Sean Paul
+alce_asqa_0004,posthoc_top20,Post-hoc correction top-20,Who performed at the champions league final 2018?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0004,crag_style_top20,CRAG-style correction top-20,Who performed at the champions league final 2018?,4,0.75,0.75,1.0,3,1,0,0,0,0,1,0,0,Real Madrid and Liverpool || UNKNOWN || Dua Lipa and Sean Paul || Cellos
+alce_asqa_0004,riskroll_top20,RiskRoll verify-before-commit top-20,Who performed at the champions league final 2018?,4,0.5,0.5,1.0,3,1,0,0,0,0,1,7,3,Real Madrid || UNKNOWN || Dua Lipa || Dua Lipa

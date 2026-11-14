@@ -1,0 +1,26 @@
+[
+  {
+    "case_id": "friday_night_lights",
+    "task_id": "alce_asqa_0053",
+    "wrong_span": "Permian High School's football team",
+    "correct_span": "Dallas Carter High School's football team",
+    "prefix_end_sentence_idx": 0,
+    "case_type": "primary"
+  },
+  {
+    "case_id": "champions_league_2018",
+    "task_id": "alce_asqa_0004",
+    "wrong_span": "Doja Cat",
+    "correct_span": "Dua Lipa",
+    "prefix_end_sentence_idx": 0,
+    "case_type": "primary_no_downstream_window"
+  },
+  {
+    "case_id": "babys_day_out",
+    "task_id": "alce_asqa_0061",
+    "wrong_span": "Brian Haley",
+    "correct_span": "Adam Robert and Jacob Joseph Worton",
+    "prefix_end_sentence_idx": 0,
+    "case_type": "self_recovery_control"
+  }
+]

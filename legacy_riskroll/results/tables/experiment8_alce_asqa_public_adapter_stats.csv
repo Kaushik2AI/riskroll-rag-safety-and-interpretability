@@ -1,0 +1,2 @@
+input_path,records_read,tasks_built,total_claims,mean_claims_per_task,docs_top_k,max_claims_per_task,require_support_in_top100,skipped_no_docs,skipped_too_few_claims,skipped_no_supported_claims,mean_first_support_rank,top1_support_rate,top5_support_rate,top20_support_rate
+/projectnb/medaihack/team4/kaushik_work/riskroll-aaai27-text/external/ALCE/data/asqa_eval_gtr_top100.json,100,73,222,3.041095890410959,20,5,True,0,27,8,6.91701244813278,0.43983402489626555,0.6929460580912863,0.91701244813278

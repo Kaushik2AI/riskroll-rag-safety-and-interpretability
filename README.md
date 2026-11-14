@@ -574,6 +574,7 @@ rewriting the false prefix?"
 riskroll-rag-safety-and-interpretability/
 │
 ├── README.md
+├── LICENSE
 ├── requirements.txt
 ├── .gitignore
 │
@@ -599,7 +600,7 @@ riskroll-rag-safety-and-interpretability/
 │   └── mechanistic_analysis/
 │
 ├── notebooks/
-│   └── 01_natural_error_causal_prefix_pilot.ipynb
+│   └── README.md        # 01_natural_error_causal_prefix_pilot.ipynb to be added
 │
 ├── results/
 │   │
@@ -624,7 +625,7 @@ riskroll-rag-safety-and-interpretability/
 Clone the repository:
 
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/riskroll-rag-safety-and-interpretability.git
+git clone https://github.com/Kaushik2AI/riskroll-rag-safety-and-interpretability.git
 
 cd riskroll-rag-safety-and-interpretability
 ```
@@ -674,6 +675,63 @@ python causal_analysis/prefix_counterfactuals/run_prefix_counterfactual.py \
   --model-path /path/to/Qwen2.5-7B-Instruct \
   --cases causal_analysis/prefix_counterfactuals/pilot_cases.json \
   --output results/causal_prefix/natural_vs_corrected_prefix_pilot.json
+```
+
+---
+
+# Reproducing the Original RiskRoll Results
+
+All legacy experiments are run from inside `legacy_riskroll/`. Outputs are written to `legacy_riskroll/results/` (raw JSON, CSV tables, Markdown reports).
+
+### CPU-only experiments (no model needed)
+
+These regenerate the controlled stress tests, verifier sweeps, and public ALCE diagnostics exactly:
+
+```bash
+cd legacy_riskroll
+
+python experiments/experiment3_report_identity_stress.py
+python experiments/experiment4_detector_quality_sweep.py
+python experiments/experiment5_text_longform_contamination.py
+python experiments/experiment6_text_noisy_verifier_sweep.py
+python experiments/experiment7b_alce_qampari_public_diagnostic.py
+python experiments/experiment7c_alce_qampari_commit_policy.py
+python experiments/experiment8b_alce_asqa_public_diagnostic.py
+```
+
+### LLM-generation experiments (GPU + Qwen2.5-7B-Instruct)
+
+```bash
+cd legacy_riskroll
+
+# ALCE-QAMPARI, 100 tasks
+python experiments/experiment7d_alce_qampari_llm_generation.py \
+  --model_name_or_path /path/to/Qwen2.5-7B-Instruct \
+  --n_tasks 100 --output_tag qwen7b_qampari_100_v3
+
+# ALCE-ASQA, 73 usable tasks
+python experiments/experiment8d_alce_asqa_llm_generation.py \
+  --model_name_or_path /path/to/Qwen2.5-7B-Instruct \
+  --n_tasks 73 --output_tag qwen7b_asqa_73_v1
+```
+
+Add `--load_in_4bit` for smaller GPUs (requires `bitsandbytes`).
+
+### QAMPARI ablation
+
+```bash
+export MODEL_PATH=/path/to/Qwen2.5-7B-Instruct
+python legacy_riskroll/paper_assets/ablation/run_qampari_ablation.py
+```
+
+### Figures and paper tables
+
+Scripts in `legacy_riskroll/scripts/` rebuild figures and tables from the saved result CSVs, e.g.:
+
+```bash
+cd legacy_riskroll
+python scripts/make_combined_public_llm_assets.py
+python scripts/make_paper_tables.py
 ```
 
 ---
@@ -855,15 +913,9 @@ Mechanistic Interpretability
 
 # License
 
-Add the appropriate license before public release.
+The code in this repository is released under the [MIT License](LICENSE).
 
-For example:
-
-```text
-MIT License
-```
-
-or another license appropriate for the research code and associated data.
+The ALCE-derived data under `legacy_riskroll/data/` and `legacy_riskroll/results/raw/` follows the license terms of the original [ALCE benchmark](https://github.com/princeton-nlp/ALCE) and its source datasets (QAMPARI, ASQA).
 
 ---
 
@@ -875,5 +927,4 @@ For questions, collaboration, or research discussion:
 Kaushik Joshi
 M.S. Artificial Intelligence
 Boston University
-```
 ```

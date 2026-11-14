@@ -1,0 +1,223 @@
+task_id,source_index,question,claim_id,subquestion,gold_answers,first_support_rank,support_in_top1,support_in_top5,support_in_top20
+alce_asqa_0000,1,Who is the original artist of sound of silence?,asqa_0001_claim_00,"Who is the original artist of sound of silence, the song, released in 1964?",Simon & Garfunkel || Paul Simon and Art Garfunkel || Art Garfunkel || Paul Simon,1,1,1,1
+alce_asqa_0000,1,Who is the original artist of sound of silence?,asqa_0001_claim_01,"Who is the original artist of sound of silence, the album?",Simon & Garfunkel || Paul Simon and Art Garfunkel || Art Garfunkel || Paul Simon,1,1,1,1
+alce_asqa_0000,1,Who is the original artist of sound of silence?,asqa_0001_claim_02,"Who is the original artist of sound of silence, the song, released in 2016?",Dami Im,10,0,0,1
+alce_asqa_0001,2,When was the first apple i phone made?,asqa_0002_claim_00,When was the first apple i phone released?,"June 29, 2007",1,1,1,1
+alce_asqa_0001,2,When was the first apple i phone made?,asqa_0002_claim_01,When was the first apple i phone for beta testing made?,2004,24,0,0,0
+alce_asqa_0001,2,When was the first apple i phone made?,asqa_0002_claim_02,When was the first apple i phone 1 made?,"June 29, 2007.",1,1,1,1
+alce_asqa_0001,2,When was the first apple i phone made?,asqa_0002_claim_03,When was the first apple i phone beta made?,2004.,24,0,0,0
+alce_asqa_0002,3,Who played the weasley brothers in harry potter?,asqa_0003_claim_00,Who played Bill weasley in Harry Potter and the Prisoner of Azkaban?,Richard Fish,18,0,0,1
+alce_asqa_0002,3,Who played the weasley brothers in harry potter?,asqa_0003_claim_01,Who played percy weasley in harry potter?,Chris Rankin,2,0,1,1
+alce_asqa_0002,3,Who played the weasley brothers in harry potter?,asqa_0003_claim_02,Who played fred weasley in harry potter?,James Phelps,10,0,0,1
+alce_asqa_0002,3,Who played the weasley brothers in harry potter?,asqa_0003_claim_03,Who played ron weasley in harry potter?,Rupert Grint,20,0,0,1
+alce_asqa_0002,3,Who played the weasley brothers in harry potter?,asqa_0003_claim_04,Who played george weasley in harry potter?,Oliver Phelps,1,1,1,1
+alce_asqa_0003,4,How many state parks are there in virginia?,asqa_0004_claim_00,How many state parks are there in virginia in 1936?,six,3,0,1,1
+alce_asqa_0003,4,How many state parks are there in virginia?,asqa_0004_claim_01,How many state parks are there in virginia in 2016?,38,4,0,1,1
+alce_asqa_0003,4,How many state parks are there in virginia?,asqa_0004_claim_03,How many state parks were there in Virginia as of 2016?,38,4,0,1,1
+alce_asqa_0004,5,Who performed at the champions league final 2018?,asqa_0005_claim_00,Who are the teams that performed in competition at the champions league final 2018?,Real Madrid and Liverpool || Liverpool || Real Madrid,4,0,1,1
+alce_asqa_0004,5,Who performed at the champions league final 2018?,asqa_0005_claim_01,"Who performed best at the champions league final 2018, winning man of the match?",Gareth Bale || Bale,48,0,0,0
+alce_asqa_0004,5,Who performed at the champions league final 2018?,asqa_0005_claim_02,Who performed at the opening ceremony of the champions league final 2018?,Dua Lipa || Sean Paul || Dua Lipa and Sean Paul,2,0,1,1
+alce_asqa_0004,5,Who performed at the champions league final 2018?,asqa_0005_claim_03,Who performed the anthem at the champions league final 2018?,2Cellos || Luka Šulić and Stjepan Hauser || Luka Šulić || 2CΞLLOS || Stjepan Hauser,7,0,0,1
+alce_asqa_0005,6,Who killed the man in thelma and louise?,asqa_0006_claim_00,Which character killed the man in thelma and louise?,Louise Elizabeth Sawyer || Louise,2,0,1,1
+alce_asqa_0005,6,Who killed the man in thelma and louise?,asqa_0006_claim_02,Who is the character that kills Harlan in the film Thelma and Louise?,Louise Elizabeth Sawyer || Louise,2,0,1,1
+alce_asqa_0006,7,Who plays charlie on it's always sunny?,asqa_0007_claim_00,Who does Charlie Day play on It's Always Sunny in Philadelphia?,Charlie Kelly,1,1,1,1
+alce_asqa_0006,7,Who plays charlie on it's always sunny?,asqa_0007_claim_01,Who plays Charlie Kelly on It's Always Sunny in Philadelphia?,Charlie Day,1,1,1,1
+alce_asqa_0007,8,How many times have the lakers won the finals?,asqa_0008_claim_00,"As of 2017, how many times have the lakers won the finals?",16,1,1,1,1
+alce_asqa_0007,8,How many times have the lakers won the finals?,asqa_0008_claim_01,"As of 2016, how many times have the Lakers won the finals?",16,1,1,1,1
+alce_asqa_0007,8,How many times have the lakers won the finals?,asqa_0008_claim_02,"As of 2015, how many times have the Lakers won the finals?",16,1,1,1,1
+alce_asqa_0008,10,Who is fruma sarah in fiddler on the roof?,asqa_0010_claim_00,"Who played fruma sarah in the 1971 film, Fiddler on the Roof?",Ruth Madoc,1,1,1,1
+alce_asqa_0008,10,Who is fruma sarah in fiddler on the roof?,asqa_0010_claim_03,Who played Fruma Sarah in the 2015-2016 Broadway Revival of Fiddler on the Roof?,Jessica Vosk,4,0,1,1
+alce_asqa_0009,11,When did toronto host the mlb all-star game?,asqa_0011_claim_00,What date did toronto host the mlb all-star game?,"July 9, 1991",1,1,1,1
+alce_asqa_0009,11,When did toronto host the mlb all-star game?,asqa_0011_claim_01,Which all-star game did toronto host?,1991 Major League Baseball All-Star Game || the 62nd playing of the midsummer classic,1,1,1,1
+alce_asqa_0010,13,When did the last season of jersey shore air?,asqa_0013_claim_00,When did season 4 of jersey shore first air?,"August 4, 2011",3,0,1,1
+alce_asqa_0010,13,When did the last season of jersey shore air?,asqa_0013_claim_04,When did season 6 of jersey shore first air?,"October 4, 2012",4,0,1,1
+alce_asqa_0011,14,What season of greys anatomy was the plane crash?,asqa_0014_claim_00,What season of Grey's Anatomy was the plane crash involving six doctors?,season 8,1,1,1,1
+alce_asqa_0011,14,What season of greys anatomy was the plane crash?,asqa_0014_claim_01,What season of Grey's Anatomy was the plane crash in Seattle that brought memories of a previous plane crash?,season 11,2,0,1,1
+alce_asqa_0011,14,What season of greys anatomy was the plane crash?,asqa_0014_claim_03,What season of Grey's Anatomy was the plane crash in downtown Seattle?,11,2,0,1,1
+alce_asqa_0012,16,When did the rams go to st louis?,asqa_0016_claim_00,In what year did the rams go to St. Louis?,1995,1,1,1,1
+alce_asqa_0012,16,When did the rams go to st louis?,asqa_0016_claim_01,What was the first game the Rams played in St. Louis?,"September 10, 1995",23,0,0,0
+alce_asqa_0013,18,Who plays patrick in 10 things i hate about you?,asqa_0018_claim_00,Who plays patrick in the 1999 film 10 things i hate about you?,Heath Andrew Ledger || Heath Ledger || Ledger,1,1,1,1
+alce_asqa_0013,18,Who plays patrick in 10 things i hate about you?,asqa_0018_claim_01,Who plays patrick in the 2009 tv series 10 things i hate about you?,Ethan Peck || Peck || Ethan Gregory Peck,7,0,0,1
+alce_asqa_0013,18,Who plays patrick in 10 things i hate about you?,asqa_0018_claim_02,Who plays patrick in the film 10 things i hate about you?,Heath Andrew Ledger || Heath Ledger,1,1,1,1
+alce_asqa_0013,18,Who plays patrick in 10 things i hate about you?,asqa_0018_claim_03,Who plays patrick in the TV series 10 things i hate about you?,Ethan Peck || Ethan Gregory Peck,7,0,0,1
+alce_asqa_0014,19,Microsoft live movie maker is an example of free?,asqa_0019_claim_00,"Microsoft live movie maker is an example of a freely licensed software, often called free what?",freeware,21,0,0,0
+alce_asqa_0014,19,Microsoft live movie maker is an example of free?,asqa_0019_claim_01,Microsoft live movie maker is an example of free software used for what purpose?,Video editing software,1,1,1,1
+alce_asqa_0015,20,Who is the chief minister of m. p?,asqa_0020_claim_01,Who is the 16th Chief Minister of MP?,Babulal Gaur,9,0,0,1
+alce_asqa_0015,20,Who is the chief minister of m. p?,asqa_0020_claim_04,Who is the 16th chief minister of m. p?,Babulal Gaur || Babulal Gaur Yadav,9,0,0,1
+alce_asqa_0016,21,Who sings the song for stuck in the middle?,asqa_0021_claim_00,"Which band sings the 1973 song ""Stuck in the Middle with You""?",Stealers Wheel,1,1,1,1
+alce_asqa_0016,21,Who sings the song for stuck in the middle?,asqa_0021_claim_01,"Who sings the lead vocals in the 1973 song ""Stuck in the Middle with You""?",Gerry Rafferty,1,1,1,1
+alce_asqa_0016,21,Who sings the song for stuck in the middle?,asqa_0021_claim_02,"Who sings harmony in the 1973 song ""Stuck in the Middle with You""?",Joe Egan,1,1,1,1
+alce_asqa_0016,21,Who sings the song for stuck in the middle?,asqa_0021_claim_03,"Who sings the 2004 song ""Stuck in the Middle""?",Clea,3,0,1,1
+alce_asqa_0017,23,When was crude oil first discovered in nigeria?,asqa_0023_claim_00,When was non-commercial amounts of crude oil first discovered in nigeria?,1953,10,0,0,1
+alce_asqa_0017,23,When was crude oil first discovered in nigeria?,asqa_0023_claim_01,When was commerical amounts of crude oil first discovered in nigeria?,1956,1,1,1,1
+alce_asqa_0018,24,When was the first fast and furious film made?,asqa_0024_claim_00,When was the first Fast and Furious film created?|When was the first movie in The Fast Saga series filmed?,2000,4,0,1,1
+alce_asqa_0018,24,When was the first fast and furious film made?,asqa_0024_claim_01,When was the first fast and furious film released?|When was the first of the fast and the furious films released?,2001,3,0,1,1
+alce_asqa_0019,25,Who sang the song i'm coming out?,asqa_0025_claim_00,"Who originally sang ""I'm Coming Out""?",Diana Ross,1,1,1,1
+alce_asqa_0019,25,Who sang the song i'm coming out?,asqa_0025_claim_01,"Who sang an official 2003 cover of ""I'm Coming Out""?",Amerie,4,0,1,1
+alce_asqa_0020,27,Who wrote the book of 1 and 2 thessalonians?,asqa_0027_claim_01,Who do many modern scholars argue wrote 2 Thessalonians?,not written by Paul but by an associate or disciple,9,0,0,1
+alce_asqa_0020,27,Who wrote the book of 1 and 2 thessalonians?,asqa_0027_claim_02,Who do most scholars say wrote 1 Thessalonians?,Paul the Apostle,1,1,1,1
+alce_asqa_0021,28,When is fortnite battle royale being released on android?,asqa_0028_claim_00,When is fortnite battle royale beta version being released on android for samsung devices exclusively?,"August 9, 2018",1,1,1,1
+alce_asqa_0021,28,When is fortnite battle royale being released on android?,asqa_0028_claim_01,When is fortnite battle royale beta version being released on android for non-Samsung devices?,"August 13, 2018",1,1,1,1
+alce_asqa_0021,28,When is fortnite battle royale being released on android?,asqa_0028_claim_02,When is fortnite battle royale being released on android to all without an invite?,"October 11, 2018",1,1,1,1
+alce_asqa_0022,29,How many medals did australia win in the 2000 olympics?,asqa_0029_claim_00,How many gold medals did Australia win in the 200 Olympics?,16,5,0,1,1
+alce_asqa_0022,29,How many medals did australia win in the 2000 olympics?,asqa_0029_claim_01,How many silver medals did Australia win in the 2000 Olympics?,25,10,0,0,1
+alce_asqa_0022,29,How many medals did australia win in the 2000 olympics?,asqa_0029_claim_02,How many bronze medals did Australia win in the 2000 Olympics?,17,7,0,0,1
+alce_asqa_0022,29,How many medals did australia win in the 2000 olympics?,asqa_0029_claim_03,How many total medals did Australia win in the 2000 Olympics?,58,1,1,1,1
+alce_asqa_0023,30,Who is elected as the vice president of india?,asqa_0030_claim_00,Who is elected as the vice president of india in 2017?,Venkaiah Naidu || Muppavarapu Venkaiah Naidu,1,1,1,1
+alce_asqa_0023,30,Who is elected as the vice president of india?,asqa_0030_claim_01,Who is elected as the vice president of india in 2012?,Mohammad Hamid Ansari,1,1,1,1
+alce_asqa_0023,30,Who is elected as the vice president of india?,asqa_0030_claim_02,Who is elected as the vice president of india in 2007?,Mohammad Hamid Ansari,1,1,1,1
+alce_asqa_0023,30,Who is elected as the vice president of india?,asqa_0030_claim_03,Who was elected as the Vice President of India in 2017?,Venkaiah Naidu,1,1,1,1
+alce_asqa_0023,30,Who is elected as the vice president of india?,asqa_0030_claim_04,Who was elected as the Vice President of India in 2007 and 2012?,Mohammad Hamid Ansari,1,1,1,1
+alce_asqa_0024,31,Who was england's prime minister during ww1?,asqa_0031_claim_00,Who was england's prime minister at the start of ww1?,Asquith || 1st Earl of Oxford and Asquith || H. H. Asquith || Herbert Henry Asquith,3,0,1,1
+alce_asqa_0024,31,Who was england's prime minister during ww1?,asqa_0031_claim_01,Who was england's prime minister at the end of ww1?,1st Earl Lloyd-George of Dwyfor || Lloyd George || David Lloyd George,1,1,1,1
+alce_asqa_0024,31,Who was england's prime minister during ww1?,asqa_0031_claim_02,Who was England's prime minister at the beginning of WWI?,H. H. Asquith,3,0,1,1
+alce_asqa_0024,31,Who was england's prime minister during ww1?,asqa_0031_claim_03,Who was England's prime minister at the end of WWI?,David Lloyd George,1,1,1,1
+alce_asqa_0025,32,Who plays snowman in smokey and the bandit?,asqa_0032_claim_00,Who played Snowman in the original Smokey and the Bandit?,Jerry Reed,2,0,1,1
+alce_asqa_0025,32,Who plays snowman in smokey and the bandit?,asqa_0032_claim_01,Who played Snowman in the Smokey and the Bandit II?,Jerry Reed,2,0,1,1
+alce_asqa_0025,32,Who plays snowman in smokey and the bandit?,asqa_0032_claim_02,Who played Snowman in the Smokey and the Bandit Part 3?,Jerry Reed,2,0,1,1
+alce_asqa_0026,33,Who beat villanova last year in the ncaa tournament?,asqa_0033_claim_00,Who beat villanova in 2017 in the ncaa tournament?,University of Wisconsin–Madison || Wisconsin || the Badgers || Wisconsin Badgers,7,0,0,1
+alce_asqa_0026,33,Who beat villanova last year in the ncaa tournament?,asqa_0033_claim_02,Who beat villanova in 2014 in the ncaa tournament?,University of Connecticut || the Huskies || UConn || UConn Huskies,26,0,0,0
+alce_asqa_0026,33,Who beat villanova last year in the ncaa tournament?,asqa_0033_claim_03,Who beat villanova last year in the 2017 ncaa tournament?,Wisconsin,7,0,0,1
+alce_asqa_0026,33,Who beat villanova last year in the ncaa tournament?,asqa_0033_claim_04,Who beat villanova last year in the 2015 ncaa tournament?,North Carolina State,48,0,0,0
+alce_asqa_0027,37,Who played warden hodges in dad's army?,asqa_0037_claim_00,"Who played warden hodges in the original dad's army tv show, radio show, and film?",Bill Pertwee,1,1,1,1
+alce_asqa_0027,37,Who played warden hodges in dad's army?,asqa_0037_claim_02,Who played warden hodges in the sitcom dad's army?,"William Desmond Anthony Pertwee || Bill Pertwee || William Desmond Anthony Pertwee, MBE",1,1,1,1
+alce_asqa_0027,37,Who played warden hodges in dad's army?,asqa_0037_claim_04,Who played warden hodges in the 1971 film dad's army?,"William Desmond Anthony Pertwee || Bill Pertwee || William Desmond Anthony Pertwee, MBE",1,1,1,1
+alce_asqa_0028,38,Who's the highest paid nba player 2017?,asqa_0038_claim_00,Who's the highest paid NBA player in the 2017-2018 season?,Stephen Curry,1,1,1,1
+alce_asqa_0028,38,Who's the highest paid nba player 2017?,asqa_0038_claim_01,Who's the highest paid NBA player in the 2016-2017 season?,LeBron James,1,1,1,1
+alce_asqa_0028,38,Who's the highest paid nba player 2017?,asqa_0038_claim_02,Who's the highest paid NBA player in the 2017-2018 season?,Stephen Curry,1,1,1,1
+alce_asqa_0028,38,Who's the highest paid nba player 2017?,asqa_0038_claim_03,Who's the highest paid NBA player in the 2016-2017 season?,LeBron James,1,1,1,1
+alce_asqa_0029,39,Who conducted a 300 mile march to sacramento california?,asqa_0039_claim_00,Who is the individual that was the leader of a 300 mile march to sacramento california?,Chavez || César Estrada Chávez || Cesar Chavez,9,0,0,1
+alce_asqa_0029,39,Who conducted a 300 mile march to sacramento california?,asqa_0039_claim_01,Who is the group that organized a strike and 300 mile march to sacramento california?,Agricultural Workers Organizing Committee,9,0,0,1
+alce_asqa_0030,40,Who does the voice of darth vader in star wars?,asqa_0040_claim_00,"Who voices Darth Vader in Star Wars Episodes III-VI, IX Rogue One, and Rebels?",James Earl Jones,1,1,1,1
+alce_asqa_0030,40,Who does the voice of darth vader in star wars?,asqa_0040_claim_01,Who voices Darth Vader in the Star Wars radio drama?,Brock Peters,4,0,1,1
+alce_asqa_0030,40,Who does the voice of darth vader in star wars?,asqa_0040_claim_02,Who voices Darth Vader's vocal effects in Star Wars?,Ben Burtt,23,0,0,0
+alce_asqa_0031,41,Who lived to be the oldest person in the world?,asqa_0041_claim_00,Who do some say lived to be the oldest person in the world?,Jeanne Calment,1,1,1,1
+alce_asqa_0031,41,Who lived to be the oldest person in the world?,asqa_0041_claim_01,Who lived to be the oldest person in the world whose age is undisputed?,Sarah Knauss,18,0,0,1
+alce_asqa_0031,41,Who lived to be the oldest person in the world?,asqa_0041_claim_02,Who lived to be the oldest person in the world as of 1997?,Jeanne Calment || Jeanne Louise Calment,1,1,1,1
+alce_asqa_0031,41,Who lived to be the oldest person in the world?,asqa_0041_claim_04,Who lived to be the oldest person in the world as of 1985?,Mathew Beard,90,0,0,0
+alce_asqa_0032,42,When does the 12th day of christmas begin?,asqa_0042_claim_00,When does the 12th day of christmas begin for Eastern Christianity?,18 January,42,0,0,0
+alce_asqa_0032,42,When does the 12th day of christmas begin?,asqa_0042_claim_01,When does the 12th day of christmas begin according to the commercial calendar?,Christmas Day || 25 December,1,1,1,1
+alce_asqa_0032,42,When does the 12th day of christmas begin?,asqa_0042_claim_02,When does the 12th day of christmas begin in most Western ecclesiastical traditions?,5 January,1,1,1,1
+alce_asqa_0032,42,When does the 12th day of christmas begin?,asqa_0042_claim_03,When does the 12 days of christmas begin?,Christmas Day || December 25,2,0,1,1
+alce_asqa_0032,42,When does the 12th day of christmas begin?,asqa_0042_claim_04,When does the final and 12th day of christmas begin?,January 5,1,1,1,1
+alce_asqa_0033,43,When did alabama became a right to work state?,asqa_0043_claim_00,When did alabama became a right to work state by adopting statutes?,1953,38,0,0,0
+alce_asqa_0033,43,When did alabama became a right to work state?,asqa_0043_claim_01,When did alabama became a right to work state by constitutional provision?,2016,19,0,0,1
+alce_asqa_0034,44,Who sings i'll be seeing you in the notebook?,asqa_0044_claim_00,"Who sings ""I'll Be Seeing You"" in the movie The Notebook?",Jimmy Durante.,7,0,0,1
+alce_asqa_0034,44,Who sings i'll be seeing you in the notebook?,asqa_0044_claim_02,"Who sings the version of ""I'll Be Seeing You"" that is heard second in The Notebook?",Jimmy Durante,7,0,0,1
+alce_asqa_0035,45,Who wrote the book of the new testament?,asqa_0045_claim_00,What religious group wrote most of the New Testament?,Jewish disciples of Christ || Jewish Christians,2,0,1,1
+alce_asqa_0035,45,Who wrote the book of the new testament?,asqa_0045_claim_01,Who wrote part of the New Testament and is generally thought *not* to be a Jewish Christian?,Luke,2,0,1,1
+alce_asqa_0035,45,Who wrote the book of the new testament?,asqa_0045_claim_03,Who wrote the Pauline epistles of the New Testament?,Paul of Tarsus,4,0,1,1
+alce_asqa_0036,49,Who said it is a tale told by an idiot full of sound and fury?,asqa_0049_claim_00,What play has the line it is a tale told by an idiot full of sound and fury?,Macbeth,3,0,1,1
+alce_asqa_0036,49,Who said it is a tale told by an idiot full of sound and fury?,asqa_0049_claim_01,What character said it is a tale told by an idiot full of sound and fury?,Macbeth,3,0,1,1
+alce_asqa_0036,49,Who said it is a tale told by an idiot full of sound and fury?,asqa_0049_claim_02,"What play has the line ""it is a tale told by an idiot full of sound and fury""?",Macbeth,3,0,1,1
+alce_asqa_0036,49,Who said it is a tale told by an idiot full of sound and fury?,asqa_0049_claim_03,"What character said ""it is a tale told by an idiot full of sound and fury""?",Macbeth,3,0,1,1
+alce_asqa_0037,50,Where does 10 things i hate about you take place?,asqa_0050_claim_00,Where does the movie 10 Things I Hate About You take place?,Seattle area || Padua High School,16,0,0,1
+alce_asqa_0037,50,Where does 10 things i hate about you take place?,asqa_0050_claim_01,Where was the movie 10 Things I Hate About You filmed?,"Stadium High School || Tacoma, Washington",1,1,1,1
+alce_asqa_0038,51,Who is opening for shania twain in ottawa?,asqa_0051_claim_00,Who is opening for shania twain in ottawa on the Rock This Country Tour?,Wes Mack || Wesley MacInnes || Dan + Shay || Dan Smyers || Shay Mooney || The Doobie Brothers,5,0,1,1
+alce_asqa_0038,51,Who is opening for shania twain in ottawa?,asqa_0051_claim_01,Who is opening for shania twain in ottawa on the Up! Tour?,Emerson Drive,17,0,0,1
+alce_asqa_0038,51,Who is opening for shania twain in ottawa?,asqa_0051_claim_02,Who is opening for shania twain in ottawa on the Now Tour?,Bastian Baker || Bastien Kaltenbacher,3,0,1,1
+alce_asqa_0038,51,Who is opening for shania twain in ottawa?,asqa_0051_claim_03,Who is opening for shania twain in ottawa on the Come On Over Tour?,Leahy || The Leahy Family || Shane Minor || Shane Allen Minor,7,0,0,1
+alce_asqa_0039,53,What's the most points scored in an nba game?,asqa_0053_claim_00,What's the most points scored in an nba game by combined team?,370,8,0,0,1
+alce_asqa_0039,53,What's the most points scored in an nba game?,asqa_0053_claim_01,What's the most points scored in an nba game by a single team?,186,8,0,0,1
+alce_asqa_0039,53,What's the most points scored in an nba game?,asqa_0053_claim_02,What's the most points scored in an nba game by an individual?,100,1,1,1,1
+alce_asqa_0039,53,What's the most points scored in an nba game?,asqa_0053_claim_03,What is the highest amount of points scored by a single team in regular season NBA games?,186,8,0,0,1
+alce_asqa_0040,55,Who wrote give me a home among the gum trees?,asqa_0055_claim_00,Who co-wrote give me a home among the gum trees and also goes by the name Captain Rock?,Bob Brown,1,1,1,1
+alce_asqa_0040,55,Who wrote give me a home among the gum trees?,asqa_0055_claim_01,Who co-wrote give me a home among the gum trees and passed in 1995?,Wally Johnson,1,1,1,1
+alce_asqa_0041,58,When did construction start on the sydney harbour bridge?,asqa_0058_claim_00,When did construction officially start on the sydney harbour bridge?,28 July 1923,1,1,1,1
+alce_asqa_0041,58,When did construction start on the sydney harbour bridge?,asqa_0058_claim_01,When did construction of the Arch start on the sydney harbour bridge?,26 October 1928,14,0,0,1
+alce_asqa_0042,60,Who was the greatest warrior for the trojans?,asqa_0060_claim_00,What was the name of the greatest warrior for the trojans?,Hector,1,1,1,1
+alce_asqa_0042,60,Who was the greatest warrior for the trojans?,asqa_0060_claim_01,What was the position of the greatest warrior for the trojans?,prince,1,1,1,1
+alce_asqa_0043,61,Who is the current sheriff of maricopa county arizona?,asqa_0061_claim_01,"Who is the sheriff of Maricopa County, Arizona from 1993-2017?",Joe Arpaio,3,0,1,1
+alce_asqa_0043,61,Who is the current sheriff of maricopa county arizona?,asqa_0061_claim_02,"Who is the sheriff of Maricopa County, Arizona from 2017-present?",Paul Penzone,1,1,1,1
+alce_asqa_0043,61,Who is the current sheriff of maricopa county arizona?,asqa_0061_claim_03,Who is the current sheriff of maricopa county arizona since 2017?,Paul Penzone,1,1,1,1
+alce_asqa_0043,61,Who is the current sheriff of maricopa county arizona?,asqa_0061_claim_04,"Who is the sheriff of maricopa county arizona, from 1993-2017?",Joe Arpaio,3,0,1,1
+alce_asqa_0044,62,Japanese hotel run by same family for 1300 years?,asqa_0062_claim_00,Japanese hotel run by same family for 1300 years in Komatsu?,Hōshi Ryokan || Hōshi,3,0,1,1
+alce_asqa_0044,62,Japanese hotel run by same family for 1300 years?,asqa_0062_claim_01,Japanese hotel run by same family for 1300 years in Hayakawa?,Nishiyama Onsen Keiunkan,1,1,1,1
+alce_asqa_0045,63,When did the us enter the second world war in europe?,asqa_0063_claim_00,When did the US start funding/supplying the second World War in Europe?,11 March 1941,13,0,0,1
+alce_asqa_0045,63,When did the us enter the second world war in europe?,asqa_0063_claim_01,With the signing of what legislation did the US start funding/supplying the second World War in Europe?,Lend-Lease Act,13,0,0,1
+alce_asqa_0045,63,When did the us enter the second world war in europe?,asqa_0063_claim_03,When did the US officially enter the second world war in europe?,7 December 1941,5,0,1,1
+alce_asqa_0045,63,When did the us enter the second world war in europe?,asqa_0063_claim_04,Upon what event did the US officially enter the second world war in europe?,attack on Pearl Harbor,1,1,1,1
+alce_asqa_0046,64,Who wrote brown eyes by destiny's child?,asqa_0064_claim_00,Who from Texas wrote brown eyes by destiny's child?,Beyoncé Giselle Knowles-Carter || Beyoncé Knowles,28,0,0,0
+alce_asqa_0046,64,Who wrote brown eyes by destiny's child?,asqa_0064_claim_01,Who from Brazil wrote brown eyes by destiny's child?,Walter Afanasieff,58,0,0,0
+alce_asqa_0047,66,Who do you play as in resident evil 7?,asqa_0066_claim_00,Who do you play as in the main game of Resident Evil 7?,Ethan Winters || a civilian with few combat skills,1,1,1,1
+alce_asqa_0047,66,Who do you play as in resident evil 7?,asqa_0066_claim_01,"Who do you play as in Resident Evil 7's downloadable content scenario ""Not a Hero""?",BSAA agent Chris Redfield || Chris Redfield,7,0,0,1
+alce_asqa_0048,67,Who serves as the president of the senate in the texas legislature?,asqa_0067_claim_00,Who serves as the president of the senate in the texas legislature in general?,Lieutenant Governor of Texas || The Lieutenant Governor of Texas,1,1,1,1
+alce_asqa_0048,67,Who serves as the president of the senate in the texas legislature?,asqa_0067_claim_01,Who serves as the president of the senate in the texas legislature from 2015 to 2020?,Dan Patrick || Dan Goeb Patrick,1,1,1,1
+alce_asqa_0048,67,Who serves as the president of the senate in the texas legislature?,asqa_0067_claim_02,Who serves as the president of the senate in the texas legislature from 2003 to 2015?,David Dewhurst || David Henry Dewhurst,13,0,0,1
+alce_asqa_0049,68,Who opened the gate in the prison walking dead?,asqa_0068_claim_00,"From the viewer's persepctive, who opened the gate to the prison, at the beginning of the walking dead's ""Killer Within"" episode?",an unidentified individual,9,0,0,1
+alce_asqa_0049,68,Who opened the gate in the prison walking dead?,asqa_0068_claim_01,Who is the character that is discovered to have opened the gate in the prison walking dead?,Andrew,10,0,0,1
+alce_asqa_0050,69,Who owns green and black's organic chocolate?,asqa_0069_claim_00,Who owns green and black's organic chocolate in 2017?,Mondelēz International,1,1,1,1
+alce_asqa_0050,69,Who owns green and black's organic chocolate?,asqa_0069_claim_01,Who owns green and black's organic chocolate in 2005?,Cadbury || Cadbury Schweppes,1,1,1,1
+alce_asqa_0050,69,Who owns green and black's organic chocolate?,asqa_0069_claim_02,Who owns green and black's organic chocolate in 1991?,Craig Sams || Josephine Fairley,1,1,1,1
+alce_asqa_0050,69,Who owns green and black's organic chocolate?,asqa_0069_claim_03,Who first owned green and black's organic chocolate?,"Craig Sams, Josephine Fairley || Craig Sams || Josephine Fairley",1,1,1,1
+alce_asqa_0050,69,Who owns green and black's organic chocolate?,asqa_0069_claim_04,Who bought and owned green and black's organic chocolate in 2005?,Cadbury,1,1,1,1
+alce_asqa_0051,70,Which political party is currently in power in ireland?,asqa_0070_claim_01,Which political party is currently in power in ireland's Dáil Éireann from 2016 to 2020?,Fine Gael,1,1,1,1
+alce_asqa_0051,70,Which political party is currently in power in ireland?,asqa_0070_claim_02,Which political party is currently in power in ireland's presidency from 2011 to 2018?,Labour Party,3,0,1,1
+alce_asqa_0051,70,Which political party is currently in power in ireland?,asqa_0070_claim_03,Which political party is currently in power in ireland's presidency from 2004 to 2011?,Independent,6,0,0,1
+alce_asqa_0051,70,Which political party is currently in power in ireland?,asqa_0070_claim_04,Which political party is currently in power in ireland's presidency from 1997 to 2004?,Independent,6,0,0,1
+alce_asqa_0052,72,Who was drafted first in the 2017 nfl draft?,asqa_0072_claim_00,Who was drafted first in the 2017 nfl draft as player?,Myles Lorenz Garrett || Myles Garrett,2,0,1,1
+alce_asqa_0052,72,Who was drafted first in the 2017 nfl draft?,asqa_0072_claim_01,Who was the team that drafted first in the 2017 nfl draft?,Cleveland Browns,2,0,1,1
+alce_asqa_0052,72,Who was drafted first in the 2017 nfl draft?,asqa_0072_claim_02,Who was the college that drafted first in the 2017 nfl draft?,Texas A&M,2,0,1,1
+alce_asqa_0052,72,Who was drafted first in the 2017 nfl draft?,asqa_0072_claim_03,Who was the conference that drafted first in the 2017 nfl draft?,Southeastern Conference || SEC,1,1,1,1
+alce_asqa_0053,73,Who wins at the end of friday night lights?,asqa_0073_claim_00,Who wins at the end of friday night lights film?|Who wins at the end of friday night lights book?,Dallas Carter || David W. Carter High School || Dallas Carter High School || David Wendel Carter High School,2,0,1,1
+alce_asqa_0053,73,Who wins at the end of friday night lights?,asqa_0073_claim_01,Who wins at the end of friday night lights season 5?,East Dillon Lions || East Dillon || East Dillon High,5,0,1,1
+alce_asqa_0054,75,Who's won the most world series in baseball?,asqa_0075_claim_00,Who's the team that has won the most total world series in baseball?,New York Yankees,1,1,1,1
+alce_asqa_0054,75,Who's won the most world series in baseball?,asqa_0075_claim_01,Who's the team that has won the most consecutive world series in baseball?,New York Yankees,1,1,1,1
+alce_asqa_0054,75,Who's won the most world series in baseball?,asqa_0075_claim_02,Who's the player that has won the most world series in baseball?,Yogi Berra,3,0,1,1
+alce_asqa_0054,75,Who's won the most world series in baseball?,asqa_0075_claim_03,Who's the manager that has won the most world series in baseball?,Joe McCarthy and Casey Stengel,8,0,0,1
+alce_asqa_0054,75,Who's won the most world series in baseball?,asqa_0075_claim_04,Who's won the most world series in baseball as a player and coach combined?,Frankie Crosetti,3,0,1,1
+alce_asqa_0055,78,Who is the author of delta of venus?,asqa_0078_claim_00,Who wrote Delta of Venus (book)?,Anaïs Nin,1,1,1,1
+alce_asqa_0055,78,Who is the author of delta of venus?,asqa_0078_claim_03,Who plays the author character in the movie Delta of Venus?,Audie England,3,0,1,1
+alce_asqa_0056,79,What led to the downfall of the incan empire?,asqa_0079_claim_00,What was the overall thing that led to the downfall of the incan empire?,disease,2,0,1,1
+alce_asqa_0056,79,What led to the downfall of the incan empire?,asqa_0079_claim_01,What specific thing led to the downfall of the Incan empire?,smallpox,7,0,0,1
+alce_asqa_0056,79,What led to the downfall of the incan empire?,asqa_0079_claim_02,What was the most devastating factor that led to the downfall of the incan empire?,diseases || epidemic,2,0,1,1
+alce_asqa_0056,79,What led to the downfall of the incan empire?,asqa_0079_claim_03,What was the first epidemic leading to the downfall of the incan empire?,smallpox,7,0,0,1
+alce_asqa_0056,79,What led to the downfall of the incan empire?,asqa_0079_claim_04,What foreign power shift helped lead to the downfall of the incan empire?,conquistadors || Spanish conquest,1,1,1,1
+alce_asqa_0057,80,When did the teenage mutant ninja turtles cartoon come out?,asqa_0080_claim_01,When did the second teenage mutant ninja turtles animated cartoon series come out?,"February 8, 2003",1,1,1,1
+alce_asqa_0057,80,When did the teenage mutant ninja turtles cartoon come out?,asqa_0080_claim_02,When did the 3D rendered computer animated Teenage Mutant Ninja Turtles cartoon series come out?,"September 29, 2012",12,0,0,1
+alce_asqa_0058,82,In the dream of the rood what is the rood eventually drenched in?,asqa_0082_claim_00,In section one of the dream of the rood what is the rood eventually drenched in beyond the gems?,blood,20,0,0,1
+alce_asqa_0058,82,In the dream of the rood what is the rood eventually drenched in?,asqa_0082_claim_01,In section two of the dream of the rood what is the rood eventually drenched in?,gold and silver,2,0,1,1
+alce_asqa_0058,82,In the dream of the rood what is the rood eventually drenched in?,asqa_0082_claim_02,In section one of the dream of the rood what precious items is the rood drenched in?,gems,20,0,0,1
+alce_asqa_0059,83,When did the seljuk empire begin and end?,asqa_0083_claim_00,When did the Seljuk Empire begin?,1037,1,1,1,1
+alce_asqa_0059,83,When did the seljuk empire begin and end?,asqa_0083_claim_01,When did the Seljuk Empire end?,1194,1,1,1,1
+alce_asqa_0059,83,When did the seljuk empire begin and end?,asqa_0083_claim_02,When did the seljuk empire begin?,1037,1,1,1,1
+alce_asqa_0059,83,When did the seljuk empire begin and end?,asqa_0083_claim_03,When did the seljuk empire end?,1194,1,1,1,1
+alce_asqa_0060,84,Why did the st louis cardinals move to arizona?,asqa_0084_claim_00,What ability caused the st louis cardinals move to arizona?,overall mediocrity of the Cardinals,1,1,1,1
+alce_asqa_0060,84,Why did the st louis cardinals move to arizona?,asqa_0084_claim_01,What physical issue caused the st louis cardinals move to arizona?,old stadium,1,1,1,1
+alce_asqa_0060,84,Why did the st louis cardinals move to arizona?,asqa_0084_claim_02,What fan issue caused the st louis cardinals move to arizona?,game attendance to dwindle,1,1,1,1
+alce_asqa_0061,85,Who played the baby in baby's day out?,asqa_0085_claim_00,Who played the baby in baby's day out as cast?,Adam Robert and Jacob Joseph Worton,5,0,1,1
+alce_asqa_0061,85,Who played the baby in baby's day out?,asqa_0085_claim_03,What actors played the baby in Baby's Day Out?,Adam Robert || Jacob Joseph Worton,5,0,1,1
+alce_asqa_0062,86,Who sang still crazy after all these years?,asqa_0086_claim_00,Who originally sang still crazy after all these years?,Paul Simon,1,1,1,1
+alce_asqa_0062,86,Who sang still crazy after all these years?,asqa_0086_claim_01,Who sang still crazy after all these years in 2000?,Willie Nelson,5,0,1,1
+alce_asqa_0062,86,Who sang still crazy after all these years?,asqa_0086_claim_03,Who sang still crazy after all these years in 1993?,Ray Charles,57,0,0,0
+alce_asqa_0063,87,Where did they film the movie in the heat of the night?,asqa_0087_claim_00,Where did they film most of the movie in the heat of the night?,"Sparta, Illinois",8,0,0,1
+alce_asqa_0063,87,Where did they film the movie in the heat of the night?,asqa_0087_claim_01,Where in Tennesse did they film part of the movie in the heat of the night?,"Union City || Dyersburg and Union City, Tennessee || Dyersburg",1,1,1,1
+alce_asqa_0063,87,Where did they film the movie in the heat of the night?,asqa_0087_claim_02,Where did they film the chase scene in the movie in the heat of the night?,"Chest || Chester, Illinois",1,1,1,1
+alce_asqa_0063,87,Where did they film the movie in the heat of the night?,asqa_0087_claim_03,Where did they film the Compton's diner scenes in the movie in the heat of the night?,"Freeburg || Freeburg, Illinoi",60,0,0,0
+alce_asqa_0064,88,Who sings you've got a friend in me in toy story 2?,asqa_0088_claim_00,Which character sings you've got a friend in me in toy story 2 during Woody's Roundup?,Woody,1,1,1,1
+alce_asqa_0064,88,Who sings you've got a friend in me in toy story 2?,asqa_0088_claim_01,Which actor sings you've got a friend in me in the English toy story 2 during Woody's Roundup?,Tom Hanks || Thomas Jeffrey Hanks,1,1,1,1
+alce_asqa_0064,88,Who sings you've got a friend in me in toy story 2?,asqa_0088_claim_02,"Which character sings you've got a friend in me in toy story 2, not during Woody's Roundup?",Wheezy,1,1,1,1
+alce_asqa_0064,88,Who sings you've got a friend in me in toy story 2?,asqa_0088_claim_03,"Which actor sings you've got a friend in me in the English toy story 2, not during Woody's Roundup?",Robert Goulet || Robert Gérard Goulet,1,1,1,1
+alce_asqa_0064,88,Who sings you've got a friend in me in toy story 2?,asqa_0088_claim_04,Which actor sings you've got a friend in me in the Spanish toy story 2?,Gipsy Kings || the Gipsy Kings,1,1,1,1
+alce_asqa_0065,90,Where did blair and serena go to school?,asqa_0090_claim_00,Where did Blair and Serena from Gossip Girl go to high school?,Constance Billard school,13,0,0,1
+alce_asqa_0065,90,Where did blair and serena go to school?,asqa_0090_claim_02,Where did Serena from Gossip Girl go to college?,Columbia University,53,0,0,0
+alce_asqa_0065,90,Where did blair and serena go to school?,asqa_0090_claim_03,What was the name of where blair and serena go to school?,Constance Billard School for Girls,13,0,0,1
+alce_asqa_0065,90,Where did blair and serena go to school?,asqa_0090_claim_04,What city did blair and serena go to school?,Upper East Side || New York City,1,1,1,1
+alce_asqa_0066,92,As blues moved into chicago's south side what style of blues developed?,asqa_0092_claim_00,As the blues moved into Chicago's South Side what style of blues developed?,Chicago blues,2,0,1,1
+alce_asqa_0066,92,As blues moved into chicago's south side what style of blues developed?,asqa_0092_claim_01,As blues moved into Chicago's South Side what style of blues developed that was influenced by Chicago blues?,British blues,31,0,0,0
+alce_asqa_0067,93,The movement of food in food pipe is called?,asqa_0093_claim_00,What is the mechanical action that moves food into the esophagus?,swallowing,6,0,0,1
+alce_asqa_0067,93,The movement of food in food pipe is called?,asqa_0093_claim_01,What is the autonomic function that moves food from the esophagus to the stomach?,peristalsis,1,1,1,1
+alce_asqa_0068,94,Who developed a useful staining method to identify bacteria?,asqa_0094_claim_00,How could the person be described who developed a staining method that could be used to identify bacteria?,Danish bacteriologist,4,0,1,1
+alce_asqa_0068,94,Who developed a useful staining method to identify bacteria?,asqa_0094_claim_01,Which Danish bacteriologist developed a useful staining method to identify bacteria?|What is the name of the person who developed a staining method to identify bacteria?|Which Danish bacteriologist developed a useful staining method to identify bacteria in two large groups?,Hans Christian Joachim Gram || Hans Christian Gram,1,1,1,1
+alce_asqa_0068,94,Who developed a useful staining method to identify bacteria?,asqa_0094_claim_02,Who developed a useful staining method to identify acid-fast organisms?,Paul Ehrlich,8,0,0,1
+alce_asqa_0069,95,What is the solid part of earth called?,asqa_0095_claim_00,What is the solid inner part of the earth called?,Inner Core,1,1,1,1
+alce_asqa_0069,95,What is the solid part of earth called?,asqa_0095_claim_01,"What is the solid, outer part of the earth called?",Lithosphere,1,1,1,1
+alce_asqa_0069,95,What is the solid part of earth called?,asqa_0095_claim_02,"What is the solid part of the earth called, that was once liquid?",Mantle,1,1,1,1
+alce_asqa_0070,96,When did the lion king debut on broadway?,asqa_0096_claim_00,When did The Lion King preview premier on Broadway?,"October 15, 1997",1,1,1,1
+alce_asqa_0070,96,When did the lion king debut on broadway?,asqa_0096_claim_01,When did The Lion King officially open on Broadway?,"November 13, 1997",1,1,1,1
+alce_asqa_0071,97,Where did italy win the world cup in 2006?,asqa_0097_claim_00,Where is the stadium did italy win the world cup in 2006?,Olympiastadion || Olympiastadion Berlin,3,0,1,1
+alce_asqa_0071,97,Where did italy win the world cup in 2006?,asqa_0097_claim_01,Where is the location did italy win the world cup in 2006?,"Berlin, Germany || Berlin",3,0,1,1
+alce_asqa_0071,97,Where did italy win the world cup in 2006?,asqa_0097_claim_02,In what location was the 2006 FIFA World Cup Final?,"Berlin, Germany",3,0,1,1
+alce_asqa_0071,97,Where did italy win the world cup in 2006?,asqa_0097_claim_03,In what stadium was the 2006 FIFA World Cup Final?,Olympiastadion,3,0,1,1
+alce_asqa_0072,98,Who wrote the first five books of moses?,asqa_0098_claim_01,Who is accepted to be the author of the first five books of Moses?,Moses,1,1,1,1
+alce_asqa_0072,98,Who wrote the first five books of moses?,asqa_0098_claim_03,Who does Wellhausen believe is a redactor of the first five books of Moses?,Ezra,7,0,0,1

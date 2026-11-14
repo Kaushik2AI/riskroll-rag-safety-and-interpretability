@@ -1,0 +1,15 @@
+\begin{tabular}{p{3.2cm}p{0.9cm}p{3.0cm}p{4.0cm}p{4.0cm}}
+\toprule
+Paper & Year & Role in our paper & Limitation for our gap & How RiskRoll differs \\
+\midrule
+FLARE / Active Retrieval Augmented Generation & 2023 & Active retrieval baseline / related work & Retrieves during generation, but does not define a trusted semantic prefix or rollback unsafe committed claims. & RiskRoll controls claim commitment: unsupported claims are rolled back before entering the trusted prefix. \\
+Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection & 2024 & Self-reflective RAG related work / optional baseline & Uses learned self-reflection, but does not explicitly rollback the answer to the last trusted semantic prefix. & RiskRoll is an inference-time controller that separates candidate claims from trusted committed claims. \\
+CRAG / Corrective Retrieval Augmented Generation & 2024 & Closest retrieval-correction baseline & Correction happens at retrieval-set level, not at the level of committing generated claims to a trusted prefix. & RiskRoll verifies claim-evidence support before semantic commitment and rolls back unsafe candidate spans. \\
+RARR: Researching and Revising What Language Models Say & 2023 & Closest post-hoc revision baseline & Repair happens after generation; unsupported claims may already have influenced later text. & RiskRoll prevents unsupported claims from entering the trusted prefix in the first place. \\
+FActScore: Fine-grained Atomic Evaluation of Factual Precision & 2023 & Evaluation foundation & Evaluation framework, not a generation-time rollback method. & RiskRoll uses claim-level verification as an inference-time control action, not only as an evaluation. \\
+LongFact / SAFE: Long-form factuality in large language models & 2024 & Long-form factuality evaluation anchor & Evaluates factuality after generation; does not rollback unsafe claims during generation. & RiskRoll uses verification before commitment to prevent contamination while generating. \\
+VeriScore: Evaluating factuality of verifiable claims in long-form generation & 2024 & Evaluation foundation for verifiable claims & Evaluation metric, not rollback/recovery method. & RiskRoll actively manages which claims enter the trusted prefix. \\
+ALCE: Enabling LLMs to Generate Text with Citations & 2023 & Best public dataset candidate & Benchmark/evaluation setup, not a rollback generation method. & RiskRoll can be tested as a claim/citation commitment controller on citation-aware long-form QA. \\
+RAGChecker: Fine-grained Framework for Diagnosing RAG & 2024 & Diagnostic evaluation related work & Diagnoses RAG errors, but does not propose claim-level rollback control. & RiskRoll is an intervention/controller; RAGChecker is mainly diagnostic. \\
+\bottomrule
+\end{tabular}

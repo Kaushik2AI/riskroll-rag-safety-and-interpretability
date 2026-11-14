@@ -1,0 +1,5 @@
+
+\paragraph{Uncertainty estimation.}
+Because decoding in our pipeline is deterministic given a fixed generator, retriever, and verifier, repeated runs on the same task set do not introduce additional randomness. We estimate uncertainty using a nonparametric bootstrap over tasks: for each dataset, we resample tasks with replacement 10,000 times and recompute each metric on the resampled set. The resulting 95\% percentile intervals reflect sampling variability from the finite task sets.
+
+For QAMPARI, Answer F1 is RiskRoll 0.284 [0.230, 0.340] and Retrieve-more 0.297 [0.242, 0.354]; strict grounded quality is RiskRoll 0.268 [0.216, 0.322] and Retrieve-more 0.244 [0.192, 0.300]. For ASQA, Claim Accuracy is RiskRoll 0.357 [0.289, 0.424] and Retrieve-more 0.369 [0.298, 0.441]; support rate is RiskRoll 0.877 [0.795, 0.945] and Retrieve-more 0.801 [0.712, 0.890].

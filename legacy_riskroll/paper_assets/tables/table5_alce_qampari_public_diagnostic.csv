@@ -1,0 +1,5 @@
+Method,Grounded Rate,Clean Task Rate,Unsafe Depth,Contamination,Rollbacks,Abstentions
+Standard RAG top-1 commit,0.188,0.040,3.660,3.660,0.000,0.000
+Retrieve-more RAG top-5 context,0.398,0.110,3.010,3.010,0.000,0.000
+Retrieve-more RAG top-20 context,0.674,0.340,2.090,2.090,0.000,0.000
+RiskRoll top-20 verify-before-commit,0.674,0.340,0.000,0.000,49.560,1.630

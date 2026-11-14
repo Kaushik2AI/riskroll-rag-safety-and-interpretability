@@ -1,0 +1,439 @@
+task_id,method,method_display,question,num_claims,grounded_claims,grounded_claim_rate,unsupported_commits,abstentions,first_bad_step,unsafe_prefix_depth,downstream_contaminated_claims,clean_task,rollbacks,repairs
+alce_asqa_0000,standard_top1,Standard RAG top-1,Who is the original artist of sound of silence?,3,2,0.6666666666666666,1,0,3,1,1,0,0,0
+alce_asqa_0001,standard_top1,Standard RAG top-1,When was the first apple i phone made?,4,2,0.5,2,0,2,3,3,0,0,0
+alce_asqa_0002,standard_top1,Standard RAG top-1,Who played the weasley brothers in harry potter?,5,1,0.2,4,0,1,5,5,0,0,0
+alce_asqa_0003,standard_top1,Standard RAG top-1,How many state parks are there in virginia?,3,0,0.0,3,0,1,3,3,0,0,0
+alce_asqa_0004,standard_top1,Standard RAG top-1,Who performed at the champions league final 2018?,4,0,0.0,4,0,1,4,4,0,0,0
+alce_asqa_0005,standard_top1,Standard RAG top-1,Who killed the man in thelma and louise?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0006,standard_top1,Standard RAG top-1,Who plays charlie on it's always sunny?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0007,standard_top1,Standard RAG top-1,How many times have the lakers won the finals?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0008,standard_top1,Standard RAG top-1,Who is fruma sarah in fiddler on the roof?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0009,standard_top1,Standard RAG top-1,When did toronto host the mlb all-star game?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0010,standard_top1,Standard RAG top-1,When did the last season of jersey shore air?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0011,standard_top1,Standard RAG top-1,What season of greys anatomy was the plane crash?,3,1,0.3333333333333333,2,0,2,2,2,0,0,0
+alce_asqa_0012,standard_top1,Standard RAG top-1,When did the rams go to st louis?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0013,standard_top1,Standard RAG top-1,Who plays patrick in 10 things i hate about you?,4,2,0.5,2,0,2,3,3,0,0,0
+alce_asqa_0014,standard_top1,Standard RAG top-1,Microsoft live movie maker is an example of free?,2,1,0.5,1,0,1,2,2,0,0,0
+alce_asqa_0015,standard_top1,Standard RAG top-1,Who is the chief minister of m. p?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0016,standard_top1,Standard RAG top-1,Who sings the song for stuck in the middle?,4,3,0.75,1,0,4,1,1,0,0,0
+alce_asqa_0017,standard_top1,Standard RAG top-1,When was crude oil first discovered in nigeria?,2,1,0.5,1,0,1,2,2,0,0,0
+alce_asqa_0018,standard_top1,Standard RAG top-1,When was the first fast and furious film made?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0019,standard_top1,Standard RAG top-1,Who sang the song i'm coming out?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0020,standard_top1,Standard RAG top-1,Who wrote the book of 1 and 2 thessalonians?,2,1,0.5,1,0,1,2,2,0,0,0
+alce_asqa_0021,standard_top1,Standard RAG top-1,When is fortnite battle royale being released on android?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0022,standard_top1,Standard RAG top-1,How many medals did australia win in the 2000 olympics?,4,1,0.25,3,0,1,4,4,0,0,0
+alce_asqa_0023,standard_top1,Standard RAG top-1,Who is elected as the vice president of india?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0024,standard_top1,Standard RAG top-1,Who was england's prime minister during ww1?,4,2,0.5,2,0,1,4,4,0,0,0
+alce_asqa_0025,standard_top1,Standard RAG top-1,Who plays snowman in smokey and the bandit?,3,0,0.0,3,0,1,3,3,0,0,0
+alce_asqa_0026,standard_top1,Standard RAG top-1,Who beat villanova last year in the ncaa tournament?,4,0,0.0,4,0,1,4,4,0,0,0
+alce_asqa_0027,standard_top1,Standard RAG top-1,Who played warden hodges in dad's army?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0028,standard_top1,Standard RAG top-1,Who's the highest paid nba player 2017?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0029,standard_top1,Standard RAG top-1,Who conducted a 300 mile march to sacramento california?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0030,standard_top1,Standard RAG top-1,Who does the voice of darth vader in star wars?,3,1,0.3333333333333333,2,0,2,2,2,0,0,0
+alce_asqa_0031,standard_top1,Standard RAG top-1,Who lived to be the oldest person in the world?,4,2,0.5,2,0,2,3,3,0,0,0
+alce_asqa_0032,standard_top1,Standard RAG top-1,When does the 12th day of christmas begin?,5,3,0.6,2,0,1,5,5,0,0,0
+alce_asqa_0033,standard_top1,Standard RAG top-1,When did alabama became a right to work state?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0034,standard_top1,Standard RAG top-1,Who sings i'll be seeing you in the notebook?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0035,standard_top1,Standard RAG top-1,Who wrote the book of the new testament?,3,0,0.0,3,0,1,3,3,0,0,0
+alce_asqa_0036,standard_top1,Standard RAG top-1,Who said it is a tale told by an idiot full of sound and fury?,4,0,0.0,4,0,1,4,4,0,0,0
+alce_asqa_0037,standard_top1,Standard RAG top-1,Where does 10 things i hate about you take place?,2,1,0.5,1,0,1,2,2,0,0,0
+alce_asqa_0038,standard_top1,Standard RAG top-1,Who is opening for shania twain in ottawa?,4,0,0.0,4,0,1,4,4,0,0,0
+alce_asqa_0039,standard_top1,Standard RAG top-1,What's the most points scored in an nba game?,4,1,0.25,3,0,1,4,4,0,0,0
+alce_asqa_0040,standard_top1,Standard RAG top-1,Who wrote give me a home among the gum trees?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0041,standard_top1,Standard RAG top-1,When did construction start on the sydney harbour bridge?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0042,standard_top1,Standard RAG top-1,Who was the greatest warrior for the trojans?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0043,standard_top1,Standard RAG top-1,Who is the current sheriff of maricopa county arizona?,4,2,0.5,2,0,1,4,4,0,0,0
+alce_asqa_0044,standard_top1,Standard RAG top-1,Japanese hotel run by same family for 1300 years?,2,1,0.5,1,0,1,2,2,0,0,0
+alce_asqa_0045,standard_top1,Standard RAG top-1,When did the us enter the second world war in europe?,4,1,0.25,3,0,1,4,4,0,0,0
+alce_asqa_0046,standard_top1,Standard RAG top-1,Who wrote brown eyes by destiny's child?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0047,standard_top1,Standard RAG top-1,Who do you play as in resident evil 7?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0048,standard_top1,Standard RAG top-1,Who serves as the president of the senate in the texas legislature?,3,2,0.6666666666666666,1,0,3,1,1,0,0,0
+alce_asqa_0049,standard_top1,Standard RAG top-1,Who opened the gate in the prison walking dead?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0050,standard_top1,Standard RAG top-1,Who owns green and black's organic chocolate?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0051,standard_top1,Standard RAG top-1,Which political party is currently in power in ireland?,4,1,0.25,3,0,2,3,3,0,0,0
+alce_asqa_0052,standard_top1,Standard RAG top-1,Who was drafted first in the 2017 nfl draft?,4,1,0.25,3,0,1,4,4,0,0,0
+alce_asqa_0053,standard_top1,Standard RAG top-1,Who wins at the end of friday night lights?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0054,standard_top1,Standard RAG top-1,Who's won the most world series in baseball?,5,2,0.4,3,0,3,3,3,0,0,0
+alce_asqa_0055,standard_top1,Standard RAG top-1,Who is the author of delta of venus?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0056,standard_top1,Standard RAG top-1,What led to the downfall of the incan empire?,5,1,0.2,4,0,1,5,5,0,0,0
+alce_asqa_0057,standard_top1,Standard RAG top-1,When did the teenage mutant ninja turtles cartoon come out?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0058,standard_top1,Standard RAG top-1,In the dream of the rood what is the rood eventually drenched in?,3,0,0.0,3,0,1,3,3,0,0,0
+alce_asqa_0059,standard_top1,Standard RAG top-1,When did the seljuk empire begin and end?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0060,standard_top1,Standard RAG top-1,Why did the st louis cardinals move to arizona?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0061,standard_top1,Standard RAG top-1,Who played the baby in baby's day out?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0062,standard_top1,Standard RAG top-1,Who sang still crazy after all these years?,3,1,0.3333333333333333,2,0,2,2,2,0,0,0
+alce_asqa_0063,standard_top1,Standard RAG top-1,Where did they film the movie in the heat of the night?,4,2,0.5,2,0,1,4,4,0,0,0
+alce_asqa_0064,standard_top1,Standard RAG top-1,Who sings you've got a friend in me in toy story 2?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0065,standard_top1,Standard RAG top-1,Where did blair and serena go to school?,4,1,0.25,3,0,1,4,4,0,0,0
+alce_asqa_0066,standard_top1,Standard RAG top-1,As blues moved into chicago's south side what style of blues developed?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0067,standard_top1,Standard RAG top-1,The movement of food in food pipe is called?,2,1,0.5,1,0,1,2,2,0,0,0
+alce_asqa_0068,standard_top1,Standard RAG top-1,Who developed a useful staining method to identify bacteria?,3,1,0.3333333333333333,2,0,1,3,3,0,0,0
+alce_asqa_0069,standard_top1,Standard RAG top-1,What is the solid part of earth called?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0070,standard_top1,Standard RAG top-1,When did the lion king debut on broadway?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0071,standard_top1,Standard RAG top-1,Where did italy win the world cup in 2006?,4,0,0.0,4,0,1,4,4,0,0,0
+alce_asqa_0072,standard_top1,Standard RAG top-1,Who wrote the first five books of moses?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0000,retrieve_more_top5,Retrieve-more RAG top-5,Who is the original artist of sound of silence?,3,2,0.6666666666666666,1,0,3,1,1,0,0,0
+alce_asqa_0001,retrieve_more_top5,Retrieve-more RAG top-5,When was the first apple i phone made?,4,2,0.5,2,0,2,3,3,0,0,0
+alce_asqa_0002,retrieve_more_top5,Retrieve-more RAG top-5,Who played the weasley brothers in harry potter?,5,2,0.4,3,0,1,5,5,0,0,0
+alce_asqa_0003,retrieve_more_top5,Retrieve-more RAG top-5,How many state parks are there in virginia?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0004,retrieve_more_top5,Retrieve-more RAG top-5,Who performed at the champions league final 2018?,4,2,0.5,2,0,2,3,3,0,0,0
+alce_asqa_0005,retrieve_more_top5,Retrieve-more RAG top-5,Who killed the man in thelma and louise?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0006,retrieve_more_top5,Retrieve-more RAG top-5,Who plays charlie on it's always sunny?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0007,retrieve_more_top5,Retrieve-more RAG top-5,How many times have the lakers won the finals?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0008,retrieve_more_top5,Retrieve-more RAG top-5,Who is fruma sarah in fiddler on the roof?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0009,retrieve_more_top5,Retrieve-more RAG top-5,When did toronto host the mlb all-star game?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0010,retrieve_more_top5,Retrieve-more RAG top-5,When did the last season of jersey shore air?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0011,retrieve_more_top5,Retrieve-more RAG top-5,What season of greys anatomy was the plane crash?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0012,retrieve_more_top5,Retrieve-more RAG top-5,When did the rams go to st louis?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0013,retrieve_more_top5,Retrieve-more RAG top-5,Who plays patrick in 10 things i hate about you?,4,2,0.5,2,0,2,3,3,0,0,0
+alce_asqa_0014,retrieve_more_top5,Retrieve-more RAG top-5,Microsoft live movie maker is an example of free?,2,1,0.5,1,0,1,2,2,0,0,0
+alce_asqa_0015,retrieve_more_top5,Retrieve-more RAG top-5,Who is the chief minister of m. p?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0016,retrieve_more_top5,Retrieve-more RAG top-5,Who sings the song for stuck in the middle?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0017,retrieve_more_top5,Retrieve-more RAG top-5,When was crude oil first discovered in nigeria?,2,1,0.5,1,0,1,2,2,0,0,0
+alce_asqa_0018,retrieve_more_top5,Retrieve-more RAG top-5,When was the first fast and furious film made?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0019,retrieve_more_top5,Retrieve-more RAG top-5,Who sang the song i'm coming out?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0020,retrieve_more_top5,Retrieve-more RAG top-5,Who wrote the book of 1 and 2 thessalonians?,2,1,0.5,1,0,1,2,2,0,0,0
+alce_asqa_0021,retrieve_more_top5,Retrieve-more RAG top-5,When is fortnite battle royale being released on android?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0022,retrieve_more_top5,Retrieve-more RAG top-5,How many medals did australia win in the 2000 olympics?,4,2,0.5,2,0,2,3,3,0,0,0
+alce_asqa_0023,retrieve_more_top5,Retrieve-more RAG top-5,Who is elected as the vice president of india?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0024,retrieve_more_top5,Retrieve-more RAG top-5,Who was england's prime minister during ww1?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0025,retrieve_more_top5,Retrieve-more RAG top-5,Who plays snowman in smokey and the bandit?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0026,retrieve_more_top5,Retrieve-more RAG top-5,Who beat villanova last year in the ncaa tournament?,4,0,0.0,4,0,1,4,4,0,0,0
+alce_asqa_0027,retrieve_more_top5,Retrieve-more RAG top-5,Who played warden hodges in dad's army?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0028,retrieve_more_top5,Retrieve-more RAG top-5,Who's the highest paid nba player 2017?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0029,retrieve_more_top5,Retrieve-more RAG top-5,Who conducted a 300 mile march to sacramento california?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0030,retrieve_more_top5,Retrieve-more RAG top-5,Who does the voice of darth vader in star wars?,3,2,0.6666666666666666,1,0,3,1,1,0,0,0
+alce_asqa_0031,retrieve_more_top5,Retrieve-more RAG top-5,Who lived to be the oldest person in the world?,4,2,0.5,2,0,2,3,3,0,0,0
+alce_asqa_0032,retrieve_more_top5,Retrieve-more RAG top-5,When does the 12th day of christmas begin?,5,4,0.8,1,0,1,5,5,0,0,0
+alce_asqa_0033,retrieve_more_top5,Retrieve-more RAG top-5,When did alabama became a right to work state?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0034,retrieve_more_top5,Retrieve-more RAG top-5,Who sings i'll be seeing you in the notebook?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0035,retrieve_more_top5,Retrieve-more RAG top-5,Who wrote the book of the new testament?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0036,retrieve_more_top5,Retrieve-more RAG top-5,Who said it is a tale told by an idiot full of sound and fury?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0037,retrieve_more_top5,Retrieve-more RAG top-5,Where does 10 things i hate about you take place?,2,1,0.5,1,0,1,2,2,0,0,0
+alce_asqa_0038,retrieve_more_top5,Retrieve-more RAG top-5,Who is opening for shania twain in ottawa?,4,2,0.5,2,0,2,3,3,0,0,0
+alce_asqa_0039,retrieve_more_top5,Retrieve-more RAG top-5,What's the most points scored in an nba game?,4,1,0.25,3,0,1,4,4,0,0,0
+alce_asqa_0040,retrieve_more_top5,Retrieve-more RAG top-5,Who wrote give me a home among the gum trees?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0041,retrieve_more_top5,Retrieve-more RAG top-5,When did construction start on the sydney harbour bridge?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0042,retrieve_more_top5,Retrieve-more RAG top-5,Who was the greatest warrior for the trojans?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0043,retrieve_more_top5,Retrieve-more RAG top-5,Who is the current sheriff of maricopa county arizona?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0044,retrieve_more_top5,Retrieve-more RAG top-5,Japanese hotel run by same family for 1300 years?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0045,retrieve_more_top5,Retrieve-more RAG top-5,When did the us enter the second world war in europe?,4,2,0.5,2,0,1,4,4,0,0,0
+alce_asqa_0046,retrieve_more_top5,Retrieve-more RAG top-5,Who wrote brown eyes by destiny's child?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0047,retrieve_more_top5,Retrieve-more RAG top-5,Who do you play as in resident evil 7?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0048,retrieve_more_top5,Retrieve-more RAG top-5,Who serves as the president of the senate in the texas legislature?,3,2,0.6666666666666666,1,0,3,1,1,0,0,0
+alce_asqa_0049,retrieve_more_top5,Retrieve-more RAG top-5,Who opened the gate in the prison walking dead?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0050,retrieve_more_top5,Retrieve-more RAG top-5,Who owns green and black's organic chocolate?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0051,retrieve_more_top5,Retrieve-more RAG top-5,Which political party is currently in power in ireland?,4,2,0.5,2,0,3,2,2,0,0,0
+alce_asqa_0052,retrieve_more_top5,Retrieve-more RAG top-5,Who was drafted first in the 2017 nfl draft?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0053,retrieve_more_top5,Retrieve-more RAG top-5,Who wins at the end of friday night lights?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0054,retrieve_more_top5,Retrieve-more RAG top-5,Who's won the most world series in baseball?,5,4,0.8,1,0,4,2,2,0,0,0
+alce_asqa_0055,retrieve_more_top5,Retrieve-more RAG top-5,Who is the author of delta of venus?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0056,retrieve_more_top5,Retrieve-more RAG top-5,What led to the downfall of the incan empire?,5,3,0.6,2,0,2,4,4,0,0,0
+alce_asqa_0057,retrieve_more_top5,Retrieve-more RAG top-5,When did the teenage mutant ninja turtles cartoon come out?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0058,retrieve_more_top5,Retrieve-more RAG top-5,In the dream of the rood what is the rood eventually drenched in?,3,1,0.3333333333333333,2,0,1,3,3,0,0,0
+alce_asqa_0059,retrieve_more_top5,Retrieve-more RAG top-5,When did the seljuk empire begin and end?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0060,retrieve_more_top5,Retrieve-more RAG top-5,Why did the st louis cardinals move to arizona?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0061,retrieve_more_top5,Retrieve-more RAG top-5,Who played the baby in baby's day out?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0062,retrieve_more_top5,Retrieve-more RAG top-5,Who sang still crazy after all these years?,3,2,0.6666666666666666,1,0,3,1,1,0,0,0
+alce_asqa_0063,retrieve_more_top5,Retrieve-more RAG top-5,Where did they film the movie in the heat of the night?,4,2,0.5,2,0,1,4,4,0,0,0
+alce_asqa_0064,retrieve_more_top5,Retrieve-more RAG top-5,Who sings you've got a friend in me in toy story 2?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0065,retrieve_more_top5,Retrieve-more RAG top-5,Where did blair and serena go to school?,4,1,0.25,3,0,1,4,4,0,0,0
+alce_asqa_0066,retrieve_more_top5,Retrieve-more RAG top-5,As blues moved into chicago's south side what style of blues developed?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0067,retrieve_more_top5,Retrieve-more RAG top-5,The movement of food in food pipe is called?,2,1,0.5,1,0,1,2,2,0,0,0
+alce_asqa_0068,retrieve_more_top5,Retrieve-more RAG top-5,Who developed a useful staining method to identify bacteria?,3,2,0.6666666666666666,1,0,3,1,1,0,0,0
+alce_asqa_0069,retrieve_more_top5,Retrieve-more RAG top-5,What is the solid part of earth called?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0070,retrieve_more_top5,Retrieve-more RAG top-5,When did the lion king debut on broadway?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0071,retrieve_more_top5,Retrieve-more RAG top-5,Where did italy win the world cup in 2006?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0072,retrieve_more_top5,Retrieve-more RAG top-5,Who wrote the first five books of moses?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0000,retrieve_more_top20,Retrieve-more RAG top-20,Who is the original artist of sound of silence?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0001,retrieve_more_top20,Retrieve-more RAG top-20,When was the first apple i phone made?,4,2,0.5,2,0,2,3,3,0,0,0
+alce_asqa_0002,retrieve_more_top20,Retrieve-more RAG top-20,Who played the weasley brothers in harry potter?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0003,retrieve_more_top20,Retrieve-more RAG top-20,How many state parks are there in virginia?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0004,retrieve_more_top20,Retrieve-more RAG top-20,Who performed at the champions league final 2018?,4,3,0.75,1,0,2,3,3,0,0,0
+alce_asqa_0005,retrieve_more_top20,Retrieve-more RAG top-20,Who killed the man in thelma and louise?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0006,retrieve_more_top20,Retrieve-more RAG top-20,Who plays charlie on it's always sunny?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0007,retrieve_more_top20,Retrieve-more RAG top-20,How many times have the lakers won the finals?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0008,retrieve_more_top20,Retrieve-more RAG top-20,Who is fruma sarah in fiddler on the roof?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0009,retrieve_more_top20,Retrieve-more RAG top-20,When did toronto host the mlb all-star game?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0010,retrieve_more_top20,Retrieve-more RAG top-20,When did the last season of jersey shore air?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0011,retrieve_more_top20,Retrieve-more RAG top-20,What season of greys anatomy was the plane crash?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0012,retrieve_more_top20,Retrieve-more RAG top-20,When did the rams go to st louis?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0013,retrieve_more_top20,Retrieve-more RAG top-20,Who plays patrick in 10 things i hate about you?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0014,retrieve_more_top20,Retrieve-more RAG top-20,Microsoft live movie maker is an example of free?,2,1,0.5,1,0,1,2,2,0,0,0
+alce_asqa_0015,retrieve_more_top20,Retrieve-more RAG top-20,Who is the chief minister of m. p?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0016,retrieve_more_top20,Retrieve-more RAG top-20,Who sings the song for stuck in the middle?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0017,retrieve_more_top20,Retrieve-more RAG top-20,When was crude oil first discovered in nigeria?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0018,retrieve_more_top20,Retrieve-more RAG top-20,When was the first fast and furious film made?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0019,retrieve_more_top20,Retrieve-more RAG top-20,Who sang the song i'm coming out?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0020,retrieve_more_top20,Retrieve-more RAG top-20,Who wrote the book of 1 and 2 thessalonians?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0021,retrieve_more_top20,Retrieve-more RAG top-20,When is fortnite battle royale being released on android?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0022,retrieve_more_top20,Retrieve-more RAG top-20,How many medals did australia win in the 2000 olympics?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0023,retrieve_more_top20,Retrieve-more RAG top-20,Who is elected as the vice president of india?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0024,retrieve_more_top20,Retrieve-more RAG top-20,Who was england's prime minister during ww1?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0025,retrieve_more_top20,Retrieve-more RAG top-20,Who plays snowman in smokey and the bandit?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0026,retrieve_more_top20,Retrieve-more RAG top-20,Who beat villanova last year in the ncaa tournament?,4,2,0.5,2,0,2,3,3,0,0,0
+alce_asqa_0027,retrieve_more_top20,Retrieve-more RAG top-20,Who played warden hodges in dad's army?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0028,retrieve_more_top20,Retrieve-more RAG top-20,Who's the highest paid nba player 2017?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0029,retrieve_more_top20,Retrieve-more RAG top-20,Who conducted a 300 mile march to sacramento california?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0030,retrieve_more_top20,Retrieve-more RAG top-20,Who does the voice of darth vader in star wars?,3,2,0.6666666666666666,1,0,3,1,1,0,0,0
+alce_asqa_0031,retrieve_more_top20,Retrieve-more RAG top-20,Who lived to be the oldest person in the world?,4,3,0.75,1,0,4,1,1,0,0,0
+alce_asqa_0032,retrieve_more_top20,Retrieve-more RAG top-20,When does the 12th day of christmas begin?,5,4,0.8,1,0,1,5,5,0,0,0
+alce_asqa_0033,retrieve_more_top20,Retrieve-more RAG top-20,When did alabama became a right to work state?,2,1,0.5,1,0,1,2,2,0,0,0
+alce_asqa_0034,retrieve_more_top20,Retrieve-more RAG top-20,Who sings i'll be seeing you in the notebook?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0035,retrieve_more_top20,Retrieve-more RAG top-20,Who wrote the book of the new testament?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0036,retrieve_more_top20,Retrieve-more RAG top-20,Who said it is a tale told by an idiot full of sound and fury?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0037,retrieve_more_top20,Retrieve-more RAG top-20,Where does 10 things i hate about you take place?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0038,retrieve_more_top20,Retrieve-more RAG top-20,Who is opening for shania twain in ottawa?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0039,retrieve_more_top20,Retrieve-more RAG top-20,What's the most points scored in an nba game?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0040,retrieve_more_top20,Retrieve-more RAG top-20,Who wrote give me a home among the gum trees?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0041,retrieve_more_top20,Retrieve-more RAG top-20,When did construction start on the sydney harbour bridge?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0042,retrieve_more_top20,Retrieve-more RAG top-20,Who was the greatest warrior for the trojans?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0043,retrieve_more_top20,Retrieve-more RAG top-20,Who is the current sheriff of maricopa county arizona?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0044,retrieve_more_top20,Retrieve-more RAG top-20,Japanese hotel run by same family for 1300 years?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0045,retrieve_more_top20,Retrieve-more RAG top-20,When did the us enter the second world war in europe?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0046,retrieve_more_top20,Retrieve-more RAG top-20,Who wrote brown eyes by destiny's child?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0047,retrieve_more_top20,Retrieve-more RAG top-20,Who do you play as in resident evil 7?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0048,retrieve_more_top20,Retrieve-more RAG top-20,Who serves as the president of the senate in the texas legislature?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0049,retrieve_more_top20,Retrieve-more RAG top-20,Who opened the gate in the prison walking dead?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0050,retrieve_more_top20,Retrieve-more RAG top-20,Who owns green and black's organic chocolate?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0051,retrieve_more_top20,Retrieve-more RAG top-20,Which political party is currently in power in ireland?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0052,retrieve_more_top20,Retrieve-more RAG top-20,Who was drafted first in the 2017 nfl draft?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0053,retrieve_more_top20,Retrieve-more RAG top-20,Who wins at the end of friday night lights?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0054,retrieve_more_top20,Retrieve-more RAG top-20,Who's won the most world series in baseball?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0055,retrieve_more_top20,Retrieve-more RAG top-20,Who is the author of delta of venus?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0056,retrieve_more_top20,Retrieve-more RAG top-20,What led to the downfall of the incan empire?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0057,retrieve_more_top20,Retrieve-more RAG top-20,When did the teenage mutant ninja turtles cartoon come out?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0058,retrieve_more_top20,Retrieve-more RAG top-20,In the dream of the rood what is the rood eventually drenched in?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0059,retrieve_more_top20,Retrieve-more RAG top-20,When did the seljuk empire begin and end?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0060,retrieve_more_top20,Retrieve-more RAG top-20,Why did the st louis cardinals move to arizona?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0061,retrieve_more_top20,Retrieve-more RAG top-20,Who played the baby in baby's day out?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0062,retrieve_more_top20,Retrieve-more RAG top-20,Who sang still crazy after all these years?,3,2,0.6666666666666666,1,0,3,1,1,0,0,0
+alce_asqa_0063,retrieve_more_top20,Retrieve-more RAG top-20,Where did they film the movie in the heat of the night?,4,3,0.75,1,0,4,1,1,0,0,0
+alce_asqa_0064,retrieve_more_top20,Retrieve-more RAG top-20,Who sings you've got a friend in me in toy story 2?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0065,retrieve_more_top20,Retrieve-more RAG top-20,Where did blair and serena go to school?,4,3,0.75,1,0,2,3,3,0,0,0
+alce_asqa_0066,retrieve_more_top20,Retrieve-more RAG top-20,As blues moved into chicago's south side what style of blues developed?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0067,retrieve_more_top20,Retrieve-more RAG top-20,The movement of food in food pipe is called?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0068,retrieve_more_top20,Retrieve-more RAG top-20,Who developed a useful staining method to identify bacteria?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0069,retrieve_more_top20,Retrieve-more RAG top-20,What is the solid part of earth called?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0070,retrieve_more_top20,Retrieve-more RAG top-20,When did the lion king debut on broadway?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0071,retrieve_more_top20,Retrieve-more RAG top-20,Where did italy win the world cup in 2006?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0072,retrieve_more_top20,Retrieve-more RAG top-20,Who wrote the first five books of moses?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0000,posthoc_top20,Post-hoc correction top-20,Who is the original artist of sound of silence?,3,2,0.6666666666666666,1,0,3,1,1,0,0,1
+alce_asqa_0001,posthoc_top20,Post-hoc correction top-20,When was the first apple i phone made?,4,2,0.5,2,0,2,3,3,0,0,0
+alce_asqa_0002,posthoc_top20,Post-hoc correction top-20,Who played the weasley brothers in harry potter?,5,1,0.2,4,0,1,5,5,0,0,4
+alce_asqa_0003,posthoc_top20,Post-hoc correction top-20,How many state parks are there in virginia?,3,0,0.0,3,0,1,3,3,0,0,3
+alce_asqa_0004,posthoc_top20,Post-hoc correction top-20,Who performed at the champions league final 2018?,4,0,0.0,4,0,1,4,4,0,0,3
+alce_asqa_0005,posthoc_top20,Post-hoc correction top-20,Who killed the man in thelma and louise?,2,0,0.0,2,0,1,2,2,0,0,2
+alce_asqa_0006,posthoc_top20,Post-hoc correction top-20,Who plays charlie on it's always sunny?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0007,posthoc_top20,Post-hoc correction top-20,How many times have the lakers won the finals?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0008,posthoc_top20,Post-hoc correction top-20,Who is fruma sarah in fiddler on the roof?,2,1,0.5,1,0,2,1,1,0,0,1
+alce_asqa_0009,posthoc_top20,Post-hoc correction top-20,When did toronto host the mlb all-star game?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0010,posthoc_top20,Post-hoc correction top-20,When did the last season of jersey shore air?,2,0,0.0,2,0,1,2,2,0,0,2
+alce_asqa_0011,posthoc_top20,Post-hoc correction top-20,What season of greys anatomy was the plane crash?,3,1,0.3333333333333333,2,0,2,2,2,0,0,2
+alce_asqa_0012,posthoc_top20,Post-hoc correction top-20,When did the rams go to st louis?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0013,posthoc_top20,Post-hoc correction top-20,Who plays patrick in 10 things i hate about you?,4,2,0.5,2,0,2,3,3,0,0,2
+alce_asqa_0014,posthoc_top20,Post-hoc correction top-20,Microsoft live movie maker is an example of free?,2,1,0.5,1,0,1,2,2,0,0,0
+alce_asqa_0015,posthoc_top20,Post-hoc correction top-20,Who is the chief minister of m. p?,2,0,0.0,2,0,1,2,2,0,0,2
+alce_asqa_0016,posthoc_top20,Post-hoc correction top-20,Who sings the song for stuck in the middle?,4,3,0.75,1,0,4,1,1,0,0,1
+alce_asqa_0017,posthoc_top20,Post-hoc correction top-20,When was crude oil first discovered in nigeria?,2,1,0.5,1,0,1,2,2,0,0,1
+alce_asqa_0018,posthoc_top20,Post-hoc correction top-20,When was the first fast and furious film made?,2,0,0.0,2,0,1,2,2,0,0,2
+alce_asqa_0019,posthoc_top20,Post-hoc correction top-20,Who sang the song i'm coming out?,2,1,0.5,1,0,2,1,1,0,0,1
+alce_asqa_0020,posthoc_top20,Post-hoc correction top-20,Who wrote the book of 1 and 2 thessalonians?,2,1,0.5,1,0,1,2,2,0,0,1
+alce_asqa_0021,posthoc_top20,Post-hoc correction top-20,When is fortnite battle royale being released on android?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0022,posthoc_top20,Post-hoc correction top-20,How many medals did australia win in the 2000 olympics?,4,1,0.25,3,0,1,4,4,0,0,3
+alce_asqa_0023,posthoc_top20,Post-hoc correction top-20,Who is elected as the vice president of india?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0024,posthoc_top20,Post-hoc correction top-20,Who was england's prime minister during ww1?,4,2,0.5,2,0,1,4,4,0,0,2
+alce_asqa_0025,posthoc_top20,Post-hoc correction top-20,Who plays snowman in smokey and the bandit?,3,0,0.0,3,0,1,3,3,0,0,3
+alce_asqa_0026,posthoc_top20,Post-hoc correction top-20,Who beat villanova last year in the ncaa tournament?,4,0,0.0,4,0,1,4,4,0,0,2
+alce_asqa_0027,posthoc_top20,Post-hoc correction top-20,Who played warden hodges in dad's army?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0028,posthoc_top20,Post-hoc correction top-20,Who's the highest paid nba player 2017?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0029,posthoc_top20,Post-hoc correction top-20,Who conducted a 300 mile march to sacramento california?,2,0,0.0,2,0,1,2,2,0,0,2
+alce_asqa_0030,posthoc_top20,Post-hoc correction top-20,Who does the voice of darth vader in star wars?,3,1,0.3333333333333333,2,0,2,2,2,0,0,1
+alce_asqa_0031,posthoc_top20,Post-hoc correction top-20,Who lived to be the oldest person in the world?,4,2,0.5,2,0,2,3,3,0,0,1
+alce_asqa_0032,posthoc_top20,Post-hoc correction top-20,When does the 12th day of christmas begin?,5,3,0.6,2,0,1,5,5,0,0,1
+alce_asqa_0033,posthoc_top20,Post-hoc correction top-20,When did alabama became a right to work state?,2,0,0.0,2,0,1,2,2,0,0,1
+alce_asqa_0034,posthoc_top20,Post-hoc correction top-20,Who sings i'll be seeing you in the notebook?,2,0,0.0,2,0,1,2,2,0,0,2
+alce_asqa_0035,posthoc_top20,Post-hoc correction top-20,Who wrote the book of the new testament?,3,0,0.0,3,0,1,3,3,0,0,3
+alce_asqa_0036,posthoc_top20,Post-hoc correction top-20,Who said it is a tale told by an idiot full of sound and fury?,4,0,0.0,4,0,1,4,4,0,0,4
+alce_asqa_0037,posthoc_top20,Post-hoc correction top-20,Where does 10 things i hate about you take place?,2,1,0.5,1,0,1,2,2,0,0,1
+alce_asqa_0038,posthoc_top20,Post-hoc correction top-20,Who is opening for shania twain in ottawa?,4,0,0.0,4,0,1,4,4,0,0,4
+alce_asqa_0039,posthoc_top20,Post-hoc correction top-20,What's the most points scored in an nba game?,4,1,0.25,3,0,1,4,4,0,0,3
+alce_asqa_0040,posthoc_top20,Post-hoc correction top-20,Who wrote give me a home among the gum trees?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0041,posthoc_top20,Post-hoc correction top-20,When did construction start on the sydney harbour bridge?,2,1,0.5,1,0,2,1,1,0,0,1
+alce_asqa_0042,posthoc_top20,Post-hoc correction top-20,Who was the greatest warrior for the trojans?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0043,posthoc_top20,Post-hoc correction top-20,Who is the current sheriff of maricopa county arizona?,4,2,0.5,2,0,1,4,4,0,0,2
+alce_asqa_0044,posthoc_top20,Post-hoc correction top-20,Japanese hotel run by same family for 1300 years?,2,1,0.5,1,0,1,2,2,0,0,1
+alce_asqa_0045,posthoc_top20,Post-hoc correction top-20,When did the us enter the second world war in europe?,4,1,0.25,3,0,1,4,4,0,0,3
+alce_asqa_0046,posthoc_top20,Post-hoc correction top-20,Who wrote brown eyes by destiny's child?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0047,posthoc_top20,Post-hoc correction top-20,Who do you play as in resident evil 7?,2,1,0.5,1,0,2,1,1,0,0,1
+alce_asqa_0048,posthoc_top20,Post-hoc correction top-20,Who serves as the president of the senate in the texas legislature?,3,2,0.6666666666666666,1,0,3,1,1,0,0,1
+alce_asqa_0049,posthoc_top20,Post-hoc correction top-20,Who opened the gate in the prison walking dead?,2,0,0.0,2,0,1,2,2,0,0,2
+alce_asqa_0050,posthoc_top20,Post-hoc correction top-20,Who owns green and black's organic chocolate?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0051,posthoc_top20,Post-hoc correction top-20,Which political party is currently in power in ireland?,4,1,0.25,3,0,2,3,3,0,0,3
+alce_asqa_0052,posthoc_top20,Post-hoc correction top-20,Who was drafted first in the 2017 nfl draft?,4,1,0.25,3,0,1,4,4,0,0,3
+alce_asqa_0053,posthoc_top20,Post-hoc correction top-20,Who wins at the end of friday night lights?,2,0,0.0,2,0,1,2,2,0,0,2
+alce_asqa_0054,posthoc_top20,Post-hoc correction top-20,Who's won the most world series in baseball?,5,2,0.4,3,0,3,3,3,0,0,3
+alce_asqa_0055,posthoc_top20,Post-hoc correction top-20,Who is the author of delta of venus?,2,1,0.5,1,0,2,1,1,0,0,1
+alce_asqa_0056,posthoc_top20,Post-hoc correction top-20,What led to the downfall of the incan empire?,5,1,0.2,4,0,1,5,5,0,0,4
+alce_asqa_0057,posthoc_top20,Post-hoc correction top-20,When did the teenage mutant ninja turtles cartoon come out?,2,1,0.5,1,0,2,1,1,0,0,1
+alce_asqa_0058,posthoc_top20,Post-hoc correction top-20,In the dream of the rood what is the rood eventually drenched in?,3,0,0.0,3,0,1,3,3,0,0,3
+alce_asqa_0059,posthoc_top20,Post-hoc correction top-20,When did the seljuk empire begin and end?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0060,posthoc_top20,Post-hoc correction top-20,Why did the st louis cardinals move to arizona?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0061,posthoc_top20,Post-hoc correction top-20,Who played the baby in baby's day out?,2,0,0.0,2,0,1,2,2,0,0,2
+alce_asqa_0062,posthoc_top20,Post-hoc correction top-20,Who sang still crazy after all these years?,3,1,0.3333333333333333,2,0,2,2,2,0,0,1
+alce_asqa_0063,posthoc_top20,Post-hoc correction top-20,Where did they film the movie in the heat of the night?,4,2,0.5,2,0,1,4,4,0,0,1
+alce_asqa_0064,posthoc_top20,Post-hoc correction top-20,Who sings you've got a friend in me in toy story 2?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0065,posthoc_top20,Post-hoc correction top-20,Where did blair and serena go to school?,4,1,0.25,3,0,1,4,4,0,0,2
+alce_asqa_0066,posthoc_top20,Post-hoc correction top-20,As blues moved into chicago's south side what style of blues developed?,2,0,0.0,2,0,1,2,2,0,0,1
+alce_asqa_0067,posthoc_top20,Post-hoc correction top-20,The movement of food in food pipe is called?,2,1,0.5,1,0,1,2,2,0,0,1
+alce_asqa_0068,posthoc_top20,Post-hoc correction top-20,Who developed a useful staining method to identify bacteria?,3,1,0.3333333333333333,2,0,1,3,3,0,0,2
+alce_asqa_0069,posthoc_top20,Post-hoc correction top-20,What is the solid part of earth called?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0070,posthoc_top20,Post-hoc correction top-20,When did the lion king debut on broadway?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0071,posthoc_top20,Post-hoc correction top-20,Where did italy win the world cup in 2006?,4,0,0.0,4,0,1,4,4,0,0,4
+alce_asqa_0072,posthoc_top20,Post-hoc correction top-20,Who wrote the first five books of moses?,2,1,0.5,1,0,2,1,1,0,0,1
+alce_asqa_0000,crag_style_top20,CRAG-style correction top-20,Who is the original artist of sound of silence?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0001,crag_style_top20,CRAG-style correction top-20,When was the first apple i phone made?,4,2,0.5,2,0,2,3,3,0,0,0
+alce_asqa_0002,crag_style_top20,CRAG-style correction top-20,Who played the weasley brothers in harry potter?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0003,crag_style_top20,CRAG-style correction top-20,How many state parks are there in virginia?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0004,crag_style_top20,CRAG-style correction top-20,Who performed at the champions league final 2018?,4,3,0.75,1,0,2,3,3,0,0,0
+alce_asqa_0005,crag_style_top20,CRAG-style correction top-20,Who killed the man in thelma and louise?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0006,crag_style_top20,CRAG-style correction top-20,Who plays charlie on it's always sunny?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0007,crag_style_top20,CRAG-style correction top-20,How many times have the lakers won the finals?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0008,crag_style_top20,CRAG-style correction top-20,Who is fruma sarah in fiddler on the roof?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0009,crag_style_top20,CRAG-style correction top-20,When did toronto host the mlb all-star game?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0010,crag_style_top20,CRAG-style correction top-20,When did the last season of jersey shore air?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0011,crag_style_top20,CRAG-style correction top-20,What season of greys anatomy was the plane crash?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0012,crag_style_top20,CRAG-style correction top-20,When did the rams go to st louis?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0013,crag_style_top20,CRAG-style correction top-20,Who plays patrick in 10 things i hate about you?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0014,crag_style_top20,CRAG-style correction top-20,Microsoft live movie maker is an example of free?,2,1,0.5,1,0,1,2,2,0,0,0
+alce_asqa_0015,crag_style_top20,CRAG-style correction top-20,Who is the chief minister of m. p?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0016,crag_style_top20,CRAG-style correction top-20,Who sings the song for stuck in the middle?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0017,crag_style_top20,CRAG-style correction top-20,When was crude oil first discovered in nigeria?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0018,crag_style_top20,CRAG-style correction top-20,When was the first fast and furious film made?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0019,crag_style_top20,CRAG-style correction top-20,Who sang the song i'm coming out?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0020,crag_style_top20,CRAG-style correction top-20,Who wrote the book of 1 and 2 thessalonians?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0021,crag_style_top20,CRAG-style correction top-20,When is fortnite battle royale being released on android?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0022,crag_style_top20,CRAG-style correction top-20,How many medals did australia win in the 2000 olympics?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0023,crag_style_top20,CRAG-style correction top-20,Who is elected as the vice president of india?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0024,crag_style_top20,CRAG-style correction top-20,Who was england's prime minister during ww1?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0025,crag_style_top20,CRAG-style correction top-20,Who plays snowman in smokey and the bandit?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0026,crag_style_top20,CRAG-style correction top-20,Who beat villanova last year in the ncaa tournament?,4,2,0.5,2,0,2,3,3,0,0,0
+alce_asqa_0027,crag_style_top20,CRAG-style correction top-20,Who played warden hodges in dad's army?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0028,crag_style_top20,CRAG-style correction top-20,Who's the highest paid nba player 2017?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0029,crag_style_top20,CRAG-style correction top-20,Who conducted a 300 mile march to sacramento california?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0030,crag_style_top20,CRAG-style correction top-20,Who does the voice of darth vader in star wars?,3,2,0.6666666666666666,1,0,3,1,1,0,0,0
+alce_asqa_0031,crag_style_top20,CRAG-style correction top-20,Who lived to be the oldest person in the world?,4,3,0.75,1,0,4,1,1,0,0,0
+alce_asqa_0032,crag_style_top20,CRAG-style correction top-20,When does the 12th day of christmas begin?,5,4,0.8,1,0,1,5,5,0,0,0
+alce_asqa_0033,crag_style_top20,CRAG-style correction top-20,When did alabama became a right to work state?,2,1,0.5,1,0,1,2,2,0,0,0
+alce_asqa_0034,crag_style_top20,CRAG-style correction top-20,Who sings i'll be seeing you in the notebook?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0035,crag_style_top20,CRAG-style correction top-20,Who wrote the book of the new testament?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0036,crag_style_top20,CRAG-style correction top-20,Who said it is a tale told by an idiot full of sound and fury?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0037,crag_style_top20,CRAG-style correction top-20,Where does 10 things i hate about you take place?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0038,crag_style_top20,CRAG-style correction top-20,Who is opening for shania twain in ottawa?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0039,crag_style_top20,CRAG-style correction top-20,What's the most points scored in an nba game?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0040,crag_style_top20,CRAG-style correction top-20,Who wrote give me a home among the gum trees?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0041,crag_style_top20,CRAG-style correction top-20,When did construction start on the sydney harbour bridge?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0042,crag_style_top20,CRAG-style correction top-20,Who was the greatest warrior for the trojans?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0043,crag_style_top20,CRAG-style correction top-20,Who is the current sheriff of maricopa county arizona?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0044,crag_style_top20,CRAG-style correction top-20,Japanese hotel run by same family for 1300 years?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0045,crag_style_top20,CRAG-style correction top-20,When did the us enter the second world war in europe?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0046,crag_style_top20,CRAG-style correction top-20,Who wrote brown eyes by destiny's child?,2,0,0.0,2,0,1,2,2,0,0,0
+alce_asqa_0047,crag_style_top20,CRAG-style correction top-20,Who do you play as in resident evil 7?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0048,crag_style_top20,CRAG-style correction top-20,Who serves as the president of the senate in the texas legislature?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0049,crag_style_top20,CRAG-style correction top-20,Who opened the gate in the prison walking dead?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0050,crag_style_top20,CRAG-style correction top-20,Who owns green and black's organic chocolate?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0051,crag_style_top20,CRAG-style correction top-20,Which political party is currently in power in ireland?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0052,crag_style_top20,CRAG-style correction top-20,Who was drafted first in the 2017 nfl draft?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0053,crag_style_top20,CRAG-style correction top-20,Who wins at the end of friday night lights?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0054,crag_style_top20,CRAG-style correction top-20,Who's won the most world series in baseball?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0055,crag_style_top20,CRAG-style correction top-20,Who is the author of delta of venus?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0056,crag_style_top20,CRAG-style correction top-20,What led to the downfall of the incan empire?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0057,crag_style_top20,CRAG-style correction top-20,When did the teenage mutant ninja turtles cartoon come out?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0058,crag_style_top20,CRAG-style correction top-20,In the dream of the rood what is the rood eventually drenched in?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0059,crag_style_top20,CRAG-style correction top-20,When did the seljuk empire begin and end?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0060,crag_style_top20,CRAG-style correction top-20,Why did the st louis cardinals move to arizona?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0061,crag_style_top20,CRAG-style correction top-20,Who played the baby in baby's day out?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0062,crag_style_top20,CRAG-style correction top-20,Who sang still crazy after all these years?,3,2,0.6666666666666666,1,0,3,1,1,0,0,0
+alce_asqa_0063,crag_style_top20,CRAG-style correction top-20,Where did they film the movie in the heat of the night?,4,3,0.75,1,0,4,1,1,0,0,0
+alce_asqa_0064,crag_style_top20,CRAG-style correction top-20,Who sings you've got a friend in me in toy story 2?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0065,crag_style_top20,CRAG-style correction top-20,Where did blair and serena go to school?,4,3,0.75,1,0,2,3,3,0,0,0
+alce_asqa_0066,crag_style_top20,CRAG-style correction top-20,As blues moved into chicago's south side what style of blues developed?,2,1,0.5,1,0,2,1,1,0,0,0
+alce_asqa_0067,crag_style_top20,CRAG-style correction top-20,The movement of food in food pipe is called?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0068,crag_style_top20,CRAG-style correction top-20,Who developed a useful staining method to identify bacteria?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0069,crag_style_top20,CRAG-style correction top-20,What is the solid part of earth called?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0070,crag_style_top20,CRAG-style correction top-20,When did the lion king debut on broadway?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0071,crag_style_top20,CRAG-style correction top-20,Where did italy win the world cup in 2006?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0072,crag_style_top20,CRAG-style correction top-20,Who wrote the first five books of moses?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0000,riskroll_top20,RiskRoll top-20 verify-before-commit,Who is the original artist of sound of silence?,3,3,1.0,0,0,0,0,0,1,9,1
+alce_asqa_0001,riskroll_top20,RiskRoll top-20 verify-before-commit,When was the first apple i phone made?,4,2,0.5,0,2,0,0,0,1,40,0
+alce_asqa_0002,riskroll_top20,RiskRoll top-20 verify-before-commit,Who played the weasley brothers in harry potter?,5,5,1.0,0,0,0,0,0,1,46,4
+alce_asqa_0003,riskroll_top20,RiskRoll top-20 verify-before-commit,How many state parks are there in virginia?,3,3,1.0,0,0,0,0,0,1,8,3
+alce_asqa_0004,riskroll_top20,RiskRoll top-20 verify-before-commit,Who performed at the champions league final 2018?,4,3,0.75,0,1,0,0,0,1,30,3
+alce_asqa_0005,riskroll_top20,RiskRoll top-20 verify-before-commit,Who killed the man in thelma and louise?,2,2,1.0,0,0,0,0,0,1,2,2
+alce_asqa_0006,riskroll_top20,RiskRoll top-20 verify-before-commit,Who plays charlie on it's always sunny?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0007,riskroll_top20,RiskRoll top-20 verify-before-commit,How many times have the lakers won the finals?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0008,riskroll_top20,RiskRoll top-20 verify-before-commit,Who is fruma sarah in fiddler on the roof?,2,2,1.0,0,0,0,0,0,1,3,1
+alce_asqa_0009,riskroll_top20,RiskRoll top-20 verify-before-commit,When did toronto host the mlb all-star game?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0010,riskroll_top20,RiskRoll top-20 verify-before-commit,When did the last season of jersey shore air?,2,2,1.0,0,0,0,0,0,1,5,2
+alce_asqa_0011,riskroll_top20,RiskRoll top-20 verify-before-commit,What season of greys anatomy was the plane crash?,3,3,1.0,0,0,0,0,0,1,2,2
+alce_asqa_0012,riskroll_top20,RiskRoll top-20 verify-before-commit,When did the rams go to st louis?,2,1,0.5,0,1,0,0,0,1,20,0
+alce_asqa_0013,riskroll_top20,RiskRoll top-20 verify-before-commit,Who plays patrick in 10 things i hate about you?,4,4,1.0,0,0,0,0,0,1,12,2
+alce_asqa_0014,riskroll_top20,RiskRoll top-20 verify-before-commit,Microsoft live movie maker is an example of free?,2,1,0.5,0,1,0,0,0,1,20,0
+alce_asqa_0015,riskroll_top20,RiskRoll top-20 verify-before-commit,Who is the chief minister of m. p?,2,2,1.0,0,0,0,0,0,1,16,2
+alce_asqa_0016,riskroll_top20,RiskRoll top-20 verify-before-commit,Who sings the song for stuck in the middle?,4,4,1.0,0,0,0,0,0,1,2,1
+alce_asqa_0017,riskroll_top20,RiskRoll top-20 verify-before-commit,When was crude oil first discovered in nigeria?,2,2,1.0,0,0,0,0,0,1,9,1
+alce_asqa_0018,riskroll_top20,RiskRoll top-20 verify-before-commit,When was the first fast and furious film made?,2,2,1.0,0,0,0,0,0,1,5,2
+alce_asqa_0019,riskroll_top20,RiskRoll top-20 verify-before-commit,Who sang the song i'm coming out?,2,2,1.0,0,0,0,0,0,1,3,1
+alce_asqa_0020,riskroll_top20,RiskRoll top-20 verify-before-commit,Who wrote the book of 1 and 2 thessalonians?,2,2,1.0,0,0,0,0,0,1,8,1
+alce_asqa_0021,riskroll_top20,RiskRoll top-20 verify-before-commit,When is fortnite battle royale being released on android?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0022,riskroll_top20,RiskRoll top-20 verify-before-commit,How many medals did australia win in the 2000 olympics?,4,4,1.0,0,0,0,0,0,1,19,3
+alce_asqa_0023,riskroll_top20,RiskRoll top-20 verify-before-commit,Who is elected as the vice president of india?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0024,riskroll_top20,RiskRoll top-20 verify-before-commit,Who was england's prime minister during ww1?,4,4,1.0,0,0,0,0,0,1,4,2
+alce_asqa_0025,riskroll_top20,RiskRoll top-20 verify-before-commit,Who plays snowman in smokey and the bandit?,3,3,1.0,0,0,0,0,0,1,3,3
+alce_asqa_0026,riskroll_top20,RiskRoll top-20 verify-before-commit,Who beat villanova last year in the ncaa tournament?,4,2,0.5,0,2,0,0,0,1,52,2
+alce_asqa_0027,riskroll_top20,RiskRoll top-20 verify-before-commit,Who played warden hodges in dad's army?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0028,riskroll_top20,RiskRoll top-20 verify-before-commit,Who's the highest paid nba player 2017?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0029,riskroll_top20,RiskRoll top-20 verify-before-commit,Who conducted a 300 mile march to sacramento california?,2,2,1.0,0,0,0,0,0,1,16,2
+alce_asqa_0030,riskroll_top20,RiskRoll top-20 verify-before-commit,Who does the voice of darth vader in star wars?,3,2,0.6666666666666666,0,1,0,0,0,1,23,1
+alce_asqa_0031,riskroll_top20,RiskRoll top-20 verify-before-commit,Who lived to be the oldest person in the world?,4,3,0.75,0,1,0,0,0,1,37,1
+alce_asqa_0032,riskroll_top20,RiskRoll top-20 verify-before-commit,When does the 12th day of christmas begin?,5,4,0.8,0,1,0,0,0,1,21,1
+alce_asqa_0033,riskroll_top20,RiskRoll top-20 verify-before-commit,When did alabama became a right to work state?,2,1,0.5,0,1,0,0,0,1,38,1
+alce_asqa_0034,riskroll_top20,RiskRoll top-20 verify-before-commit,Who sings i'll be seeing you in the notebook?,2,2,1.0,0,0,0,0,0,1,12,2
+alce_asqa_0035,riskroll_top20,RiskRoll top-20 verify-before-commit,Who wrote the book of the new testament?,3,3,1.0,0,0,0,0,0,1,5,3
+alce_asqa_0036,riskroll_top20,RiskRoll top-20 verify-before-commit,Who said it is a tale told by an idiot full of sound and fury?,4,4,1.0,0,0,0,0,0,1,8,4
+alce_asqa_0037,riskroll_top20,RiskRoll top-20 verify-before-commit,Where does 10 things i hate about you take place?,2,2,1.0,0,0,0,0,0,1,15,1
+alce_asqa_0038,riskroll_top20,RiskRoll top-20 verify-before-commit,Who is opening for shania twain in ottawa?,4,4,1.0,0,0,0,0,0,1,28,4
+alce_asqa_0039,riskroll_top20,RiskRoll top-20 verify-before-commit,What's the most points scored in an nba game?,4,4,1.0,0,0,0,0,0,1,21,3
+alce_asqa_0040,riskroll_top20,RiskRoll top-20 verify-before-commit,Who wrote give me a home among the gum trees?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0041,riskroll_top20,RiskRoll top-20 verify-before-commit,When did construction start on the sydney harbour bridge?,2,2,1.0,0,0,0,0,0,1,13,1
+alce_asqa_0042,riskroll_top20,RiskRoll top-20 verify-before-commit,Who was the greatest warrior for the trojans?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0043,riskroll_top20,RiskRoll top-20 verify-before-commit,Who is the current sheriff of maricopa county arizona?,4,4,1.0,0,0,0,0,0,1,4,2
+alce_asqa_0044,riskroll_top20,RiskRoll top-20 verify-before-commit,Japanese hotel run by same family for 1300 years?,2,2,1.0,0,0,0,0,0,1,2,1
+alce_asqa_0045,riskroll_top20,RiskRoll top-20 verify-before-commit,When did the us enter the second world war in europe?,4,4,1.0,0,0,0,0,0,1,28,3
+alce_asqa_0046,riskroll_top20,RiskRoll top-20 verify-before-commit,Who wrote brown eyes by destiny's child?,2,0,0.0,0,2,0,0,0,1,40,0
+alce_asqa_0047,riskroll_top20,RiskRoll top-20 verify-before-commit,Who do you play as in resident evil 7?,2,2,1.0,0,0,0,0,0,1,6,1
+alce_asqa_0048,riskroll_top20,RiskRoll top-20 verify-before-commit,Who serves as the president of the senate in the texas legislature?,3,3,1.0,0,0,0,0,0,1,12,1
+alce_asqa_0049,riskroll_top20,RiskRoll top-20 verify-before-commit,Who opened the gate in the prison walking dead?,2,2,1.0,0,0,0,0,0,1,17,2
+alce_asqa_0050,riskroll_top20,RiskRoll top-20 verify-before-commit,Who owns green and black's organic chocolate?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0051,riskroll_top20,RiskRoll top-20 verify-before-commit,Which political party is currently in power in ireland?,4,4,1.0,0,0,0,0,0,1,12,3
+alce_asqa_0052,riskroll_top20,RiskRoll top-20 verify-before-commit,Who was drafted first in the 2017 nfl draft?,4,4,1.0,0,0,0,0,0,1,3,3
+alce_asqa_0053,riskroll_top20,RiskRoll top-20 verify-before-commit,Who wins at the end of friday night lights?,2,2,1.0,0,0,0,0,0,1,5,2
+alce_asqa_0054,riskroll_top20,RiskRoll top-20 verify-before-commit,Who's won the most world series in baseball?,5,5,1.0,0,0,0,0,0,1,11,3
+alce_asqa_0055,riskroll_top20,RiskRoll top-20 verify-before-commit,Who is the author of delta of venus?,2,2,1.0,0,0,0,0,0,1,2,1
+alce_asqa_0056,riskroll_top20,RiskRoll top-20 verify-before-commit,What led to the downfall of the incan empire?,5,5,1.0,0,0,0,0,0,1,14,4
+alce_asqa_0057,riskroll_top20,RiskRoll top-20 verify-before-commit,When did the teenage mutant ninja turtles cartoon come out?,2,2,1.0,0,0,0,0,0,1,11,1
+alce_asqa_0058,riskroll_top20,RiskRoll top-20 verify-before-commit,In the dream of the rood what is the rood eventually drenched in?,3,3,1.0,0,0,0,0,0,1,39,3
+alce_asqa_0059,riskroll_top20,RiskRoll top-20 verify-before-commit,When did the seljuk empire begin and end?,4,4,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0060,riskroll_top20,RiskRoll top-20 verify-before-commit,Why did the st louis cardinals move to arizona?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0061,riskroll_top20,RiskRoll top-20 verify-before-commit,Who played the baby in baby's day out?,2,2,1.0,0,0,0,0,0,1,8,2
+alce_asqa_0062,riskroll_top20,RiskRoll top-20 verify-before-commit,Who sang still crazy after all these years?,3,2,0.6666666666666666,0,1,0,0,0,1,24,1
+alce_asqa_0063,riskroll_top20,RiskRoll top-20 verify-before-commit,Where did they film the movie in the heat of the night?,4,3,0.75,0,1,0,0,0,1,27,1
+alce_asqa_0064,riskroll_top20,RiskRoll top-20 verify-before-commit,Who sings you've got a friend in me in toy story 2?,5,5,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0065,riskroll_top20,RiskRoll top-20 verify-before-commit,Where did blair and serena go to school?,4,3,0.75,0,1,0,0,0,1,44,2
+alce_asqa_0066,riskroll_top20,RiskRoll top-20 verify-before-commit,As blues moved into chicago's south side what style of blues developed?,2,1,0.5,0,1,0,0,0,1,21,1
+alce_asqa_0067,riskroll_top20,RiskRoll top-20 verify-before-commit,The movement of food in food pipe is called?,2,2,1.0,0,0,0,0,0,1,5,1
+alce_asqa_0068,riskroll_top20,RiskRoll top-20 verify-before-commit,Who developed a useful staining method to identify bacteria?,3,3,1.0,0,0,0,0,0,1,10,2
+alce_asqa_0069,riskroll_top20,RiskRoll top-20 verify-before-commit,What is the solid part of earth called?,3,3,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0070,riskroll_top20,RiskRoll top-20 verify-before-commit,When did the lion king debut on broadway?,2,2,1.0,0,0,0,0,0,1,0,0
+alce_asqa_0071,riskroll_top20,RiskRoll top-20 verify-before-commit,Where did italy win the world cup in 2006?,4,4,1.0,0,0,0,0,0,1,8,4
+alce_asqa_0072,riskroll_top20,RiskRoll top-20 verify-before-commit,Who wrote the first five books of moses?,2,2,1.0,0,0,0,0,0,1,6,1

@@ -1,0 +1,366 @@
+task_id,method,method_display,question,num_claims,claim_accuracy,strict_grounded_rate,support_rate,non_unknown_predictions,abstention_count,unsupported_commits,first_bad_step,unsafe_prefix_depth,downstream_contaminated_claims,clean_task,rollback_count,repair_count,items
+alce_asqa_0000,standard_top1,Standard RAG top-1,Who is the original artist of sound of silence?,3,0.3333333333333333,0.3333333333333333,1.0,1,2,0,0,0,0,1,0,0,Simon & Garfunkel || UNKNOWN || UNKNOWN
+alce_asqa_0000,retrieve_more_top20,Retrieve-more RAG top-20,Who is the original artist of sound of silence?,3,0.6666666666666666,0.6666666666666666,1.0,2,1,0,0,0,0,1,0,0,Simon & Garfunkel || Simon & Garfunkel || UNKNOWN
+alce_asqa_0000,posthoc_top20,Post-hoc correction top-20,Who is the original artist of sound of silence?,3,0.3333333333333333,0.3333333333333333,1.0,1,2,0,0,0,0,1,0,0,Simon & Garfunkel || UNKNOWN || UNKNOWN
+alce_asqa_0000,crag_style_top20,CRAG-style correction top-20,Who is the original artist of sound of silence?,3,0.6666666666666666,0.6666666666666666,1.0,2,1,0,0,0,0,1,0,0,Simon & Garfunkel || Simon & Garfunkel || UNKNOWN
+alce_asqa_0000,riskroll_top20,RiskRoll verify-before-commit top-20,Who is the original artist of sound of silence?,3,0.6666666666666666,0.6666666666666666,1.0,2,1,0,0,0,0,1,4,0,Simon & Garfunkel || Simon & Garfunkel || UNKNOWN
+alce_asqa_0001,standard_top1,Standard RAG top-1,When was the first apple i phone made?,4,0.25,0.25,1.0,1,3,0,0,0,0,1,0,0,"June 29, 2007 || UNKNOWN || UNKNOWN || UNKNOWN"
+alce_asqa_0001,retrieve_more_top20,Retrieve-more RAG top-20,When was the first apple i phone made?,4,0.25,0.25,1.0,1,3,0,0,0,0,1,0,0,"June 29, 2007 || UNKNOWN || UNKNOWN || UNKNOWN"
+alce_asqa_0001,posthoc_top20,Post-hoc correction top-20,When was the first apple i phone made?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,1,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0001,crag_style_top20,CRAG-style correction top-20,When was the first apple i phone made?,4,0.25,0.25,1.0,1,3,0,0,0,0,1,0,0,"June 29, 2007 || UNKNOWN || UNKNOWN || UNKNOWN"
+alce_asqa_0001,riskroll_top20,RiskRoll verify-before-commit top-20,When was the first apple i phone made?,4,0.25,0.25,1.0,2,2,0,0,0,0,1,8,0,"June 29, 2007 || UNKNOWN || January 9, 2007 || UNKNOWN"
+alce_asqa_0002,standard_top1,Standard RAG top-1,Who played the weasley brothers in harry potter?,5,0.0,0.0,1.0,1,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || James and Oliver Phelps || UNKNOWN || UNKNOWN
+alce_asqa_0002,retrieve_more_top20,Retrieve-more RAG top-20,Who played the weasley brothers in harry potter?,5,0.4,0.4,1.0,5,0,0,0,0,0,1,0,0,Domhnall Gleeson || Chris Rankin || James and Oliver Phelps || Rupert Grint || James Phelps
+alce_asqa_0002,posthoc_top20,Post-hoc correction top-20,Who played the weasley brothers in harry potter?,5,0.0,0.0,0.0,0,5,0,0,0,0,1,0,1,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0002,crag_style_top20,CRAG-style correction top-20,Who played the weasley brothers in harry potter?,5,0.6,0.6,1.0,4,1,0,0,0,0,1,0,0,UNKNOWN || Chris Rankin || James and Oliver Phelps || Rupert Grint || James and Oliver Phelps
+alce_asqa_0002,riskroll_top20,RiskRoll verify-before-commit top-20,Who played the weasley brothers in harry potter?,5,0.4,0.4,1.0,4,1,0,0,0,0,1,6,2,UNKNOWN || Chris Rankin || James || James || James
+alce_asqa_0003,standard_top1,Standard RAG top-1,How many state parks are there in virginia?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0003,retrieve_more_top20,Retrieve-more RAG top-20,How many state parks are there in virginia?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0003,posthoc_top20,Post-hoc correction top-20,How many state parks are there in virginia?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0003,crag_style_top20,CRAG-style correction top-20,How many state parks are there in virginia?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0003,riskroll_top20,RiskRoll verify-before-commit top-20,How many state parks are there in virginia?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,12,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0004,standard_top1,Standard RAG top-1,Who performed at the champions league final 2018?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0004,retrieve_more_top20,Retrieve-more RAG top-20,Who performed at the champions league final 2018?,4,0.5,0.5,1.0,3,1,0,0,0,0,1,0,0,Real Madrid and Liverpool || UNKNOWN || Dua Lipa and Sean Paul || Dua Lipa and Sean Paul
+alce_asqa_0004,posthoc_top20,Post-hoc correction top-20,Who performed at the champions league final 2018?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0004,crag_style_top20,CRAG-style correction top-20,Who performed at the champions league final 2018?,4,0.75,0.75,1.0,3,1,0,0,0,0,1,0,0,Real Madrid and Liverpool || UNKNOWN || Dua Lipa and Sean Paul || Cellos
+alce_asqa_0004,riskroll_top20,RiskRoll verify-before-commit top-20,Who performed at the champions league final 2018?,4,0.5,0.5,1.0,3,1,0,0,0,0,1,7,3,Real Madrid || UNKNOWN || Dua Lipa || Dua Lipa
+alce_asqa_0005,standard_top1,Standard RAG top-1,Who killed the man in thelma and louise?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0005,retrieve_more_top20,Retrieve-more RAG top-20,Who killed the man in thelma and louise?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0005,posthoc_top20,Post-hoc correction top-20,Who killed the man in thelma and louise?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0005,crag_style_top20,CRAG-style correction top-20,Who killed the man in thelma and louise?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,0,0,Tom || UNKNOWN
+alce_asqa_0005,riskroll_top20,RiskRoll verify-before-commit top-20,Who killed the man in thelma and louise?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,8,0,UNKNOWN || UNKNOWN
+alce_asqa_0006,standard_top1,Standard RAG top-1,Who plays charlie on it's always sunny?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,UNKNOWN || Charlie Day
+alce_asqa_0006,retrieve_more_top20,Retrieve-more RAG top-20,Who plays charlie on it's always sunny?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,0,Charlie Day || Charlie Day
+alce_asqa_0006,posthoc_top20,Post-hoc correction top-20,Who plays charlie on it's always sunny?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,1,Charlie Day || Charlie Day
+alce_asqa_0006,crag_style_top20,CRAG-style correction top-20,Who plays charlie on it's always sunny?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,0,Charlie Day || Charlie Day
+alce_asqa_0006,riskroll_top20,RiskRoll verify-before-commit top-20,Who plays charlie on it's always sunny?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,1,1,Charlie Day || Charlie Day
+alce_asqa_0007,standard_top1,Standard RAG top-1,How many times have the lakers won the finals?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0007,retrieve_more_top20,Retrieve-more RAG top-20,How many times have the lakers won the finals?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0007,posthoc_top20,Post-hoc correction top-20,How many times have the lakers won the finals?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0007,crag_style_top20,CRAG-style correction top-20,How many times have the lakers won the finals?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0007,riskroll_top20,RiskRoll verify-before-commit top-20,How many times have the lakers won the finals?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,12,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0008,standard_top1,Standard RAG top-1,Who is fruma sarah in fiddler on the roof?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0008,retrieve_more_top20,Retrieve-more RAG top-20,Who is fruma sarah in fiddler on the roof?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,UNKNOWN || Jessica Vosk
+alce_asqa_0008,posthoc_top20,Post-hoc correction top-20,Who is fruma sarah in fiddler on the roof?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,1,UNKNOWN || Jessica Vosk
+alce_asqa_0008,crag_style_top20,CRAG-style correction top-20,Who is fruma sarah in fiddler on the roof?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,UNKNOWN || Jessica Vosk
+alce_asqa_0008,riskroll_top20,RiskRoll verify-before-commit top-20,Who is fruma sarah in fiddler on the roof?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,8,0,UNKNOWN || UNKNOWN
+alce_asqa_0009,standard_top1,Standard RAG top-1,When did toronto host the mlb all-star game?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,0,"July 9, 1991 || MLB All-Star Game"
+alce_asqa_0009,retrieve_more_top20,Retrieve-more RAG top-20,When did toronto host the mlb all-star game?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,"July 9, 1991 || UNKNOWN"
+alce_asqa_0009,posthoc_top20,Post-hoc correction top-20,When did toronto host the mlb all-star game?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,1,"July 9, 1991 || UNKNOWN"
+alce_asqa_0009,crag_style_top20,CRAG-style correction top-20,When did toronto host the mlb all-star game?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0009,riskroll_top20,RiskRoll verify-before-commit top-20,When did toronto host the mlb all-star game?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,0,"July 9, 1991 || MLB All-Star Game"
+alce_asqa_0010,standard_top1,Standard RAG top-1,When did the last season of jersey shore air?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0010,retrieve_more_top20,Retrieve-more RAG top-20,When did the last season of jersey shore air?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,0,"August 4, 2011 || August 4, 2011"
+alce_asqa_0010,posthoc_top20,Post-hoc correction top-20,When did the last season of jersey shore air?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0010,crag_style_top20,CRAG-style correction top-20,When did the last season of jersey shore air?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,"August 4, 2011 || UNKNOWN"
+alce_asqa_0010,riskroll_top20,RiskRoll verify-before-commit top-20,When did the last season of jersey shore air?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,8,0,UNKNOWN || UNKNOWN
+alce_asqa_0011,standard_top1,Standard RAG top-1,What season of greys anatomy was the plane crash?,3,0.0,0.0,1.0,1,2,0,0,0,0,1,0,0,UNKNOWN || Season 8 || UNKNOWN
+alce_asqa_0011,retrieve_more_top20,Retrieve-more RAG top-20,What season of greys anatomy was the plane crash?,3,0.0,0.0,1.0,1,2,0,0,0,0,1,0,0,UNKNOWN || Season 9 || UNKNOWN
+alce_asqa_0011,posthoc_top20,Post-hoc correction top-20,What season of greys anatomy was the plane crash?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,1,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0011,crag_style_top20,CRAG-style correction top-20,What season of greys anatomy was the plane crash?,3,0.0,0.0,1.0,3,0,0,0,0,0,1,0,0,Season 11 || Season 9 || Season 9
+alce_asqa_0011,riskroll_top20,RiskRoll verify-before-commit top-20,What season of greys anatomy was the plane crash?,3,0.3333333333333333,0.3333333333333333,1.0,3,0,0,0,0,0,1,0,0,Season 8 || Season 8 || Season 8
+alce_asqa_0012,standard_top1,Standard RAG top-1,When did the rams go to st louis?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0012,retrieve_more_top20,Retrieve-more RAG top-20,When did the rams go to st louis?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,0,0,"UNKNOWN || October 22, 1996"
+alce_asqa_0012,posthoc_top20,Post-hoc correction top-20,When did the rams go to st louis?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0012,crag_style_top20,CRAG-style correction top-20,When did the rams go to st louis?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,0,0,"UNKNOWN || October 22, 1996"
+alce_asqa_0012,riskroll_top20,RiskRoll verify-before-commit top-20,When did the rams go to st louis?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,4,0,"UNKNOWN || October 22, 1996"
+alce_asqa_0013,standard_top1,Standard RAG top-1,Who plays patrick in 10 things i hate about you?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0013,retrieve_more_top20,Retrieve-more RAG top-20,Who plays patrick in 10 things i hate about you?,4,0.5,0.5,1.0,2,2,0,0,0,0,1,0,0,Heath Ledger || UNKNOWN || Heath Ledger || UNKNOWN
+alce_asqa_0013,posthoc_top20,Post-hoc correction top-20,Who plays patrick in 10 things i hate about you?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0013,crag_style_top20,CRAG-style correction top-20,Who plays patrick in 10 things i hate about you?,4,0.25,0.25,1.0,1,3,0,0,0,0,1,0,0,UNKNOWN || Ethan Peck || UNKNOWN || UNKNOWN
+alce_asqa_0013,riskroll_top20,RiskRoll verify-before-commit top-20,Who plays patrick in 10 things i hate about you?,4,0.75,0.75,1.0,4,0,0,0,0,0,1,10,4,HEATH LEDGER || Ethan Peck || HEATH LEDGER || HEATH LEDGER
+alce_asqa_0014,standard_top1,Standard RAG top-1,Microsoft live movie maker is an example of free?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0014,retrieve_more_top20,Retrieve-more RAG top-20,Microsoft live movie maker is an example of free?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,0,0,UNKNOWN || free editing software
+alce_asqa_0014,posthoc_top20,Post-hoc correction top-20,Microsoft live movie maker is an example of free?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0014,crag_style_top20,CRAG-style correction top-20,Microsoft live movie maker is an example of free?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0014,riskroll_top20,RiskRoll verify-before-commit top-20,Microsoft live movie maker is an example of free?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,7,1,UNKNOWN || Free editing software
+alce_asqa_0015,standard_top1,Standard RAG top-1,Who is the chief minister of m. p?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0015,retrieve_more_top20,Retrieve-more RAG top-20,Who is the chief minister of m. p?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0015,posthoc_top20,Post-hoc correction top-20,Who is the chief minister of m. p?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0015,crag_style_top20,CRAG-style correction top-20,Who is the chief minister of m. p?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0015,riskroll_top20,RiskRoll verify-before-commit top-20,Who is the chief minister of m. p?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,8,0,UNKNOWN || UNKNOWN
+alce_asqa_0016,standard_top1,Standard RAG top-1,Who sings the song for stuck in the middle?,4,0.25,0.25,1.0,1,3,0,0,0,0,1,0,0,UNKNOWN || Gerry Rafferty || UNKNOWN || UNKNOWN
+alce_asqa_0016,retrieve_more_top20,Retrieve-more RAG top-20,Who sings the song for stuck in the middle?,4,0.5,0.5,1.0,4,0,0,0,0,0,1,0,0,Gerry Rafferty || Gerry Rafferty || Gerry Rafferty || Clea
+alce_asqa_0016,posthoc_top20,Post-hoc correction top-20,Who sings the song for stuck in the middle?,4,0.25,0.25,1.0,1,3,0,0,0,0,1,0,0,UNKNOWN || Gerry Rafferty || UNKNOWN || UNKNOWN
+alce_asqa_0016,crag_style_top20,CRAG-style correction top-20,Who sings the song for stuck in the middle?,4,0.75,0.75,1.0,4,0,0,0,0,0,1,0,0,Gerry Rafferty || Gerry Rafferty || Joe Egan || Clea
+alce_asqa_0016,riskroll_top20,RiskRoll verify-before-commit top-20,Who sings the song for stuck in the middle?,4,0.5,0.5,1.0,4,0,0,0,0,0,1,6,3,Gerry Rafferty || Gerry Rafferty || Gerry Rafferty || Clea
+alce_asqa_0017,standard_top1,Standard RAG top-1,When was crude oil first discovered in nigeria?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0017,retrieve_more_top20,Retrieve-more RAG top-20,When was crude oil first discovered in nigeria?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0017,posthoc_top20,Post-hoc correction top-20,When was crude oil first discovered in nigeria?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0017,crag_style_top20,CRAG-style correction top-20,When was crude oil first discovered in nigeria?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,0,0,Akata || UNKNOWN
+alce_asqa_0017,riskroll_top20,RiskRoll verify-before-commit top-20,When was crude oil first discovered in nigeria?,2,0.0,0.0,1.0,2,0,0,0,0,0,1,3,2,"January 15, 1956 || February 1958"
+alce_asqa_0018,standard_top1,Standard RAG top-1,When was the first fast and furious film made?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0018,retrieve_more_top20,Retrieve-more RAG top-20,When was the first fast and furious film made?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0018,posthoc_top20,Post-hoc correction top-20,When was the first fast and furious film made?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0018,crag_style_top20,CRAG-style correction top-20,When was the first fast and furious film made?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0018,riskroll_top20,RiskRoll verify-before-commit top-20,When was the first fast and furious film made?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,8,0,UNKNOWN || UNKNOWN
+alce_asqa_0019,standard_top1,Standard RAG top-1,Who sang the song i'm coming out?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,Diana Ross || UNKNOWN
+alce_asqa_0019,retrieve_more_top20,Retrieve-more RAG top-20,Who sang the song i'm coming out?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,Diana Ross || UNKNOWN
+alce_asqa_0019,posthoc_top20,Post-hoc correction top-20,Who sang the song i'm coming out?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,1,UNKNOWN || UNKNOWN
+alce_asqa_0019,crag_style_top20,CRAG-style correction top-20,Who sang the song i'm coming out?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,Diana Ross || UNKNOWN
+alce_asqa_0019,riskroll_top20,RiskRoll verify-before-commit top-20,Who sang the song i'm coming out?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,4,0,Diana Ross || UNKNOWN
+alce_asqa_0020,standard_top1,Standard RAG top-1,Who wrote the book of 1 and 2 thessalonians?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,UNKNOWN || Paul the Apostle
+alce_asqa_0020,retrieve_more_top20,Retrieve-more RAG top-20,Who wrote the book of 1 and 2 thessalonians?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0020,posthoc_top20,Post-hoc correction top-20,Who wrote the book of 1 and 2 thessalonians?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,1,UNKNOWN || UNKNOWN
+alce_asqa_0020,crag_style_top20,CRAG-style correction top-20,Who wrote the book of 1 and 2 thessalonians?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0020,riskroll_top20,RiskRoll verify-before-commit top-20,Who wrote the book of 1 and 2 thessalonians?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,4,0,UNKNOWN || Paul the Apostle
+alce_asqa_0021,standard_top1,Standard RAG top-1,When is fortnite battle royale being released on android?,3,0.6666666666666666,0.6666666666666666,1.0,2,1,0,0,0,0,1,0,0,"August 9, 2018 || UNKNOWN || October 11, 2018"
+alce_asqa_0021,retrieve_more_top20,Retrieve-more RAG top-20,When is fortnite battle royale being released on android?,3,0.6666666666666666,0.6666666666666666,1.0,3,0,0,0,0,0,1,0,0,"August 9, 2018 || August 9, 2018 || October 11, 2018"
+alce_asqa_0021,posthoc_top20,Post-hoc correction top-20,When is fortnite battle royale being released on android?,3,0.3333333333333333,0.3333333333333333,1.0,1,2,0,0,0,0,1,0,1,"UNKNOWN || UNKNOWN || October 11, 2018"
+alce_asqa_0021,crag_style_top20,CRAG-style correction top-20,When is fortnite battle royale being released on android?,3,0.6666666666666666,0.6666666666666666,1.0,3,0,0,0,0,0,1,0,0,"August 9, 2018 || August 9, 2018 || October 11, 2018"
+alce_asqa_0021,riskroll_top20,RiskRoll verify-before-commit top-20,When is fortnite battle royale being released on android?,3,0.3333333333333333,0.3333333333333333,1.0,2,1,0,0,0,0,1,4,0,"UNKNOWN || October 11, 2018 || October 11, 2018"
+alce_asqa_0022,standard_top1,Standard RAG top-1,How many medals did australia win in the 2000 olympics?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0022,retrieve_more_top20,Retrieve-more RAG top-20,How many medals did australia win in the 2000 olympics?,4,0.0,0.0,1.0,1,3,0,0,0,0,1,0,0,UNKNOWN || silver || UNKNOWN || UNKNOWN
+alce_asqa_0022,posthoc_top20,Post-hoc correction top-20,How many medals did australia win in the 2000 olympics?,4,0.0,0.0,0.0,1,3,0,0,0,0,1,0,1,"UNKNOWN || UNKNOWN || UNKNOWN || gold, 9 silver, 4 bronze"
+alce_asqa_0022,crag_style_top20,CRAG-style correction top-20,How many medals did australia win in the 2000 olympics?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0022,riskroll_top20,RiskRoll verify-before-commit top-20,How many medals did australia win in the 2000 olympics?,4,0.0,0.0,1.0,4,0,0,0,0,0,1,11,4,"golds, 1 silver, and 1 bronze in sailing || silver || bronze || golds, 1 silver, and 1 bronze in sailing"
+alce_asqa_0023,standard_top1,Standard RAG top-1,Who is elected as the vice president of india?,5,0.4,0.4,1.0,2,3,0,0,0,0,1,0,0,Venkaiah Naidu || UNKNOWN || UNKNOWN || Venkaiah Naidu || UNKNOWN
+alce_asqa_0023,retrieve_more_top20,Retrieve-more RAG top-20,Who is elected as the vice president of india?,5,1.0,1.0,1.0,5,0,0,0,0,0,1,0,0,Venkaiah Naidu || Mohammad Hamid Ansari || Mohammad Hamid Ansari || Venkaiah Naidu || Mohammad Hamid Ansari
+alce_asqa_0023,posthoc_top20,Post-hoc correction top-20,Who is elected as the vice president of india?,5,0.8,0.8,1.0,4,1,0,0,0,0,1,0,2,Venkaiah Naidu || Mohammad Hamid Ansari || Mohammad Hamid Ansari || Venkaiah Naidu || UNKNOWN
+alce_asqa_0023,crag_style_top20,CRAG-style correction top-20,Who is elected as the vice president of india?,5,1.0,1.0,1.0,5,0,0,0,0,0,1,0,0,Venkaiah Naidu || Mohammad Hamid Ansari || Mohammad Hamid Ansari || Venkaiah Naidu || Mohammad Hamid Ansari
+alce_asqa_0023,riskroll_top20,RiskRoll verify-before-commit top-20,Who is elected as the vice president of india?,5,1.0,1.0,1.0,5,0,0,0,0,0,1,5,3,Venkaiah Naidu || Mohammad Hamid Ansari || Mohammad Hamid Ansari || Venkaiah Naidu || Mohammad Hamid Ansari
+alce_asqa_0024,standard_top1,Standard RAG top-1,Who was england's prime minister during ww1?,4,0.5,0.5,1.0,2,2,0,0,0,0,1,0,0,UNKNOWN || David Lloyd George || UNKNOWN || David Lloyd George
+alce_asqa_0024,retrieve_more_top20,Retrieve-more RAG top-20,Who was england's prime minister during ww1?,4,1.0,1.0,1.0,4,0,0,0,0,0,1,0,0,H.H. Asquith || David Lloyd George || H.H. Asquith || David Lloyd George
+alce_asqa_0024,posthoc_top20,Post-hoc correction top-20,Who was england's prime minister during ww1?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,2,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0024,crag_style_top20,CRAG-style correction top-20,Who was england's prime minister during ww1?,4,0.75,0.75,1.0,4,0,0,0,0,0,1,0,0,H.H. Asquith || David Lloyd George || David Lloyd George || David Lloyd George
+alce_asqa_0024,riskroll_top20,RiskRoll verify-before-commit top-20,Who was england's prime minister during ww1?,4,1.0,1.0,1.0,4,0,0,0,0,0,1,4,3,H. H. Asquith || David Lloyd George || H. H. Asquith || David Lloyd George
+alce_asqa_0025,standard_top1,Standard RAG top-1,Who plays snowman in smokey and the bandit?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0025,retrieve_more_top20,Retrieve-more RAG top-20,Who plays snowman in smokey and the bandit?,3,0.3333333333333333,0.3333333333333333,1.0,1,2,0,0,0,0,1,0,0,Jerry Reed || UNKNOWN || UNKNOWN
+alce_asqa_0025,posthoc_top20,Post-hoc correction top-20,Who plays snowman in smokey and the bandit?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0025,crag_style_top20,CRAG-style correction top-20,Who plays snowman in smokey and the bandit?,3,0.6666666666666666,0.6666666666666666,1.0,2,1,0,0,0,0,1,0,0,Jerry Reed || Jerry Reed || UNKNOWN
+alce_asqa_0025,riskroll_top20,RiskRoll verify-before-commit top-20,Who plays snowman in smokey and the bandit?,3,0.3333333333333333,0.3333333333333333,1.0,1,2,0,0,0,0,1,9,1,Jerry Reed || UNKNOWN || UNKNOWN
+alce_asqa_0026,standard_top1,Standard RAG top-1,Who beat villanova last year in the ncaa tournament?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0026,retrieve_more_top20,Retrieve-more RAG top-20,Who beat villanova last year in the ncaa tournament?,4,0.5,0.5,1.0,4,0,0,0,0,0,1,0,0,Wisconsin || North Carolina || North Carolina || North Carolina
+alce_asqa_0026,posthoc_top20,Post-hoc correction top-20,Who beat villanova last year in the ncaa tournament?,4,0.25,0.25,1.0,3,1,0,0,0,0,1,0,3,North Carolina || UNKNOWN || North Carolina || North Carolina
+alce_asqa_0026,crag_style_top20,CRAG-style correction top-20,Who beat villanova last year in the ncaa tournament?,4,0.0,0.0,1.0,4,0,0,0,0,0,1,0,0,North Carolina Tar Heels || North Carolina Tar Heels || North Carolina Tar Heels || North Carolina Tar Heels
+alce_asqa_0026,riskroll_top20,RiskRoll verify-before-commit top-20,Who beat villanova last year in the ncaa tournament?,4,0.25,0.25,1.0,4,0,0,0,0,0,1,6,4,North Carolina || North Carolina || North Carolina || North Carolina
+alce_asqa_0027,standard_top1,Standard RAG top-1,Who played warden hodges in dad's army?,3,1.0,1.0,1.0,3,0,0,0,0,0,1,0,0,Bill Pertwee || Bill Pertwee || Bill Pertwee
+alce_asqa_0027,retrieve_more_top20,Retrieve-more RAG top-20,Who played warden hodges in dad's army?,3,0.6666666666666666,0.6666666666666666,1.0,2,1,0,0,0,0,1,0,0,Bill Pertwee || Bill Pertwee || UNKNOWN
+alce_asqa_0027,posthoc_top20,Post-hoc correction top-20,Who played warden hodges in dad's army?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,3,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0027,crag_style_top20,CRAG-style correction top-20,Who played warden hodges in dad's army?,3,1.0,1.0,1.0,3,0,0,0,0,0,1,0,0,Bill Pertwee || Bill Pertwee || Bill Pertwee
+alce_asqa_0027,riskroll_top20,RiskRoll verify-before-commit top-20,Who played warden hodges in dad's army?,3,1.0,1.0,1.0,3,0,0,0,0,0,1,1,1,Bill Pertwee || Bill Pertwee || Bill Pertwee
+alce_asqa_0028,standard_top1,Standard RAG top-1,Who's the highest paid nba player 2017?,4,0.5,0.5,1.0,2,2,0,0,0,0,1,0,0,Stephen Curry || UNKNOWN || Stephen Curry || UNKNOWN
+alce_asqa_0028,retrieve_more_top20,Retrieve-more RAG top-20,Who's the highest paid nba player 2017?,4,0.5,0.5,1.0,4,0,0,0,0,0,1,0,0,Stephen Curry || James Harden || Stephen Curry || James Harden
+alce_asqa_0028,posthoc_top20,Post-hoc correction top-20,Who's the highest paid nba player 2017?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,2,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0028,crag_style_top20,CRAG-style correction top-20,Who's the highest paid nba player 2017?,4,0.0,0.0,1.0,4,0,0,0,0,0,1,0,0,James Harden || James Harden || James Harden || James Harden
+alce_asqa_0028,riskroll_top20,RiskRoll verify-before-commit top-20,Who's the highest paid nba player 2017?,4,0.5,0.5,1.0,3,1,0,0,0,0,1,5,1,Stephen Curry || UNKNOWN || Stephen Curry || Kevin Garnett
+alce_asqa_0029,standard_top1,Standard RAG top-1,Who conducted a 300 mile march to sacramento california?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0029,retrieve_more_top20,Retrieve-more RAG top-20,Who conducted a 300 mile march to sacramento california?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,0,Cesar Estrada Chavez || Cesar Estrada Chavez
+alce_asqa_0029,posthoc_top20,Post-hoc correction top-20,Who conducted a 300 mile march to sacramento california?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0029,crag_style_top20,CRAG-style correction top-20,Who conducted a 300 mile march to sacramento california?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,0,0,UNKNOWN || Cesar Estrada Chavez
+alce_asqa_0029,riskroll_top20,RiskRoll verify-before-commit top-20,Who conducted a 300 mile march to sacramento california?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,6,1,Stephen W. Kearny || UNKNOWN
+alce_asqa_0030,standard_top1,Standard RAG top-1,Who does the voice of darth vader in star wars?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0030,retrieve_more_top20,Retrieve-more RAG top-20,Who does the voice of darth vader in star wars?,3,0.3333333333333333,0.3333333333333333,1.0,1,2,0,0,0,0,1,0,0,James Earl Jones || UNKNOWN || UNKNOWN
+alce_asqa_0030,posthoc_top20,Post-hoc correction top-20,Who does the voice of darth vader in star wars?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0030,crag_style_top20,CRAG-style correction top-20,Who does the voice of darth vader in star wars?,3,0.6666666666666666,0.6666666666666666,1.0,2,1,0,0,0,0,1,0,0,James Earl Jones || Brock Peters || UNKNOWN
+alce_asqa_0030,riskroll_top20,RiskRoll verify-before-commit top-20,Who does the voice of darth vader in star wars?,3,0.3333333333333333,0.3333333333333333,1.0,1,2,0,0,0,0,1,9,1,James Earl Jones || UNKNOWN || UNKNOWN
+alce_asqa_0031,standard_top1,Standard RAG top-1,Who lived to be the oldest person in the world?,4,0.25,0.25,1.0,1,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || Jeanne Calment || UNKNOWN
+alce_asqa_0031,retrieve_more_top20,Retrieve-more RAG top-20,Who lived to be the oldest person in the world?,4,0.25,0.25,1.0,4,0,0,0,0,0,1,0,0,Susannah Mushatt Jones || Jeanne Calment || Jeanne Calment || Jeanne Calment
+alce_asqa_0031,posthoc_top20,Post-hoc correction top-20,Who lived to be the oldest person in the world?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,1,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0031,crag_style_top20,CRAG-style correction top-20,Who lived to be the oldest person in the world?,4,0.25,0.25,1.0,2,2,0,0,0,0,1,0,0,UNKNOWN || Jeanne Calment || Jeanne Calment || UNKNOWN
+alce_asqa_0031,riskroll_top20,RiskRoll verify-before-commit top-20,Who lived to be the oldest person in the world?,4,0.5,0.5,1.0,3,1,0,0,0,0,1,11,3,Jeanne Calment || UNKNOWN || Jeanne Calment || Jeanne Calment
+alce_asqa_0032,standard_top1,Standard RAG top-1,When does the 12th day of christmas begin?,5,0.2,0.2,1.0,2,3,0,0,0,0,1,0,0,UNKNOWN || January 5th || UNKNOWN || UNKNOWN || January 5th
+alce_asqa_0032,retrieve_more_top20,Retrieve-more RAG top-20,When does the 12th day of christmas begin?,5,0.4,0.4,1.0,5,0,0,0,0,0,1,0,0,January 5th || January 5th || January 5th || December 25 || January 5th
+alce_asqa_0032,posthoc_top20,Post-hoc correction top-20,When does the 12th day of christmas begin?,5,0.2,0.2,1.0,3,2,0,0,0,0,1,0,1,"UNKNOWN || January 5th || The 12th day of Christmas begins on January 5th, according to most Western ecclesiastical traditions. || UNKNOWN || January 5th"
+alce_asqa_0032,crag_style_top20,CRAG-style correction top-20,When does the 12th day of christmas begin?,5,0.4,0.4,1.0,5,0,0,0,0,0,1,0,0,January 5th || January 5th || January 5th || December 25 || January 5th
+alce_asqa_0032,riskroll_top20,RiskRoll verify-before-commit top-20,When does the 12th day of christmas begin?,5,0.2,0.2,1.0,4,1,0,0,0,0,1,4,0,UNKNOWN || January 5th || January 5th || January 5th || January 5th
+alce_asqa_0033,standard_top1,Standard RAG top-1,When did alabama became a right to work state?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0033,retrieve_more_top20,Retrieve-more RAG top-20,When did alabama became a right to work state?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0033,posthoc_top20,Post-hoc correction top-20,When did alabama became a right to work state?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0033,crag_style_top20,CRAG-style correction top-20,When did alabama became a right to work state?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0033,riskroll_top20,RiskRoll verify-before-commit top-20,When did alabama became a right to work state?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,8,0,UNKNOWN || UNKNOWN
+alce_asqa_0034,standard_top1,Standard RAG top-1,Who sings i'll be seeing you in the notebook?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0034,retrieve_more_top20,Retrieve-more RAG top-20,Who sings i'll be seeing you in the notebook?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0034,posthoc_top20,Post-hoc correction top-20,Who sings i'll be seeing you in the notebook?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0034,crag_style_top20,CRAG-style correction top-20,Who sings i'll be seeing you in the notebook?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,0,0,John Mellencamp || UNKNOWN
+alce_asqa_0034,riskroll_top20,RiskRoll verify-before-commit top-20,Who sings i'll be seeing you in the notebook?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,4,2,Jimmy Durante || John Mellencamp
+alce_asqa_0035,standard_top1,Standard RAG top-1,Who wrote the book of the new testament?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0035,retrieve_more_top20,Retrieve-more RAG top-20,Who wrote the book of the new testament?,3,1.0,1.0,1.0,3,0,0,0,0,0,1,0,0,Jewish Christians || Luke || Paul of Tarsus
+alce_asqa_0035,posthoc_top20,Post-hoc correction top-20,Who wrote the book of the new testament?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0035,crag_style_top20,CRAG-style correction top-20,Who wrote the book of the new testament?,3,1.0,1.0,1.0,3,0,0,0,0,0,1,0,0,Jewish Christians || Luke || Paul of Tarsus
+alce_asqa_0035,riskroll_top20,RiskRoll verify-before-commit top-20,Who wrote the book of the new testament?,3,1.0,1.0,1.0,3,0,0,0,0,0,1,3,3,Jewish Christians || Luke || Paul of Tarsus
+alce_asqa_0036,standard_top1,Standard RAG top-1,Who said it is a tale told by an idiot full of sound and fury?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0036,retrieve_more_top20,Retrieve-more RAG top-20,Who said it is a tale told by an idiot full of sound and fury?,4,1.0,1.0,1.0,4,0,0,0,0,0,1,0,0,Macbeth || Macbeth || Macbeth || Macbeth
+alce_asqa_0036,posthoc_top20,Post-hoc correction top-20,Who said it is a tale told by an idiot full of sound and fury?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0036,crag_style_top20,CRAG-style correction top-20,Who said it is a tale told by an idiot full of sound and fury?,4,0.5,0.5,1.0,2,2,0,0,0,0,1,0,0,Macbeth || UNKNOWN || Macbeth || UNKNOWN
+alce_asqa_0036,riskroll_top20,RiskRoll verify-before-commit top-20,Who said it is a tale told by an idiot full of sound and fury?,4,0.75,0.75,1.0,3,1,0,0,0,0,1,13,3,Macbeth || Macbeth || Macbeth || UNKNOWN
+alce_asqa_0037,standard_top1,Standard RAG top-1,Where does 10 things i hate about you take place?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,0,Seattle metropolitan area || Stadium High School in Tacoma
+alce_asqa_0037,retrieve_more_top20,Retrieve-more RAG top-20,Where does 10 things i hate about you take place?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,0,"Tacoma, Washington || Tacoma, Washington"
+alce_asqa_0037,posthoc_top20,Post-hoc correction top-20,Where does 10 things i hate about you take place?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,0,2,"Tacoma, Washington || UNKNOWN"
+alce_asqa_0037,crag_style_top20,CRAG-style correction top-20,Where does 10 things i hate about you take place?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,"UNKNOWN || Tacoma, Washington"
+alce_asqa_0037,riskroll_top20,RiskRoll verify-before-commit top-20,Where does 10 things i hate about you take place?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,0,Seattle metropolitan area || Stadium High School in Tacoma
+alce_asqa_0038,standard_top1,Standard RAG top-1,Who is opening for shania twain in ottawa?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0038,retrieve_more_top20,Retrieve-more RAG top-20,Who is opening for shania twain in ottawa?,4,0.5,0.5,1.0,4,0,0,0,0,0,1,0,0,Bastian Baker || Bastian Baker || Bastian Baker || LEAHY
+alce_asqa_0038,posthoc_top20,Post-hoc correction top-20,Who is opening for shania twain in ottawa?,4,0.25,0.25,1.0,3,1,0,0,0,0,1,0,3,Bastian Baker || Bastian Baker || Bastian Baker || UNKNOWN
+alce_asqa_0038,crag_style_top20,CRAG-style correction top-20,Who is opening for shania twain in ottawa?,4,0.25,0.25,1.0,3,1,0,0,0,0,1,0,0,Bastian Baker || Bastian Baker || Bastian Baker || UNKNOWN
+alce_asqa_0038,riskroll_top20,RiskRoll verify-before-commit top-20,Who is opening for shania twain in ottawa?,4,0.25,0.25,1.0,4,0,0,0,0,0,1,4,4,Bastian Baker || Bastian Baker || Bastian Baker || Bastian Baker
+alce_asqa_0039,standard_top1,Standard RAG top-1,What's the most points scored in an nba game?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0039,retrieve_more_top20,Retrieve-more RAG top-20,What's the most points scored in an nba game?,4,0.0,0.0,1.0,3,1,0,0,0,0,1,0,0,UNKNOWN || Wilt Chamberlain || Wilt Chamberlain || points
+alce_asqa_0039,posthoc_top20,Post-hoc correction top-20,What's the most points scored in an nba game?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0039,crag_style_top20,CRAG-style correction top-20,What's the most points scored in an nba game?,4,0.0,0.0,1.0,3,1,0,0,0,0,1,0,0,UNKNOWN || points || Gilbert Arenas || points
+alce_asqa_0039,riskroll_top20,RiskRoll verify-before-commit top-20,What's the most points scored in an nba game?,4,0.25,0.25,1.0,2,2,0,0,0,0,1,11,2,UNKNOWN || Wilt Chamberlain's 100-point game || Wilt Chamberlain's 100-point game || UNKNOWN
+alce_asqa_0040,standard_top1,Standard RAG top-1,Who wrote give me a home among the gum trees?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,0,Bob Brown || Bob Brown
+alce_asqa_0040,retrieve_more_top20,Retrieve-more RAG top-20,Who wrote give me a home among the gum trees?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,Bob Brown || UNKNOWN
+alce_asqa_0040,posthoc_top20,Post-hoc correction top-20,Who wrote give me a home among the gum trees?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,2,UNKNOWN || UNKNOWN
+alce_asqa_0040,crag_style_top20,CRAG-style correction top-20,Who wrote give me a home among the gum trees?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0040,riskroll_top20,RiskRoll verify-before-commit top-20,Who wrote give me a home among the gum trees?,2,0.0,0.0,1.0,2,0,0,0,0,0,1,2,2,Wally Johnson || Bob Brown
+alce_asqa_0041,standard_top1,Standard RAG top-1,When did construction start on the sydney harbour bridge?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,0,0,"July 28, 1923 || UNKNOWN"
+alce_asqa_0041,retrieve_more_top20,Retrieve-more RAG top-20,When did construction start on the sydney harbour bridge?,2,0.0,0.0,1.0,2,0,0,0,0,0,1,0,0,"July 28, 1923 || October 26, 1928"
+alce_asqa_0041,posthoc_top20,Post-hoc correction top-20,When did construction start on the sydney harbour bridge?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,1,UNKNOWN || UNKNOWN
+alce_asqa_0041,crag_style_top20,CRAG-style correction top-20,When did construction start on the sydney harbour bridge?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0041,riskroll_top20,RiskRoll verify-before-commit top-20,When did construction start on the sydney harbour bridge?,2,0.0,0.0,1.0,2,0,0,0,0,0,1,1,1,"July 28, 1923 || July 28, 1923"
+alce_asqa_0042,standard_top1,Standard RAG top-1,Who was the greatest warrior for the trojans?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,Hector || UNKNOWN
+alce_asqa_0042,retrieve_more_top20,Retrieve-more RAG top-20,Who was the greatest warrior for the trojans?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,Hector || UNKNOWN
+alce_asqa_0042,posthoc_top20,Post-hoc correction top-20,Who was the greatest warrior for the trojans?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,1,UNKNOWN || UNKNOWN
+alce_asqa_0042,crag_style_top20,CRAG-style correction top-20,Who was the greatest warrior for the trojans?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0042,riskroll_top20,RiskRoll verify-before-commit top-20,Who was the greatest warrior for the trojans?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,1,1,Hector || Hector
+alce_asqa_0043,standard_top1,Standard RAG top-1,Who is the current sheriff of maricopa county arizona?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0043,retrieve_more_top20,Retrieve-more RAG top-20,Who is the current sheriff of maricopa county arizona?,4,0.5,0.5,1.0,2,2,0,0,0,0,1,0,0,UNKNOWN || Paul Penzone || Paul Penzone || UNKNOWN
+alce_asqa_0043,posthoc_top20,Post-hoc correction top-20,Who is the current sheriff of maricopa county arizona?,4,0.25,0.25,1.0,1,3,0,0,0,0,1,0,1,UNKNOWN || Paul Penzone || UNKNOWN || UNKNOWN
+alce_asqa_0043,crag_style_top20,CRAG-style correction top-20,Who is the current sheriff of maricopa county arizona?,4,0.5,0.5,1.0,2,2,0,0,0,0,1,0,0,UNKNOWN || Paul Penzone || Paul Penzone || UNKNOWN
+alce_asqa_0043,riskroll_top20,RiskRoll verify-before-commit top-20,Who is the current sheriff of maricopa county arizona?,4,0.5,0.5,1.0,3,1,0,0,0,0,1,7,1,Paul Penzone || Paul Penzone || Paul Penzone || UNKNOWN
+alce_asqa_0044,standard_top1,Standard RAG top-1,Japanese hotel run by same family for 1300 years?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0044,retrieve_more_top20,Retrieve-more RAG top-20,Japanese hotel run by same family for 1300 years?,2,0.5,0.5,0.5,2,0,1,1,2,2,0,0,0,Komatsu || Nishiyama Onsen Keiunkan
+alce_asqa_0044,posthoc_top20,Post-hoc correction top-20,Japanese hotel run by same family for 1300 years?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0044,crag_style_top20,CRAG-style correction top-20,Japanese hotel run by same family for 1300 years?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0044,riskroll_top20,RiskRoll verify-before-commit top-20,Japanese hotel run by same family for 1300 years?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,0,Nishiyama Onsen Keiunkan || Nishiyama Onsen Keiunkan
+alce_asqa_0045,standard_top1,Standard RAG top-1,When did the us enter the second world war in europe?,4,0.25,0.25,1.0,1,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || December 1941 || UNKNOWN
+alce_asqa_0045,retrieve_more_top20,Retrieve-more RAG top-20,When did the us enter the second world war in europe?,4,0.0,0.0,1.0,2,2,0,0,0,0,1,0,0,"UNKNOWN || UNKNOWN || December 11, 1941 || December 11, 1941"
+alce_asqa_0045,posthoc_top20,Post-hoc correction top-20,When did the us enter the second world war in europe?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,1,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0045,crag_style_top20,CRAG-style correction top-20,When did the us enter the second world war in europe?,4,0.0,0.0,1.0,1,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || Adolf Hitler declared war on the United States
+alce_asqa_0045,riskroll_top20,RiskRoll verify-before-commit top-20,When did the us enter the second world war in europe?,4,0.0,0.0,1.0,3,1,0,0,0,0,1,7,3,"December 7, 1941 || UNKNOWN || December 11, 1941 || December 11, 1941"
+alce_asqa_0046,standard_top1,Standard RAG top-1,Who wrote brown eyes by destiny's child?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0046,retrieve_more_top20,Retrieve-more RAG top-20,Who wrote brown eyes by destiny's child?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0046,posthoc_top20,Post-hoc correction top-20,Who wrote brown eyes by destiny's child?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0046,crag_style_top20,CRAG-style correction top-20,Who wrote brown eyes by destiny's child?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0046,riskroll_top20,RiskRoll verify-before-commit top-20,Who wrote brown eyes by destiny's child?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,8,0,UNKNOWN || UNKNOWN
+alce_asqa_0047,standard_top1,Standard RAG top-1,Who do you play as in resident evil 7?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,0,Ethan Winters || Ethan Winters
+alce_asqa_0047,retrieve_more_top20,Retrieve-more RAG top-20,Who do you play as in resident evil 7?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,0,Ethan Winters || Mia
+alce_asqa_0047,posthoc_top20,Post-hoc correction top-20,Who do you play as in resident evil 7?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,0,Ethan Winters || Ethan Winters
+alce_asqa_0047,crag_style_top20,CRAG-style correction top-20,Who do you play as in resident evil 7?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,0,0,Mia || UNKNOWN
+alce_asqa_0047,riskroll_top20,RiskRoll verify-before-commit top-20,Who do you play as in resident evil 7?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,4,0,Ethan Winters || UNKNOWN
+alce_asqa_0048,standard_top1,Standard RAG top-1,Who serves as the president of the senate in the texas legislature?,3,0.0,0.0,1.0,1,2,0,0,0,0,1,0,0,Dan Patrick || UNKNOWN || UNKNOWN
+alce_asqa_0048,retrieve_more_top20,Retrieve-more RAG top-20,Who serves as the president of the senate in the texas legislature?,3,0.3333333333333333,0.3333333333333333,1.0,2,1,0,0,0,0,1,0,0,Dan Patrick || Dan Patrick || UNKNOWN
+alce_asqa_0048,posthoc_top20,Post-hoc correction top-20,Who serves as the president of the senate in the texas legislature?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,1,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0048,crag_style_top20,CRAG-style correction top-20,Who serves as the president of the senate in the texas legislature?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0048,riskroll_top20,RiskRoll verify-before-commit top-20,Who serves as the president of the senate in the texas legislature?,3,0.3333333333333333,0.3333333333333333,1.0,2,1,0,0,0,0,1,4,0,Dan Patrick || Dan Patrick || UNKNOWN
+alce_asqa_0049,standard_top1,Standard RAG top-1,Who opened the gate in the prison walking dead?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0049,retrieve_more_top20,Retrieve-more RAG top-20,Who opened the gate in the prison walking dead?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0049,posthoc_top20,Post-hoc correction top-20,Who opened the gate in the prison walking dead?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0049,crag_style_top20,CRAG-style correction top-20,Who opened the gate in the prison walking dead?,2,0.0,0.0,1.0,2,0,0,0,0,0,1,0,0,Merle Dixon || Alden
+alce_asqa_0049,riskroll_top20,RiskRoll verify-before-commit top-20,Who opened the gate in the prison walking dead?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,6,1,UNKNOWN || Rick
+alce_asqa_0050,standard_top1,Standard RAG top-1,Who owns green and black's organic chocolate?,5,0.4,0.4,1.0,2,3,0,0,0,0,1,0,0,Mondelēz International || UNKNOWN || UNKNOWN || UNKNOWN || Cadbury
+alce_asqa_0050,retrieve_more_top20,Retrieve-more RAG top-20,Who owns green and black's organic chocolate?,5,0.6,0.6,1.0,3,2,0,0,0,0,1,0,0,Mondelēz International || Cadbury || UNKNOWN || UNKNOWN || Cadbury
+alce_asqa_0050,posthoc_top20,Post-hoc correction top-20,Who owns green and black's organic chocolate?,5,0.4,0.4,1.0,2,3,0,0,0,0,1,0,0,Mondelēz International || UNKNOWN || UNKNOWN || UNKNOWN || Cadbury
+alce_asqa_0050,crag_style_top20,CRAG-style correction top-20,Who owns green and black's organic chocolate?,5,0.4,0.4,1.0,2,3,0,0,0,0,1,0,0,UNKNOWN || Cadbury || UNKNOWN || UNKNOWN || Cadbury
+alce_asqa_0050,riskroll_top20,RiskRoll verify-before-commit top-20,Who owns green and black's organic chocolate?,5,0.6,0.6,1.0,4,1,0,0,0,0,1,4,0,Mondelēz International || Cadbury || UNKNOWN || Cadbury || Cadbury
+alce_asqa_0051,standard_top1,Standard RAG top-1,Which political party is currently in power in ireland?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0051,retrieve_more_top20,Retrieve-more RAG top-20,Which political party is currently in power in ireland?,4,0.25,0.25,1.0,2,2,0,0,0,0,1,0,0,Fine Gael || Fine Gael || UNKNOWN || UNKNOWN
+alce_asqa_0051,posthoc_top20,Post-hoc correction top-20,Which political party is currently in power in ireland?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0051,crag_style_top20,CRAG-style correction top-20,Which political party is currently in power in ireland?,4,0.25,0.25,1.0,1,3,0,0,0,0,1,0,0,Fine Gael || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0051,riskroll_top20,RiskRoll verify-before-commit top-20,Which political party is currently in power in ireland?,4,0.25,0.25,1.0,2,2,0,0,0,0,1,14,2,Fine Gael || UNKNOWN || UNKNOWN || Fine Gael
+alce_asqa_0052,standard_top1,Standard RAG top-1,Who was drafted first in the 2017 nfl draft?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0052,retrieve_more_top20,Retrieve-more RAG top-20,Who was drafted first in the 2017 nfl draft?,4,0.5,0.5,1.0,3,1,0,0,0,0,1,0,0,Myles Garrett || Cleveland Browns || Cleveland Browns || UNKNOWN
+alce_asqa_0052,posthoc_top20,Post-hoc correction top-20,Who was drafted first in the 2017 nfl draft?,4,0.25,0.25,1.0,1,3,0,0,0,0,1,0,1,Myles Garrett || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0052,crag_style_top20,CRAG-style correction top-20,Who was drafted first in the 2017 nfl draft?,4,0.5,0.5,1.0,2,2,0,0,0,0,1,0,0,Myles Garrett || Cleveland Browns || UNKNOWN || UNKNOWN
+alce_asqa_0052,riskroll_top20,RiskRoll verify-before-commit top-20,Who was drafted first in the 2017 nfl draft?,4,0.5,0.5,1.0,4,0,0,0,0,0,1,7,4,Myles Garrett || Cleveland Browns || Cleveland Browns || Cleveland Browns
+alce_asqa_0053,standard_top1,Standard RAG top-1,Who wins at the end of friday night lights?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,Carter || UNKNOWN
+alce_asqa_0053,retrieve_more_top20,Retrieve-more RAG top-20,Who wins at the end of friday night lights?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,0,0,UNKNOWN || Dallas Carter
+alce_asqa_0053,posthoc_top20,Post-hoc correction top-20,Who wins at the end of friday night lights?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,1,UNKNOWN || UNKNOWN
+alce_asqa_0053,crag_style_top20,CRAG-style correction top-20,Who wins at the end of friday night lights?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,Carter || UNKNOWN
+alce_asqa_0053,riskroll_top20,RiskRoll verify-before-commit top-20,Who wins at the end of friday night lights?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,3,1,Carter || Dallas Carter
+alce_asqa_0054,standard_top1,Standard RAG top-1,Who's won the most world series in baseball?,5,0.2,0.2,1.0,1,4,0,0,0,0,1,0,0,New York Yankees || UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0054,retrieve_more_top20,Retrieve-more RAG top-20,Who's won the most world series in baseball?,5,0.8,0.8,1.0,4,1,0,0,0,0,1,0,0,New York Yankees || New York Yankees || UNKNOWN || Casey Stengel || Frankie Crosetti
+alce_asqa_0054,posthoc_top20,Post-hoc correction top-20,Who's won the most world series in baseball?,5,0.2,0.2,1.0,1,4,0,0,0,0,1,0,0,New York Yankees || UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0054,crag_style_top20,CRAG-style correction top-20,Who's won the most world series in baseball?,5,0.6,0.6,1.0,3,2,0,0,0,0,1,0,0,New York Yankees || New York Yankees || UNKNOWN || UNKNOWN || Frankie Crosetti
+alce_asqa_0054,riskroll_top20,RiskRoll verify-before-commit top-20,Who's won the most world series in baseball?,5,0.6,0.6,1.0,4,1,0,0,0,0,1,12,3,New York Yankees || UNKNOWN || Yogi Berra || Casey Stengel || New York Yankees
+alce_asqa_0055,standard_top1,Standard RAG top-1,Who is the author of delta of venus?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,Anaïs Nin || UNKNOWN
+alce_asqa_0055,retrieve_more_top20,Retrieve-more RAG top-20,Who is the author of delta of venus?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,Anaïs Nin || UNKNOWN
+alce_asqa_0055,posthoc_top20,Post-hoc correction top-20,Who is the author of delta of venus?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,1,Anaïs Nin || Anaïs Nin
+alce_asqa_0055,crag_style_top20,CRAG-style correction top-20,Who is the author of delta of venus?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,Anaïs Nin || UNKNOWN
+alce_asqa_0055,riskroll_top20,RiskRoll verify-before-commit top-20,Who is the author of delta of venus?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,4,0,Anaïs Nin || UNKNOWN
+alce_asqa_0056,standard_top1,Standard RAG top-1,What led to the downfall of the incan empire?,5,0.2,0.2,1.0,4,1,0,0,0,0,1,0,0,Spanish conquest || Spanish conquest || Spanish conquest || UNKNOWN || Spanish
+alce_asqa_0056,retrieve_more_top20,Retrieve-more RAG top-20,What led to the downfall of the incan empire?,5,0.4,0.4,1.0,3,2,0,0,0,0,1,0,0,Spanish conquest || UNKNOWN || UNKNOWN || smallpox || Spanish conquest
+alce_asqa_0056,posthoc_top20,Post-hoc correction top-20,What led to the downfall of the incan empire?,5,0.0,0.0,1.0,1,4,0,0,0,0,1,0,3,Spanish conquest || UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0056,crag_style_top20,CRAG-style correction top-20,What led to the downfall of the incan empire?,5,0.4,0.4,1.0,5,0,0,0,0,0,1,0,0,Spanish conquest || Spanish conquest || Spanish conquest of the Inca Empire || smallpox || Spanish conquest
+alce_asqa_0056,riskroll_top20,RiskRoll verify-before-commit top-20,What led to the downfall of the incan empire?,5,0.2,0.2,1.0,5,0,0,0,0,0,1,1,1,Spanish conquest || Spanish conquest || Spanish conquest || Infectious diseases brought by colonists and conquistadors || Spanish conquest
+alce_asqa_0057,standard_top1,Standard RAG top-1,When did the teenage mutant ninja turtles cartoon come out?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0057,retrieve_more_top20,Retrieve-more RAG top-20,When did the teenage mutant ninja turtles cartoon come out?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0057,posthoc_top20,Post-hoc correction top-20,When did the teenage mutant ninja turtles cartoon come out?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0057,crag_style_top20,CRAG-style correction top-20,When did the teenage mutant ninja turtles cartoon come out?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0057,riskroll_top20,RiskRoll verify-before-commit top-20,When did the teenage mutant ninja turtles cartoon come out?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,4,0,"February 8, 2003 || UNKNOWN"
+alce_asqa_0058,standard_top1,Standard RAG top-1,In the dream of the rood what is the rood eventually drenched in?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0058,retrieve_more_top20,Retrieve-more RAG top-20,In the dream of the rood what is the rood eventually drenched in?,3,0.0,0.0,1.0,1,2,0,0,0,0,1,0,0,UNKNOWN || blood || UNKNOWN
+alce_asqa_0058,posthoc_top20,Post-hoc correction top-20,In the dream of the rood what is the rood eventually drenched in?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0058,crag_style_top20,CRAG-style correction top-20,In the dream of the rood what is the rood eventually drenched in?,3,0.0,0.0,1.0,1,2,0,0,0,0,1,0,0,UNKNOWN || blood || UNKNOWN
+alce_asqa_0058,riskroll_top20,RiskRoll verify-before-commit top-20,In the dream of the rood what is the rood eventually drenched in?,3,0.0,0.0,1.0,1,2,0,0,0,0,1,11,1,UNKNOWN || UNKNOWN || blood
+alce_asqa_0059,standard_top1,Standard RAG top-1,When did the seljuk empire begin and end?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0059,retrieve_more_top20,Retrieve-more RAG top-20,When did the seljuk empire begin and end?,4,0.0,0.0,1.0,2,2,0,0,0,0,1,0,0,UNKNOWN || th century || UNKNOWN || th century
+alce_asqa_0059,posthoc_top20,Post-hoc correction top-20,When did the seljuk empire begin and end?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0059,crag_style_top20,CRAG-style correction top-20,When did the seljuk empire begin and end?,4,0.0,0.0,1.0,2,2,0,0,0,0,1,0,0,th century || UNKNOWN || th century || UNKNOWN
+alce_asqa_0059,riskroll_top20,RiskRoll verify-before-commit top-20,When did the seljuk empire begin and end?,4,0.0,0.0,1.0,4,0,0,0,0,0,1,4,4,th century || th century || th century || th century
+alce_asqa_0060,standard_top1,Standard RAG top-1,Why did the st louis cardinals move to arizona?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0060,retrieve_more_top20,Retrieve-more RAG top-20,Why did the st louis cardinals move to arizona?,3,0.3333333333333333,0.3333333333333333,1.0,2,1,0,0,0,0,1,0,0,UNKNOWN || year-old stadium || year-old stadium
+alce_asqa_0060,posthoc_top20,Post-hoc correction top-20,Why did the st louis cardinals move to arizona?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0060,crag_style_top20,CRAG-style correction top-20,Why did the st louis cardinals move to arizona?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0060,riskroll_top20,RiskRoll verify-before-commit top-20,Why did the st louis cardinals move to arizona?,3,0.0,0.0,1.0,2,1,0,0,0,0,1,5,1,mediocrity of the team || UNKNOWN || mediocrity of the team
+alce_asqa_0061,standard_top1,Standard RAG top-1,Who played the baby in baby's day out?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0061,retrieve_more_top20,Retrieve-more RAG top-20,Who played the baby in baby's day out?,2,1.0,1.0,1.0,2,0,0,0,0,0,1,0,0,Adam Robert and Jacob Joseph Worton || Adam Robert and Jacob Joseph Worton
+alce_asqa_0061,posthoc_top20,Post-hoc correction top-20,Who played the baby in baby's day out?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0061,crag_style_top20,CRAG-style correction top-20,Who played the baby in baby's day out?,2,0.5,0.0,0.0,1,1,1,1,1,1,0,0,0,"UNKNOWN || Adam Robert, Jacob Joseph Worton"
+alce_asqa_0061,riskroll_top20,RiskRoll verify-before-commit top-20,Who played the baby in baby's day out?,2,1.0,1.0,1.0,2,0,0,0,0,0,1,3,2,Adam Robert || Adam Robert
+alce_asqa_0062,standard_top1,Standard RAG top-1,Who sang still crazy after all these years?,3,0.3333333333333333,0.3333333333333333,1.0,2,1,0,0,0,0,1,0,0,Paul Simon || UNKNOWN || Paul Simon
+alce_asqa_0062,retrieve_more_top20,Retrieve-more RAG top-20,Who sang still crazy after all these years?,3,0.3333333333333333,0.3333333333333333,1.0,2,1,0,0,0,0,1,0,0,Paul Simon || UNKNOWN || Paul Simon
+alce_asqa_0062,posthoc_top20,Post-hoc correction top-20,Who sang still crazy after all these years?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,2,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0062,crag_style_top20,CRAG-style correction top-20,Who sang still crazy after all these years?,3,0.3333333333333333,0.3333333333333333,1.0,1,2,0,0,0,0,1,0,0,Paul Simon || UNKNOWN || UNKNOWN
+alce_asqa_0062,riskroll_top20,RiskRoll verify-before-commit top-20,Who sang still crazy after all these years?,3,0.3333333333333333,0.3333333333333333,1.0,1,2,0,0,0,0,1,8,0,Paul Simon || UNKNOWN || UNKNOWN
+alce_asqa_0063,standard_top1,Standard RAG top-1,Where did they film the movie in the heat of the night?,4,0.25,0.25,1.0,2,2,0,0,0,0,1,0,0,"Dyersburg and Union City, Tennessee || Dyersburg and Union City || UNKNOWN || UNKNOWN"
+alce_asqa_0063,retrieve_more_top20,Retrieve-more RAG top-20,Where did they film the movie in the heat of the night?,4,0.5,0.5,1.0,2,2,0,0,0,0,1,0,0,"Sparta, Illinois || Dyersburg and Union City, Tennessee || UNKNOWN || UNKNOWN"
+alce_asqa_0063,posthoc_top20,Post-hoc correction top-20,Where did they film the movie in the heat of the night?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,2,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0063,crag_style_top20,CRAG-style correction top-20,Where did they film the movie in the heat of the night?,4,0.5,0.5,1.0,2,2,0,0,0,0,1,0,0,"Sparta, Illinois || Dyersburg and Union City || UNKNOWN || UNKNOWN"
+alce_asqa_0063,riskroll_top20,RiskRoll verify-before-commit top-20,Where did they film the movie in the heat of the night?,4,0.25,0.25,1.0,2,2,0,0,0,0,1,8,0,"Dyersburg and Union City, Tennessee || Dyersburg || UNKNOWN || UNKNOWN"
+alce_asqa_0064,standard_top1,Standard RAG top-1,Who sings you've got a friend in me in toy story 2?,5,0.2,0.2,1.0,1,4,0,0,0,0,1,0,0,UNKNOWN || Tom Hanks || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0064,retrieve_more_top20,Retrieve-more RAG top-20,Who sings you've got a friend in me in toy story 2?,5,0.0,0.0,0.0,0,5,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0064,posthoc_top20,Post-hoc correction top-20,Who sings you've got a friend in me in toy story 2?,5,0.0,0.0,0.0,0,5,0,0,0,0,1,0,1,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0064,crag_style_top20,CRAG-style correction top-20,Who sings you've got a friend in me in toy story 2?,5,0.0,0.0,0.0,0,5,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0064,riskroll_top20,RiskRoll verify-before-commit top-20,Who sings you've got a friend in me in toy story 2?,5,0.2,0.2,1.0,2,3,0,0,0,0,1,14,1,UNKNOWN || Tom Hanks || UNKNOWN || Randy Newman || UNKNOWN
+alce_asqa_0065,standard_top1,Standard RAG top-1,Where did blair and serena go to school?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0065,retrieve_more_top20,Retrieve-more RAG top-20,Where did blair and serena go to school?,4,0.75,0.75,1.0,4,0,0,0,0,0,1,0,0,Constance Billard School for Girls || Constance Billard School for Girls || Constance Billard School for Girls || New York City
+alce_asqa_0065,posthoc_top20,Post-hoc correction top-20,Where did blair and serena go to school?,4,0.25,0.25,1.0,2,2,0,0,0,0,1,0,2,Constance Billard School for Girls || UNKNOWN || Gossip Girl (novel series) || UNKNOWN
+alce_asqa_0065,crag_style_top20,CRAG-style correction top-20,Where did blair and serena go to school?,4,0.5,0.5,1.0,3,1,0,0,0,0,1,0,0,Constance Billard School for Girls || Constance Billard School for Girls || UNKNOWN || New York City
+alce_asqa_0065,riskroll_top20,RiskRoll verify-before-commit top-20,Where did blair and serena go to school?,4,0.5,0.5,1.0,3,1,0,0,0,0,1,7,1,Constance Billard School for Girls || UNKNOWN || Hillel Day School || New York City
+alce_asqa_0066,standard_top1,Standard RAG top-1,As blues moved into chicago's south side what style of blues developed?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0066,retrieve_more_top20,Retrieve-more RAG top-20,As blues moved into chicago's south side what style of blues developed?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,0,Chicago blues || Chicago blues
+alce_asqa_0066,posthoc_top20,Post-hoc correction top-20,As blues moved into chicago's south side what style of blues developed?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,0,1,UNKNOWN || Chicago blues
+alce_asqa_0066,crag_style_top20,CRAG-style correction top-20,As blues moved into chicago's south side what style of blues developed?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,0,0,UNKNOWN || Chicago Blues
+alce_asqa_0066,riskroll_top20,RiskRoll verify-before-commit top-20,As blues moved into chicago's south side what style of blues developed?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,4,2,Chicago blues || Chicago blues
+alce_asqa_0067,standard_top1,Standard RAG top-1,The movement of food in food pipe is called?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0067,retrieve_more_top20,Retrieve-more RAG top-20,The movement of food in food pipe is called?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,UNKNOWN || peristalsis
+alce_asqa_0067,posthoc_top20,Post-hoc correction top-20,The movement of food in food pipe is called?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0067,crag_style_top20,CRAG-style correction top-20,The movement of food in food pipe is called?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,0,0,Peristalsis || Peristalsis
+alce_asqa_0067,riskroll_top20,RiskRoll verify-before-commit top-20,The movement of food in food pipe is called?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,4,2,Peristalsis || Peristalsis
+alce_asqa_0068,standard_top1,Standard RAG top-1,Who developed a useful staining method to identify bacteria?,3,0.3333333333333333,0.3333333333333333,1.0,1,2,0,0,0,0,1,0,0,UNKNOWN || Hans Christian Gram || UNKNOWN
+alce_asqa_0068,retrieve_more_top20,Retrieve-more RAG top-20,Who developed a useful staining method to identify bacteria?,3,0.3333333333333333,0.3333333333333333,1.0,2,1,0,0,0,0,1,0,0,Hans Christian Gram || Hans Christian Gram || UNKNOWN
+alce_asqa_0068,posthoc_top20,Post-hoc correction top-20,Who developed a useful staining method to identify bacteria?,3,0.3333333333333333,0.3333333333333333,1.0,2,1,0,0,0,0,1,0,1,Hans Christian Gram || Hans Christian Gram || UNKNOWN
+alce_asqa_0068,crag_style_top20,CRAG-style correction top-20,Who developed a useful staining method to identify bacteria?,3,0.3333333333333333,0.3333333333333333,1.0,3,0,0,0,0,0,1,0,0,Hans Christian Gram || Hans Christian Gram || Franz Ziehl and Friedrich Neelsen
+alce_asqa_0068,riskroll_top20,RiskRoll verify-before-commit top-20,Who developed a useful staining method to identify bacteria?,3,0.3333333333333333,0.3333333333333333,1.0,2,1,0,0,0,0,1,4,0,Hans Christian Gram || Hans Christian Gram || UNKNOWN
+alce_asqa_0069,standard_top1,Standard RAG top-1,What is the solid part of earth called?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0069,retrieve_more_top20,Retrieve-more RAG top-20,What is the solid part of earth called?,3,0.3333333333333333,0.3333333333333333,1.0,2,1,0,0,0,0,1,0,0,inner core || UNKNOWN || outer core
+alce_asqa_0069,posthoc_top20,Post-hoc correction top-20,What is the solid part of earth called?,3,0.0,0.0,0.0,0,3,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0069,crag_style_top20,CRAG-style correction top-20,What is the solid part of earth called?,3,0.3333333333333333,0.3333333333333333,1.0,1,2,0,0,0,0,1,0,0,inner core || UNKNOWN || UNKNOWN
+alce_asqa_0069,riskroll_top20,RiskRoll verify-before-commit top-20,What is the solid part of earth called?,3,0.3333333333333333,0.3333333333333333,1.0,3,0,0,0,0,0,1,4,3,inner core || outer silicate solid crust || INNER CORE
+alce_asqa_0070,standard_top1,Standard RAG top-1,When did the lion king debut on broadway?,2,0.0,0.0,1.0,1,1,0,0,0,0,1,0,0,"UNKNOWN || October 15, 1997"
+alce_asqa_0070,retrieve_more_top20,Retrieve-more RAG top-20,When did the lion king debut on broadway?,2,1.0,1.0,1.0,2,0,0,0,0,0,1,0,0,"October 15, 1997 || November 13, 1997"
+alce_asqa_0070,posthoc_top20,Post-hoc correction top-20,When did the lion king debut on broadway?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,1,UNKNOWN || UNKNOWN
+alce_asqa_0070,crag_style_top20,CRAG-style correction top-20,When did the lion king debut on broadway?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,"UNKNOWN || November 13, 1997"
+alce_asqa_0070,riskroll_top20,RiskRoll verify-before-commit top-20,When did the lion king debut on broadway?,2,0.5,0.5,1.0,2,0,0,0,0,0,1,1,1,"October 15, 1997 || October 15, 1997"
+alce_asqa_0071,standard_top1,Standard RAG top-1,Where did italy win the world cup in 2006?,4,0.0,0.0,0.0,0,4,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN || UNKNOWN || UNKNOWN
+alce_asqa_0071,retrieve_more_top20,Retrieve-more RAG top-20,Where did italy win the world cup in 2006?,4,1.0,1.0,1.0,4,0,0,0,0,0,1,0,0,"Olympiastadion || Berlin, Germany || Berlin || Olympiastadion"
+alce_asqa_0071,posthoc_top20,Post-hoc correction top-20,Where did italy win the world cup in 2006?,4,0.5,0.5,1.0,2,2,0,0,0,0,1,0,2,"UNKNOWN || Berlin, Germany || Berlin, Germany || UNKNOWN"
+alce_asqa_0071,crag_style_top20,CRAG-style correction top-20,Where did italy win the world cup in 2006?,4,0.75,0.75,1.0,3,1,0,0,0,0,1,0,0,Berlin || UNKNOWN || Berlin || Olympiastadion
+alce_asqa_0071,riskroll_top20,RiskRoll verify-before-commit top-20,Where did italy win the world cup in 2006?,4,1.0,1.0,1.0,4,0,0,0,0,0,1,5,4,Berlin || Berlin || Berlin || Olympiastadion
+alce_asqa_0072,standard_top1,Standard RAG top-1,Who wrote the first five books of moses?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0072,retrieve_more_top20,Retrieve-more RAG top-20,Who wrote the first five books of moses?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0072,posthoc_top20,Post-hoc correction top-20,Who wrote the first five books of moses?,2,0.0,0.0,0.0,0,2,0,0,0,0,1,0,0,UNKNOWN || UNKNOWN
+alce_asqa_0072,crag_style_top20,CRAG-style correction top-20,Who wrote the first five books of moses?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,0,0,Moses || UNKNOWN
+alce_asqa_0072,riskroll_top20,RiskRoll verify-before-commit top-20,Who wrote the first five books of moses?,2,0.5,0.5,1.0,1,1,0,0,0,0,1,4,0,Moses || UNKNOWN

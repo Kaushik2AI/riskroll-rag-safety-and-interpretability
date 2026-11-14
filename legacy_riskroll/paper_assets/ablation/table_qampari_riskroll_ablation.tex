@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.0pt}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Variant & Qual. & Strict & Supp. & Unsup. & Unsafe & Abst. & RB/Rep. \\
+\midrule
+Retrieve-more & 0.297 & 0.244 & 0.873 & 0.300 & 0.270 & 1.740 & 0.000/0.000 \\
+Verify + abstain & 0.261 & 0.236 & 0.770 & 0.000 & 0.000 & 2.330 & 0.550/0.000 \\
+Verify + one retry & 0.260 & 0.236 & 0.850 & 0.000 & 0.000 & 2.000 & 0.770/1.970 \\
+Full RiskRoll & 0.284 & 0.268 & 0.990 & 0.000 & 0.000 & 1.110 & 0.680/2.570 \\
+\bottomrule
+\end{tabular}
+\caption{QAMPARI ablation of RiskRoll's commitment-control components.}
+\label{tab:riskroll_ablation}
+\end{table}

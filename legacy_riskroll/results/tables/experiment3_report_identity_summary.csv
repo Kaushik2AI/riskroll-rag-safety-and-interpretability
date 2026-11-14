@@ -1,0 +1,6 @@
+method,n_tasks,claims_per_task,total_claims,mean_claim_accuracy,mean_evidence_accuracy,mean_grounded_claim_rate,mean_wrong_evidence_count,mean_unsafe_prefix_depth,mean_downstream_contaminated_claims,mean_rollback_count,mean_repair_count,mean_abstention_count,mean_verifier_false_accepts,mean_verifier_false_rejects
+Standard RAG,30,3,90,0.14444444444444443,0,0,3,2,2,0,0,0,0,0
+Retrieve-more RAG,30,3,90,0.2222222222222222,0.07777777777777778,0.07777777777777778,2.7666666666666666,2,2,0,0,0,0,0
+Post-hoc correction,30,3,90,0.14444444444444443,0,0,3,2,2,0,0,0,0,0
+CRAG-style correction,30,3,90,0.14444444444444443,0,0,3,2,2,0,0,0,0,0
+RiskRoll,30,3,90,1,1,1,0,0,0,3,3,0,0,0

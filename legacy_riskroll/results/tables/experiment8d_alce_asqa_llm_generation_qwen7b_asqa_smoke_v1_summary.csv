@@ -1,0 +1,6 @@
+method,method_display,num_tasks,num_claims,claim_accuracy,strict_grounded_rate,support_rate,clean_task_rate,mean_unsupported_commits,mean_abstention_count,mean_unsafe_prefix_depth,mean_downstream_contaminated_claims,mean_rollback_count,mean_repair_count
+standard_top1,Standard RAG top-1,5,19,0.11666666666666665,0.11666666666666665,0.6,1.0,0.0,3.2,0.0,0.0,0.0,0.0
+retrieve_more_top20,Retrieve-more RAG top-20,5,19,0.36333333333333334,0.36333333333333334,0.8,1.0,0.0,1.6,0.0,0.0,0.0,0.0
+posthoc_top20,Post-hoc correction top-20,5,19,0.06666666666666667,0.06666666666666667,0.2,1.0,0.0,3.6,0.0,0.0,0.0,0.4
+crag_style_top20,CRAG-style correction top-20,5,19,0.4533333333333333,0.4533333333333333,0.8,1.0,0.0,1.8,0.0,0.0,0.0,0.0
+riskroll_top20,RiskRoll verify-before-commit top-20,5,19,0.36333333333333334,0.36333333333333334,0.8,1.0,0.0,1.6,0.0,0.0,7.4,1.0

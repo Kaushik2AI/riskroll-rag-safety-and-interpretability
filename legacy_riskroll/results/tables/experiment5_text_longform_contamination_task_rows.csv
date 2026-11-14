@@ -1,0 +1,301 @@
+task_id,method,n_claims,claim_accuracy,evidence_accuracy,grounded_claim_rate,wrong_evidence_count,first_bad_step,unsafe_prefix_depth,downstream_contaminated_claims,rollback_count,repair_count,abstention_count,verifier_false_accepts,verifier_false_rejects
+text_report_g00_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g00_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g00_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g01_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g01_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g01_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g02_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g02_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g02_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g03_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g03_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g03_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g04_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g04_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g04_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g05_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g05_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g05_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g06_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g06_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g06_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g07_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g07_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g07_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g08_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g08_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g08_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g09_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g09_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g09_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g10_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g10_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g10_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g11_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g11_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g11_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g12_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g12_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g12_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g13_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g13_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g13_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g14_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g14_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g14_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g15_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g15_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g15_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g16_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g16_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g16_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g17_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g17_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g17_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g18_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g18_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g18_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g19_r00,Standard RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g19_r01,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g19_r02,Standard RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g00_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g00_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g00_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g01_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g01_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g01_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g02_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g02_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g02_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g03_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g03_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g03_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g04_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g04_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g04_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g05_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g05_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g05_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g06_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g06_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g06_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g07_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g07_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g07_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g08_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g08_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g08_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g09_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g09_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g09_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g10_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g10_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g10_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g11_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g11_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g11_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g12_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g12_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g12_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g13_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g13_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g13_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g14_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g14_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g14_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g15_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g15_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g15_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g16_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g16_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g16_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g17_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g17_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g17_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g18_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g18_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g18_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g19_r00,Retrieve-more RAG,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g19_r01,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g19_r02,Retrieve-more RAG,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g00_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g00_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g00_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g01_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g01_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g01_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g02_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g02_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g02_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g03_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g03_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g03_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g04_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g04_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g04_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g05_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g05_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g05_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g06_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g06_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g06_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g07_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g07_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g07_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g08_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g08_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g08_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g09_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g09_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g09_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g10_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g10_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g10_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g11_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g11_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g11_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g12_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g12_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g12_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g13_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g13_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g13_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g14_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g14_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g14_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g15_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g15_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g15_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g16_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g16_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g16_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g17_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g17_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g17_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g18_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g18_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g18_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g19_r00,Post-hoc correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g19_r01,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g19_r02,Post-hoc correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g00_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g00_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g00_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g01_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g01_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g01_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g02_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g02_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g02_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g03_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g03_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g03_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g04_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g04_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g04_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g05_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g05_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g05_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g06_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g06_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g06_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g07_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g07_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g07_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g08_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g08_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g08_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g09_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g09_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g09_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g10_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g10_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g10_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g11_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g11_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g11_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g12_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g12_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g12_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g13_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g13_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g13_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g14_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g14_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g14_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g15_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g15_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g15_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g16_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g16_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g16_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g17_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g17_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g17_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g18_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g18_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g18_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g19_r00,CRAG-style correction,5,0.2,0,0,5,1,4,4,0,0,0,0,0
+text_report_g19_r01,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g19_r02,CRAG-style correction,5,0,0,0,5,1,4,4,0,0,0,0,0
+text_report_g00_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g00_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g00_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g01_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g01_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g01_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g02_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g02_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g02_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g03_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g03_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g03_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g04_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g04_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g04_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g05_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g05_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g05_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g06_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g06_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g06_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g07_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g07_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g07_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g08_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g08_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g08_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g09_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g09_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g09_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g10_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g10_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g10_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g11_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g11_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g11_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g12_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g12_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g12_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g13_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g13_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g13_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g14_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g14_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g14_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g15_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g15_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g15_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g16_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g16_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g16_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g17_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g17_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g17_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g18_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g18_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g18_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g19_r00,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g19_r01,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
+text_report_g19_r02,RiskRoll,5,1,1,1,0,,0,0,5,5,0,0,0
